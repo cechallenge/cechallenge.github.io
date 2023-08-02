@@ -94,7 +94,7 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "2023 Samsung CE Challenge" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
+logo: "/assets/logos/sait_32px.svg" # Site logo, also used in jekyll-seo-tag
 description: "please fill the CE Challenge's slogan" # Site description and default description, also used in jekyll-seo-tag
 url: "https://www.sait.samsung.co.kr/" # Site url, also used in jekyll-seo-tag
 baseurl: ""
@@ -127,22 +127,26 @@ navigation_header:
   url: /elements/
 - title: Challenge
   url: /challenge/
-- title: Blog
-  url: /blog/
-- title: Categories
-  url: /categories/
-- title: Search
-  url: /search/
+- title: Rules
+  url: /rules/
+- title: Timeline
+  url: /timeline/
+- title: Prizes
+  url: /prizes/
+- title: Submission
+  url: /submission/
+- title: Q&A
+  url: /qna/
 
 navigation_footer:
-- title: Created by David Darnes
-  url: https://darn.es
+- title: SAIT
+  url: https://www.sait.samsung.co.kr/
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
-  Twitter: https://twitter.com/DavidDarnes
-  LinkedIn: https://www.linkedin.com/in/daviddarnes
-  GitHub: https://github.com/daviddarnes
-  link: https://darn.es
+  Twitter:
+  LinkedIn:
+  GitHub:
+  link:
   RSS: /feed.xml
 
 sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
