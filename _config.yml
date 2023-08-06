@@ -95,7 +95,7 @@ encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "2023 Samsung CE Challenge" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/sait_32px.svg" # Site logo, also used in jekyll-seo-tag
-description: "please fill the CE Challenge's slogan" # Site description and default description, also used in jekyll-seo-tag
+description: "Samsung CE Challenge site" # Site description and default description, also used in jekyll-seo-tag
 url: "https://www.sait.samsung.co.kr/" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/SAITPublic"
@@ -135,6 +135,10 @@ navigation_header:
   url: /prizes/
 - title: Submission
   url: /submission/
+- title: Leaderboard
+  url: /leaderboard/
+- title: Sponsors
+  url: /sponsors/
 - title: Q&A
   url: /qna/
 
@@ -153,6 +157,10 @@ sharing_links: # Appear at the bottom of single blog posts, add as desired. The 
   Twitter: "#0d94e7"
   facebook: "#3B5998"
   Email: true
+
+comment-read: https://docs.google.com/spreadsheets/d/1x3JYPSVW_WVPt0bZ0IReAg_eGxZwBomuuxzzt_ZePsA
+comment-post: https://docs.google.com/forms/d/e/1FAIpQLSerNXSjWScpRY33aTTUarrpA3SKTOexVWWJc9DyZcr0AnsNeA
+comment-post-fields: [ entry.1694323450, entry.2106344291, entry.741770454, entry.296198356, entry.1173643724, entry.1842222859]
 
 # Load custom fonts from fonts.google.com etc
 #
