@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
 // Background colours
 $backgroundColour: #ffffff !default;
 $codeBackgroundColour: #fafafa !default;
@@ -15,7 +17,8 @@ $white: #ffffff !default;
 
 // Typography
 $bodytype: (
-  font-family: "Georgia, serif",
+  //font-family: "Georgia, serif",
+  font-family: '"Noto Sans KR", serif',
   regular: 400,
   bold: 700,
   italic: italic,

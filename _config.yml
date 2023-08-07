@@ -93,7 +93,7 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
-title: "2023 Samsung CE Challenge" # Site name or title, also used in jekyll-seo-tag
+title: "Samsung Computing Engineering Challenge" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/sait_32px.svg" # Site logo, also used in jekyll-seo-tag
 description: "Samsung CE Challenge site" # Site description and default description, also used in jekyll-seo-tag
 url: "https://www.sait.samsung.co.kr/" # Site url, also used in jekyll-seo-tag
@@ -135,8 +135,6 @@ navigation_header:
   url: /submission/
 - title: Leaderboard
   url: /leaderboard/
-- title: Sponsors
-  url: /sponsors/
 - title: Q&A
   url: /qna/
 

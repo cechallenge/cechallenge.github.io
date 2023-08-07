@@ -1,23 +1,29 @@
 ---
 title: Rules
 feature_text: |
-  ## No System, No AI : Let’s Play with LLM
+  ## 2023 Samsung Computing Engineering Challenge
+  ### No System, No AI : Let’s Play with LLM
 feature_image: "https://picsum.photos/1300/400?image=989"
-excerpt: "TODO"
+excerpt:
 ---
 
-The rules of this competition aim to ensure fair evaluation and reproducible results. To this end, we require the following:
+The competition aims to ensure fair evaluation and reproducible results. To achieve this, you must comply with the following guidelines  
 
- * Submissions must be reproducible from initial model through fine tuning and inference. Winning models, along with all associated code and data, must be open-sourced and made public after the competition.  
-
- * Submissions must NOT use any copyrighted or proprietary data, code, or closed-source content. The use of data or content that breaks service contracts or trade secrets of any entity is not allowed.  
-
- * Teams are encouraged to use any open-source code and libraries, provided they give proper attribution.  
-
- * Submissions must take less than 24 hours to fine-tune on a single Nvidia A100 or Nvidia 4090 graphics card.  
-
- * For prize eligibility, submissions must meet or exceed a minimum score specified in the metrics section of the challenge.  
-
- * A team can have no more than five members. Teams must self-certify that no individual in the team is participating in other teams for this competition.  
-
- TODO
+* Submissions must be reproducible on a test server. Submissions, along with all associated code and data, must be released under an MIT or Apache 2 license after the competition ends.  
+<br>
+* The target model should not be subject to adjustments and fine-tuning (retraining) that significantly reduce the accuracy of the model.  
+<br>
+* Submissions must not use copyrighted or proprietary data, code, or closed-source content. Use of data or content that violates a service agreement or another company's trade secrets is not permitted.  
+<br>
+* Teams can use open source code and libraries as long as they provide proper attribution.  
+<br>
+* Using an external implementation without attribution, or copying another team's implementation, will result in disqualification.  
+<br>
+* A team can consist of no more than three people. Teams must self-certify that none of their team members are participating on another team in this competition.  
+<br>
+* Each team can make one submission per day for the duration of the competition. We rank the best performing teams and update the results daily for a final system evaluation.  
+<br>
+* Organizers and those associated with the competition are not eligible to participate.  
+<br>
+* Even if you don't violate any of the above rules, you may be disqualified if you act in a way that violates trust or exploit the community.  
+<br>
