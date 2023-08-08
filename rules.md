@@ -1,9 +1,7 @@
 ---
 title: Rules
 feature_text: |
-  ## 2023 Samsung Computing Engineering Challenge
-  ### No System, No AI : Let’s Play with LLM
-feature_image: "https://picsum.photos/1300/400?image=989"
+feature_image: "/assets/logos/banner_white_with_slogan.png"
 excerpt:
 ---
 

@@ -1,19 +1,17 @@
 ---
 title:
 feature_text: |
-  ## 2023 Samsung Computing Engineering Challenge
-  ### No System, No AI : Let's Play with LLM
-feature_image: "https://picsum.photos/1300/400?image=989"
+feature_image: "/assets/logos/banner_white_with_slogan.png"
 ---
 
-수많은 말뭉치로 학습된 대규모 언어 모델(Large Language Models)은 적은 양의 supervised 예제만으로 여러 가지 작업을 해결할 수 있는 능력을 가지고 있으며, 몇 년 동안 큰 주목을 받고 있습니다. 이러한 few-shot 학습된 모델은 ...
+Large Language Model(LLM)은 Natural Language Processing(NLP), 번역, 각종 시험(SAT, AP exams, 의학 지식 등), coding challenge (LeetCode)등과 같은 다양한 분야에서 성과를 보여주고 있어서 수요가 폭발적으로 증가하고 있습니다. 이러한 LLM을 많은 사람들이 사용하는 public service를 enable하기 위해서는 multiple GPU를 활용해 inference의 latency를 줄이는 것이 매우 중요하지만 아쉽게도 다수의 GPU에서 LLM을 효율적으로 infernece하는 방법은 널리 알려져 있지는 않습니다.
 
-Large Language Models (LLMs) trained on large corpora of texts have attracted significant attention in recent years with their ability to solve tasks with few supervised examples. These few-shot models have shown state-of-the-art success across NLP tasks (Entity Recognition), language translation, standardized exams (SAT, AP exams, Medical Knowledge), coding challenges (LeetCode), as well as in subjective domains such as chatbots. All of these domains involve bootstrapping a single LLM referred to as a foundation model with examples of specific knowledge from the associated task. The process of updating a model with limited domain-specific data is known as fine-tuning. However, the costs of accessing, fine-tuning and querying foundation models to perform new tasks are large. Given these costs, access to performant LLMs has been gated behind expensive and often proprietary hardware used to train models, making them inaccessible to those without substantial resources.
+이에, LLM기반 서비스의 확산을 위해 Computer Engineering Challenge를 개최하게 되었습니다. 이번 Challenge의 목표는 높은 정확도를 유지하면서 4개의 GPU를 활용하여 대규모 LLM의 latency를 절감하는 것입니다. 그리고 공정한 평가를 위해 evaluation task와 data를 제공하고 각 submission에 대해 광범위한 분석을 진행 할 예정입니다. 제출된 팀 중에서 선정된 10팀에게는 동일한 computing platform을 제공하여 제시한 Idea를 구현하고 latency를 비교 평가할 예정입니다.
 
+이번 Computing Engineering Challenge가 앞으로 도래할 AI Computing 시대를 앞당기고 에너지와 비용을 절감하는데 크게 기여할 것으로 기대합니다.
 
-Our goal is to democratize access to language models and address three major issues:
+Large Language Models (LLM) has shown significant performance in various fields such as Natural Language Processing (NLP), translation, various exams (SAT, AP exams, medical knowledge, etc.), and coding challenges (LeetCode), leading to explosive demand. To enable public services that many people use, it is important to reduce the latency of inference by utilizing multiple GPUs for LLM. However, there is not yet a widely known way to efficiently infer LLM on multiple GPUs.
 
- 1. TODO  
- 2. TODO
+Therefore, we are pleased to present the Computer Engineering Challenge to promote the spread of LLM-based services. The goal of this challenge is to reduce the latency of large-scale LLM using four GPUs while maintaining high accuracy. To ensure fair evaluation, we will provide evaluation tasks and data, and conduct extensive analysis for each submission. Among the submissions, 10 teams will be selected to compare the latency on the same computing platform we provide for fair performance evaluation.
 
-Here we present a LLM efficiency challenge, to tackle these three challenges and democratize access to state of the art LLMs. Specifically, we introduce a challenge for the community to adapt a foundation model to specific tasks by fine-tuning on a TODO...
+We expect that this challenge will contribute significantly to advancing the AI computing era that lies ahead and to saving engergy and costs.

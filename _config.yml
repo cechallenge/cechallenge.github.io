@@ -41,13 +41,6 @@ jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @repl
 twitter:
   username: DavidDarnes # jekyll-seo-tag > Owners twitter username
 author: DavidDarnes # jekyll-seo-tag > default author
-social: # jekyll-seo-tag > social overrides
-  name: David Darnes # jekyll-seo-tag > real name
-  links:  # jekyll-seo-tag > social aliases (sameAs)
-    - https://twitter.com/DavidDarnes
-    - https://www.facebook.com/daviddarnes
-    - https://www.linkedin.com/in/daviddarnes
-    - https://github.com/daviddarnes
 # markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
 # commonmark:
   # options: ["SMART", "FOOTNOTES"]
@@ -94,7 +87,7 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
 title: "Samsung Computing Engineering Challenge" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logos/sait_32px.svg" # Site logo, also used in jekyll-seo-tag
+logo: "/assets/logos/Samsung_Orig_Wordmark_WHITE_RGB.png" # Site logo, also used in jekyll-seo-tag
 description: "Samsung CE Challenge site" # Site description and default description, also used in jekyll-seo-tag
 url: "https://www.sait.samsung.co.kr/" # Site url, also used in jekyll-seo-tag
 baseurl: ""
@@ -110,14 +103,14 @@ css_inline: true # Will insert all styles into a single <style> block in the <he
 
 # 8. Site favicons & manifest icons
 favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
-  16: '/assets/logos/logo@16px.png'
-  32: '/assets/logos/logo@32px.png'
-  96: '/assets/logos/logo@96px.png'
-  120: '/assets/logos/logo@120px.png'
-  144: '/assets/logos/logo@144px.png'
-  180: '/assets/logos/logo@180px.png'
-  512: '/assets/logos/logo@512px.png'
-  1024: '/assets/logos/logo@1024px.png'
+  #16: '/assets/logos/logo@16px.png'
+  #32: '/assets/logos/logo@32px.png'
+  #96: '/assets/logos/logo@96px.png'
+  #120: '/assets/logos/logo@120px.png'
+  #144: '/assets/logos/logo@144px.png'
+  #180: '/assets/logos/logo@180px.png'
+  #512: '/assets/logos/logo@512px.png'
+  #1024: '/assets/logos/logo@1024px.png'
 
 # 9. Site navigation
 navigation_header:
