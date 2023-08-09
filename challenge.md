@@ -7,8 +7,7 @@ excerpt:
 
 ## 참가자격
 
-'23년 8월 현재 대학 및 대학원 재학생 또는 휴학생
-(개인 또는 팀으로 참여 가능, 팀 최대 3명)
+'23년 8월 현재 대학 및 대학원 재학생 또는 휴학생(개인 또는 팀으로 참여 가능, 팀 최대 3명)  
 ※ 1인/팀은 1개 결과물만 제출 가능
 
 ## 문제 설명
@@ -17,7 +16,7 @@ excerpt:
 
 ### 허용 모델
 
-대회의 베이스 모델(base model)은 instruction tuning이 없는 오픈 베이스 모델인 **LLaMA-30B**입니다. LLaMA 모델의 사용을 위해 다음 [LLaMA-1 community license agreement](https://github.com/facebookresearch/llama/blob/main/LICENSE "LLaMA community license agreement")을 확인하고 커뮤니티에 라이센스 요청을 해야 합니다. [download link](https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform/ "download link")를 참고하여 진행하세요.
+대회의 베이스 모델(base model)은 instruction tuning이 없는 오픈 베이스 모델인 **LLaMA-30B**입니다. LLaMA 모델의 사용을 위해 다음 [LLaMA-1 community license agreement](https://github.com/facebookresearch/llama/blob/main/LICENSE "LLaMA community license agreement")을 확인하고 커뮤니티에 라이센스 요청을 해야 합니다. [download link](https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform "download link")를 참고하여 진행하세요.
 
 ### 데이터셋
 
