@@ -83,7 +83,7 @@ The goal is to minimize latency while maintaining high accuracy using the LLM an
 
 ### Approved Base model:
 
-The competition base model is the **LLaMA-30B**, an open base model with no instruction tuning. To use the LLaMA model, you need to check the following [LLaMA-1 Community License Agreement](https://github.com/facebookresearch/llama/blob/main/LICENSE "LLaMA Community License Agreement") and request a license from the community. Please refer to the [Download Link](https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform/ "Download Link") to proceed.
+The competition base model is the **LLaMA-30B**, an open base model with no instruction tuning. To use the LLaMA model, you need to check the following [LLaMA-1 Community License Agreement](https://github.com/facebookresearch/llama/blob/main/LICENSE "LLaMA Community License Agreement") and request a license from the community. Please refer to the [Download Link](https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform "Download Link") to proceed.
 
 ### Datasets:
 
