@@ -4,13 +4,14 @@ body {
   color: $bodyColour;
   height: 100%;
   display: flex;
+  font-size: 17px;
   @include flex-direction(column);
   overflow-x: hidden;
 }
 
 .container {
   width: 90%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -47,6 +48,7 @@ body {
   padding-bottom: .4rem;
   margin-bottom: 1.6rem;
   text-align: center;
+  max-height: 25rem;
   background: $featureBackgroundColour;
   background-size: cover;
   background-position: center;

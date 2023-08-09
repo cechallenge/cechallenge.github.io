@@ -1,10 +1,10 @@
 ---
-title: Q&A
+title:
 feature_text: |
 feature_image: "/assets/logos/banner_white_with_slogan.png"
 excerpt:
 ---
-
+## Q&A
 Please write a comment below and submit.
 
 NOTE: Questions that are irrelevant or not related to the contest content can be deleted at will.
