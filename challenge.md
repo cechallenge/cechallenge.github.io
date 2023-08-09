@@ -100,7 +100,7 @@ The deep learning framework we will use for optimization is Pytorch version 2.0.
  3. prohibit the use of data other than the provided dataset.  
  4. Use of open source code and libraries is allowed if proper credit is given.
 
-For other rules, see Rules.
+For other rules, please see the Rules page.
 
 ### Evaluation:
 
