@@ -4,7 +4,7 @@ feature_text: |
 feature_image: "/assets/logos/banner_white_with_slogan.png"
 excerpt:
 ---
-## 대외 일정
+## 대회 일정
 
 |1차 라운드 시작       |2023년 8월 21일 (월)|
 |1차 라운드 종료       |2023년 9월 22일 (금) 18시(KST)|
