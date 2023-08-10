@@ -17,6 +17,7 @@ excerpt:
 <br>
 ※ 자세한 일정은 대회 진행 상황에 따라 변경될 수 있습니다.
 <br>
+<hr />
 
 ## Important Dates
 
