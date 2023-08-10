@@ -16,11 +16,11 @@ excerpt:
 
 ### 허용 모델
 
-대회의 베이스 모델(base model)은 instruction tuning이 없는 오픈 베이스 모델인 **LLaMA-30B**입니다. LLaMA 모델의 사용을 위해 다음 [LLaMA-1 community license agreement](https://github.com/facebookresearch/llama/blob/main/LICENSE "LLaMA community license agreement")을 확인하고 커뮤니티에 라이센스 요청을 해야 합니다. [download link](https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform "download link")를 참고하여 진행하세요.
+대회의 베이스 모델(base model)은 instruction tuning이 없는 오픈 베이스 모델인 **LLaMA-30B**입니다. LLaMA 모델의 사용을 위해 다음 [LLaMA-1 Community License Agreement](https://github.com/facebookresearch/llama/blob/main/LICENSE "LLaMA community license agreement")을 확인하고 커뮤니티에 라이센스 요청을 해야 합니다. [Download Link](https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform "download link")를 참고하여 진행하세요.
 
 ### 데이터셋
 
-대회에서 허용되는 데이터셋은 [Hellaswag](https://huggingface.co/datasets/hellaswag) 입니다. 해당 데이터셋을 사용한 추론만 허용되며, 다른 데이터셋은 허용되지 않습니다.
+대회에서 허용되는 데이터셋은 [HellaSwag](https://huggingface.co/datasets/hellaswag) 입니다. 해당 데이터셋을 사용한 추론만 허용되며, 다른 데이터셋은 허용되지 않습니다.
 
 ### 프레임워크
 
@@ -47,7 +47,7 @@ excerpt:
 <br>
  1. 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서 - docs문서를 제공하므로 1순위는 docs, 2순위는 pdf
  
- 2. 수정한 프레임워크 및 작성한 소스 코드가 포함된 Github URL.
+ 2. 수정한 프레임워크 및 작성한 소스 코드가 포함된 GitHub URL.
 
 위 두 가지 항목을 **Submission**의 google form으로 제출해야 합니다.
 
@@ -90,7 +90,7 @@ The competition base model is the **LLaMA-30B**, an open base model with no inst
 
 ### Datasets:
 
-The dataset we accept in the competition is [Hellaswag](https://huggingface.co/datasets/hellaswag). We only accept inferences made using that dataset, and no other datasets.
+The dataset we accept in the competition is [HellaSwag](https://huggingface.co/datasets/hellaswag). We only accept inferences made using that dataset, and no other datasets.
 
 ### Framework:
 
@@ -116,7 +116,7 @@ The first round of the competition aims for participants to run the given model 
 ###### First round assessment submissions
 
  1. Documentation describing the optimization methods and algorithms used by participants. (since the docs document is provided, the first priority is docs and the second priority is pdf)  
- 2. A github url containing the framework and source code that you modified.
+ 2. A GitBub URL containing the framework and source code that you modified.
 
 Make sure you submit the above two items in the **Submission**
 
@@ -134,7 +134,7 @@ The second round of the competition is a quantitative evaluation, with the goal 
 
 ###### Second round assessment submissions
 
-The second round is also submitted via the Google form provided in **submission**, and requires you to submit your **inference time**, which is the result of performing inferences on your model. During second round, a **leaderboard** will be running and will be updated daily at **10:00 am(KST)**. If you submit multiple times, you will be ranked based on the score of your last submission.
+The second round is also submitted via the Google form provided in **Submission**, and requires you to submit your **inference time**, which is the result of performing inferences on your model. During second round, a **LeaderBoard** will be running and will be updated daily at **10:00 am(KST)**. If you submit multiple times, you will be ranked based on the score of your last submission.
 
 ###### Cautions
 
