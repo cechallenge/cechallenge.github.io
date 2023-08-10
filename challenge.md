@@ -7,12 +7,12 @@ excerpt:
 
 ## 참가자격
 
-'23년 8월 현재 대학 및 대학원 재학생 또는 휴학생(개인 또는 팀으로 참여 가능, 팀 최대 3명)  
+'23년 8월 현재 대학 및 대학원 재학생 또는 휴학생 (개인 또는 팀으로 참여 가능, 팀 최대 3명)  
 ※ 1인/팀은 1개 결과물만 제출 가능
 
 ## 문제 설명
 
-문제에서 제시한 LLM과 데이터셋 그리고 기반이 되는 프레임워크를 활용하여 높은 정확도(Accuracy)를 유지하면서 추론 시간(latency time)을 최소화하는 것이 목표입니다. 대회 참여자들은 추론 시간 최소화를 위해 여러 가지 최적화 방법 및 알고리즘을 적용시킬 수 있습니다. 대회 제약사항 및 각 라운드에서 요구하는 사항은 아래를 참조하세요.
+문제에서 제시한 LLM과 데이터셋 그리고 기반이 되는 프레임워크를 활용하여 높은 정확도(accuracy)를 유지하면서 추론 시간(latency time)을 최소화하는 것이 목표입니다. 대회 참여자들은 추론 시간 최소화를 위해 여러 가지 최적화 방법 및 알고리즘을 적용시킬 수 있습니다. 대회 각 라운드에서 요구사항 및 제약사항은 아래를 참조하세요.
 
 ### 허용 모델
 
@@ -24,12 +24,12 @@ excerpt:
 
 ### 프레임워크
 
-최적화를 위해 사용 할 딥러닝 프레임워크는 파이토치 버전 2.0입니다. 다음 [link](https://github.com/pytorch/pytorch/tree/v2.0.0)를 참고하시기 바랍니다. 또한, 파이토치 2.0 기반의 프레임워크도 사용하실 수 있습니다. (예시: fast-transformer)
+최적화를 위해 사용 할 딥러닝 프레임워크는 파이토치 버전 2.0입니다. 다음 [link](https://github.com/pytorch/pytorch/tree/v2.0.0)를 참고하시기 바랍니다. 또한, 파이토치 2.0 기반의 프레임워크도 사용하실 수 있습니다. (예시: FasterTransformer)
 
 ### 제약사항
 
  1. 모델의 정확도를 현저하게 떨어트리는 조정 및 미세 조정(re-training)은 금지합니다.  
- 2. 최적화 및 알고리즘 적용으로 인해 생기는 약간의 Accuracy Drop은 허용합니다. (허용범위 : ~x%)  
+ 2. 최적화 및 알고리즘 적용으로 인해 생기는 약간의 accuracy drop은 허용합니다. (허용범위 : ~x%)  
  3. 제시한 데이터셋 이외에 다른 데이터 사용은 금지합니다.  
  4. 적절한 출처를 제공한다면 오픈 소스 코드와 라이브러리 사용은 허용합니다.
 
@@ -45,10 +45,11 @@ excerpt:
 
 ##### 1차 평가 제출물
 <br>
- 1. 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서. (**pdf**와 **docs** 두 가지 형식만 허용합니다)  
+ 1. 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서 - docs문서를 제공하므로 1순위는 docs, 2순위는 pdf
+ 
  2. 수정한 프레임워크 및 작성한 소스 코드가 포함된 Github URL.
 
-위 두 가지 항목을 Submission의 google form으로 제출해야 합니다.
+위 두 가지 항목을 **Submission**의 google form으로 제출해야 합니다.
 
 #### 2차 라운드  
 2차 라운드는 정량적 평가로, **동일한 서버 환경** 내에서 가장 빠른 추론 시간을 달성하는 것을 목표로 합니다. 주어진 서버 환경은 다음과 같습니다.  
@@ -67,8 +68,10 @@ excerpt:
 ###### 주의 사항
 
 ※ LeaderBoard에 표시된 순위표는 다른 팀의 결과를 공유하기 위한 수단일 뿐입니다.  
-※ 대회 참가자들은 2차 라운드가 끝나기 전, 수정한 소스 코드 및 프레임워크가 포함된 Github URL을 제출해야 합니다.
+※ 대회 참가자들은 2차 라운드가 끝나기 전, 수정한 소스 코드 및 프레임워크가 포함된 Github URL을 제출해야 합니다.  
 ※ 최종 순위는 여러 가지 평가 기준을 통해 최종 결정됩니다.
+
+<hr />
 
 ## Qualifications
 
@@ -91,13 +94,13 @@ The dataset we accept in the competition is [Hellaswag](https://huggingface.co/d
 
 ### Framework:
 
-The deep learning framework we will use for optimization is Pytorch version 2.0. Please refer to the following [link](https://github.com/pytorch/pytorch/tree/v2.0.0). We also accept frameworks based on pytorch 2.0. (ex. fast-transformer)
+The deep learning framework we will use for optimization is PyTorch version 2.0. Please refer to the following [link](https://github.com/pytorch/pytorch/tree/v2.0.0). We also accept frameworks based on PyTorch 2.0. (ex. FasterTransformer)
 
 ### Constraints
 
- 1. prohibit adjustments and fine-tuning (retraining) that significantly reduce the accuracy of the model.  
- 2. allow a slight degradation of accuracy due to optimization and algorithmic adaptation (tolerance range: ~x%)  
- 3. prohibit the use of data other than the provided dataset.  
+ 1. Prohibit adjustments and fine-tuning (re-training) that significantly reduce the accuracy of the model.  
+ 2. Allow a slight degradation of accuracy due to optimization and algorithmic adaptation (tolerance range: ~x%)  
+ 3. Prohibit the use of data other than the provided dataset.  
  4. Use of open source code and libraries is allowed if proper credit is given.
 
 For other rules, please see the Rules page.
@@ -112,10 +115,10 @@ The first round of the competition aims for participants to run the given model 
 
 ###### First round assessment submissions
 
- 1. Documentation describing the optimization methods and algorithms used by participants. (only accepts two formats: **pdf** and **doc**)  
+ 1. Documentation describing the optimization methods and algorithms used by participants. (since the docs document is provided, the first priority is docs and the second priority is pdf)  
  2. A github url containing the framework and source code that you modified.
 
-Make sure you submit the above two items in the **submission**
+Make sure you submit the above two items in the **Submission**
 
 ##### Second
 
