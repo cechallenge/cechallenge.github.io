@@ -44,14 +44,14 @@ excerpt:
 대회의 첫 번째 라운드는 참가자가 로컬 머신 환경에서 주어진 모델과 데이터 세트를 실행하고 주어진 환경 내에서 가능한 최적화 및 알고리즘을 적용하는 것을 목표로 합니다. 1차 라운드는 참가자의 기술 문서(레포트) 및 소스코드를 기반으로 정성적 평가를 진행합니다. 1차 평가가 끝나면 상위 10개 팀이 선정됩니다.
 
 ##### 1차 평가 제출물
-<br>
- 1. 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서 - docs문서를 제공하므로 1순위는 docs, 2순위는 pdf
- 
+
+ 1. 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서 (**docs** 또는 **pdf** 형식)  
  2. 수정한 프레임워크 및 작성한 소스 코드가 포함된 GitHub URL.
 
 위 두 가지 항목을 **Submission**의 google form으로 제출해야 합니다.
 
-#### 2차 라운드  
+#### 2차 라운드
+
 2차 라운드는 정량적 평가로, **동일한 서버 환경** 내에서 가장 빠른 추론 시간을 달성하는 것을 목표로 합니다. 주어진 서버 환경은 다음과 같습니다.  
  * OS: Ubuntu 18.04 64-bit  
  * Number of vCPU core : 32  
@@ -115,7 +115,7 @@ The first round of the competition aims for participants to run the given model 
 
 ###### First round assessment submissions
 
- 1. Documentation describing the optimization methods and algorithms used by participants. (since the docs document is provided, the first priority is docs and the second priority is pdf)  
+ 1. Documentation describing the optimization methods and algorithms used by participants. (**docs** or **pdf** format)  
  2. A GitBub URL containing the framework and source code that you modified.
 
 Make sure you submit the above two items in the **Submission**
