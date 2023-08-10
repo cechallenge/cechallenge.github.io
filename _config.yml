@@ -147,10 +147,6 @@ sharing_links: # Appear at the bottom of single blog posts, add as desired. The 
   facebook: "#3B5998"
   Email: true
 
-comment-read: https://docs.google.com/spreadsheets/d/1x3JYPSVW_WVPt0bZ0IReAg_eGxZwBomuuxzzt_ZePsA
-comment-post: https://docs.google.com/forms/d/e/1FAIpQLSerNXSjWScpRY33aTTUarrpA3SKTOexVWWJc9DyZcr0AnsNeA
-comment-post-fields: [ entry.1694323450, entry.2106344291, entry.741770454, entry.296198356, entry.1173643724, entry.1842222859]
-
 # Load custom fonts from fonts.google.com etc
 #
 # TIP: Try to keep the number of urls as low to reduce the performance cost
