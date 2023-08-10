@@ -94,7 +94,7 @@ The dataset we accept in the competition is [HellaSwag](https://huggingface.co/d
 
 ### Framework
 
-The deep learning framework we will use for optimization is PyTorch version 2.0. Please refer to the following [link](https://github.com/pytorch/pytorch/tree/v2.0.0). We also accept frameworks based on PyTorch 2.0. (ex. FasterTransformer)
+The deep learning framework we will use for optimization is PyTorch 2.0. Please refer to the following [link](https://github.com/pytorch/pytorch/tree/v2.0.0). We also accept frameworks based on PyTorch 2.0. (ex. FasterTransformer)
 
 ### Constraints
 
