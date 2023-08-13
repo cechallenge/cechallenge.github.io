@@ -86,7 +86,7 @@ defaults:
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 lang: en-GB # Set the site language
-title: "Samsung Computing Engineering Challenge" # Site name or title, also used in jekyll-seo-tag
+title: "Samsung Computer Engineering Challenge" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/Samsung_Orig_Wordmark_WHITE_RGB.png" # Site logo, also used in jekyll-seo-tag
 description: "Samsung CE Challenge site" # Site description and default description, also used in jekyll-seo-tag
 url: "https://www.sait.samsung.co.kr/" # Site url, also used in jekyll-seo-tag

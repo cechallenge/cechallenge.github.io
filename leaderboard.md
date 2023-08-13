@@ -1,7 +1,9 @@
 ---
 title:
 feature_text: |
-feature_image: "/assets/logos/banner_white_with_slogan.png"
+  # Samsung Computer Engineering Challenge 2023
+  ## No system, No AI: Let's Play with LLM!
+feature_image: "/assets/logos/banner_last.png"
 excerpt:
 ---
 ## Leaderboard

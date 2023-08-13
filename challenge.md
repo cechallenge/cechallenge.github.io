@@ -1,7 +1,9 @@
 ---
 title:
 feature_text: |
-feature_image: "/assets/logos/banner_white_with_slogan.png"
+  # Samsung Computer Engineering Challenge 2023
+  ## No system, No AI: Let's Play with LLM!
+feature_image: "/assets/logos/banner_last.png"
 excerpt:
 ---
 
@@ -16,15 +18,19 @@ excerpt:
 
 ### 허용 모델
 
-대회의 베이스 모델(base model)은 instruction tuning이 없는 오픈 베이스 모델인 **LLaMA-30B**입니다. LLaMA 모델의 사용을 위해 다음 [LLaMA-1 Community License Agreement](https://github.com/facebookresearch/llama/blob/main/LICENSE "LLaMA community license agreement")을 확인하고 커뮤니티에 라이센스 요청을 해야 합니다. [Download Link](https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform "download link")를 참고하여 진행하세요.
+대회의 베이스 모델(base model)은 instruction tuning이 없는 오픈 베이스 모델인 **LLaMA-30B**입니다. LLaMA 모델의 사용을 위해 다음 <a target="_blank" href="https://github.com/facebookresearch/llama/blob/main/LICENSE">LLaMA-1 Community License Agreement</a>을 확인하고 커뮤니티에 라이센스 요청을 해야 합니다. <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform">Download Link</a>를 참고하여 진행하세요.
 
 ### 데이터셋
 
-대회에서 허용되는 데이터셋은 [HellaSwag](https://huggingface.co/datasets/hellaswag) 입니다. 해당 데이터셋을 사용한 추론만 허용되며, 다른 데이터셋은 허용되지 않습니다.
+대회에서 허용되는 데이터셋은 <a target="_blank" href="https://huggingface.co/datasets/hellaswag">HellaSwag</a>입니다. 해당 데이터셋을 사용한 추론만 허용되며, 다른 데이터셋은 허용되지 않습니다.
 
 ### 프레임워크
 
+<<<<<<< Updated upstream
 최적화를 위해 사용 할 딥러닝 프레임워크는 PyTorch 2.0입니다. 다음 [Link](https://github.com/pytorch/pytorch/tree/v2.0.0)를 참고하시기 바랍니다. 또한, PyTorch 2.0 기반의 프레임워크도 사용하실 수 있습니다. (예시: FasterTransformer)
+=======
+최적화를 위해 사용 할 딥러닝 프레임워크는 PyTorch 2.0입니다. 다음 <a target="_blank" href="https://github.com/pytorch/pytorch/tree/v2.0.0">link</a>를 참고하시기 바랍니다. 또한, PyTorch 2.0 기반의 프레임워크도 사용하실 수 있습니다. (예시: FasterTransformer)
+>>>>>>> Stashed changes
 
 ### 제약사항
 
@@ -86,15 +92,19 @@ The goal is to minimize latency while maintaining high accuracy using the LLM an
 
 ### Approved base model
 
-The competition base model is the **LLaMA-30B**, an open base model with no instruction tuning. To use the LLaMA model, you need to check the following [LLaMA-1 Community License Agreement](https://github.com/facebookresearch/llama/blob/main/LICENSE "LLaMA Community License Agreement") and request a license from the community. Please refer to the [Download Link](https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform "Download Link") to proceed.
+The competition base model is the **LLaMA-30B**, an open base model with no instruction tuning. To use the LLaMA model, you need to check the following <a target="_blank" href="https://github.com/facebookresearch/llama/blob/main/LICENSE">LLaMA-1 Community License Agreement</a> and request a license from the community. Please refer to the <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform">Download Link</a> to proceed.
 
 ### Datasets
 
-The dataset we accept in the competition is [HellaSwag](https://huggingface.co/datasets/hellaswag). We only accept inferences made using that dataset, and no other datasets.
+The dataset we accept in the competition is <a target="_blank" href="https://huggingface.co/datasets/hellaswag">HellaSwag</a>. We only accept inferences made using that dataset, and no other datasets.
 
 ### Framework
 
+<<<<<<< Updated upstream
 The deep learning framework we will use for optimization is PyTorch 2.0. Please refer to the following [Link](https://github.com/pytorch/pytorch/tree/v2.0.0). We also accept frameworks based on PyTorch 2.0. (ex. FasterTransformer)
+=======
+The deep learning framework we will use for optimization is PyTorch 2.0. Please refer to the following <a target="_blank" href="https://github.com/pytorch/pytorch/tree/v2.0.0">link</a>. We also accept frameworks based on PyTorch 2.0. (ex. FasterTransformer)
+>>>>>>> Stashed changes
 
 ### Constraints
 

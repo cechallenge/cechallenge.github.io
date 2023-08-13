@@ -1,7 +1,9 @@
 ---
 title:
 feature_text: |
-feature_image: "/assets/logos/banner_white_with_slogan.png"
+  # Samsung Computer Engineering Challenge 2023
+  ## No system, No AI: Let's Play with LLM!
+feature_image: "/assets/logos/banner_last.png"
 ---
 
 Large Language Model(LLM)은 Natural Language Processing(NLP), 번역, 각종 시험(SAT, AP exams, 의학 지식 등), coding challenge (LeetCode)등과 같은 다양한 분야에서 성과를 보여주고 있어서 수요가 폭발적으로 증가하고 있습니다. LLM을 많은 사람들이 이용하는 서비스로 활성화하기 위해서는 LLM에서 multiple GPU를 활용하여 inference의 latency를 줄이는 것이 매우 중요합니다. 하지만 아쉽게도 multiple GPU에서 LLM을 효율적으로 infernece하는 방법이 널리 알려져 있지는 않습니다.
