@@ -26,11 +26,7 @@ excerpt:
 
 ### 프레임워크
 
-<<<<<<< Updated upstream
-최적화를 위해 사용 할 딥러닝 프레임워크는 PyTorch 2.0입니다. 다음 [Link](https://github.com/pytorch/pytorch/tree/v2.0.0)를 참고하시기 바랍니다. 또한, PyTorch 2.0 기반의 프레임워크도 사용하실 수 있습니다. (예시: FasterTransformer)
-=======
 최적화를 위해 사용 할 딥러닝 프레임워크는 PyTorch 2.0입니다. 다음 <a target="_blank" href="https://github.com/pytorch/pytorch/tree/v2.0.0">link</a>를 참고하시기 바랍니다. 또한, PyTorch 2.0 기반의 프레임워크도 사용하실 수 있습니다. (예시: FasterTransformer)
->>>>>>> Stashed changes
 
 ### 제약사항
 
@@ -100,11 +96,7 @@ The dataset we accept in the competition is <a target="_blank" href="https://hug
 
 ### Framework
 
-<<<<<<< Updated upstream
-The deep learning framework we will use for optimization is PyTorch 2.0. Please refer to the following [Link](https://github.com/pytorch/pytorch/tree/v2.0.0). We also accept frameworks based on PyTorch 2.0. (ex. FasterTransformer)
-=======
 The deep learning framework we will use for optimization is PyTorch 2.0. Please refer to the following <a target="_blank" href="https://github.com/pytorch/pytorch/tree/v2.0.0">link</a>. We also accept frameworks based on PyTorch 2.0. (ex. FasterTransformer)
->>>>>>> Stashed changes
 
 ### Constraints
 
