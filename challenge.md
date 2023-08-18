@@ -64,7 +64,7 @@ excerpt:
   * Total GPU Memory : 128GB  
   * Supports NVLink  
 
-참가자는 2차 라운드가 진행되는 동안 주어진 서버에서 모델 추론(inference)을 진행하고, 추론 시간(inference time)을 다음 이메일(**cechallenge@samsung.com**)주소로 제출해야 합니다. 2차 라운드 기간 동안 [**Leaderboard**](https://cechallenge.github.io/leaderboard/)가 운영 될 예정이며, 매일 **오전 10시(KST)**에 업데이트 됩니다. 여러 번 제출한 경우 마지막으로 제출한 내용을 기준으로 등록됩니다.
+참가자는 2차 라운드가 진행되는 동안 주어진 서버에서 모델 추론을 진행하고, 추론 시간(inference time)을 제출해야 합니다. 2차 라운드 기간 동안 [**Leaderboard**](https://cechallenge.github.io/leaderboard/)가 운영 될 예정이며, 매일 **오전 10시(KST)**에 업데이트 됩니다. 여러 번 제출한 경우 마지막으로 제출한 내용을 기준으로 등록됩니다.
 
 ##### 2차 평가 제출물
 
@@ -140,7 +140,7 @@ The second round of the competition is a quantitative evaluation, with the goal 
   * Total GPU Memory : 128GB  
   * Supports NVLink
 
-Participants proceed with model inference on a given server during the second round and submit the inference time to the e-mail address(**cechallenge@samsung.com**). The leaderboard runs in two rounds and is updated at **10 a.m.(KST)** every day. If you submit it several times, it will be registered based on the last submission.
+Participants must proceed with model inference on a given server during the second round and submit inference time. The leaderboard runs in two rounds and is updated at **10 a.m.(KST)** every day. If you submit it several times, it will be registered based on the last submission.
 
 ###### Second round assessment submissions
 
