@@ -21,7 +21,7 @@ excerpt:
 <br>
 <hr />
 
-## Important Dates
+## Competition schedule
 
 |First round submission Open      |Monday, August 21th, 2023|
 |First round submission Deadline  |Friday, September 22th, 2023 at 18:00(KST)|
