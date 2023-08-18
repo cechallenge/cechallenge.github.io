@@ -9,12 +9,13 @@ excerpt:
 
 ## 참가자격
 
-'23년 8월 현재 대학 및 대학원 재학생 또는 휴학생 (개인 또는 팀으로 참여 가능, 팀 최대 3명)  
-※ 1인/팀은 1개 결과물만 제출 가능
+ 1. '23년 8월 현재 대학 및 대학원 재학생 또는 휴학생  
+ 2. 개인 또는 팀으로 참여 가능하며, 팀당 최대 3명까지 구성 할 수 있습니다.  
+  (개인/팀은 1개 결과물만 제출 가능)
 
 ## 문제 설명
 
-문제에서 제시한 LLM과 데이터셋 그리고 기반이 되는 프레임워크를 활용하여 높은 정확도(accuracy)를 유지하면서 추론 시간(latency time)을 최소화하는 것이 목표입니다. 대회 참여자들은 추론 시간 최소화를 위해 여러 가지 최적화 방법 및 알고리즘을 적용시킬 수 있습니다. 대회 각 라운드에서 요구사항 및 제약사항은 아래를 참조하세요.
+문제에서 제시한 LLM과 데이터셋 그리고 기반이 되는 프레임워크를 활용하여 높은 정확도(Accuracy)를 유지하면서 Latecny를 최소화하는 것이 목표입니다. 대회 참여자들은 추론 시간 최소화를 위해 여러 가지 최적화 방법 및 알고리즘을 적용시킬 수 있습니다. 대회 각 라운드에서 요구사항 및 제약사항은 아래를 참조하세요.
 
 ### 허용 모델
 
@@ -50,7 +51,7 @@ excerpt:
  1. 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서. (**docs** 또는 **pdf** 형식)  
  2. 수정한 프레임워크 및 작성한 소스 코드가 포함된 GitHub URL.
 
-위 두 가지 항목을 [**Submission**](https://cechallenge.github.io/submission/)의 Google Form으로 제출해야 합니다.
+위 두 가지 항목을 [**Submission**](https://cechallenge.github.io/submission/)으로 제출해야 합니다.
 
 #### 2차 라운드
 
@@ -61,16 +62,21 @@ excerpt:
  * RAM : 360GB  
  * GPU : NVIDIA Tesla V100 Model 4EA  
   * Total GPU Memory : 128GB  
-  * Supports NVLink
+  * Supports NVLink  
+
+참가자는 2차 라운드가 진행되는 동안 주어진 서버에서 모델 추론(inference)을 진행하고, 추론 시간(inference time)을 다음 이메일(**cechallenge@samsung.com**)주소로 제출해야 합니다. 2차 라운드 기간 동안 [**Leaderboard**](https://cechallenge.github.io/leaderboard/)가 운영 될 예정이며, 매일 **오전 10시(KST)**에 업데이트 됩니다. 여러 번 제출한 경우 마지막으로 제출한 내용을 기준으로 등록됩니다.
 
 ##### 2차 평가 제출물
 
-2차 라운드도 [**Submission**](https://cechallenge.github.io/submission/)에 주어진 Google Form을 통해 제출하며, 모델 추론을 수행한 결과물인 **추론 시간(inference time)**을 제출합니다. 2차 라운드 기간 동안 [**Leaderboard**](https://cechallenge.github.io/leaderboard/)가 운영 될 예정이며, 매일 **아침 10시(KST)**에 업데이트 됩니다. 여러 번 제출한 경우 마지막으로 제출한 점수를 기준으로 등록됩니다.
+ 1. 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서. (**docs** 또는 **pdf** 형식)  
+ 2. 수정한 프레임워크 및 작성한 소스 코드가 포함된 GitHub URL.  
+ 3. 추론 시간  
+
+2차 라운드가 종료되기 전, 위 세 가지 항목을 [**Submission**](https://cechallenge.github.io/submission/)으로 제출해야 합니다.  
 
 ###### 주의 사항
 
 ※ Leaderboard에 표시된 순위표는 다른 팀의 결과를 공유하기 위한 수단일 뿐입니다.  
-※ 대회 참가자들은 2차 라운드가 끝나기 전, 수정한 소스 코드 및 프레임워크가 포함된 GitHub URL을 제출해야 합니다.  
 ※ 최종 순위는 여러 가지 평가 기준을 통해 최종 결정됩니다.
 
 <hr />
@@ -84,7 +90,7 @@ To participate in this competition, You must meet the following qualifications c
 
 ## Competition description
 
-The goal is to minimize latency while maintaining high accuracy using the LLM and the dataset and underlying framework presented in the problem. Contestants can apply various optimization methods and algorithms to minimize inference time. See below for the competition constraints and requirements for each round.
+The goal is to minimize latency while maintaining high accuracy using the LLM and the dataset and underlying framework presented in the problem. Participants can apply various optimization methods and algorithms to minimize inference time. See below for the competition constraints and requirements for each round.
 
 ### Approved base model
 
@@ -134,12 +140,17 @@ The second round of the competition is a quantitative evaluation, with the goal 
   * Total GPU Memory : 128GB  
   * Supports NVLink
 
+Participants proceed with model inference on a given server during the second round and submit the inference time to the e-mail address(**cechallenge@samsung.com**). The leaderboard runs in two rounds and is updated at **10 a.m.(KST)** every day. If you submit it several times, it will be registered based on the last submission.
+
 ###### Second round assessment submissions
 
-The second round is also submitted via the Google Form provided in [**Submission**](https://cechallenge.github.io/submission/), and requires you to submit your **inference time**, which is the result of performing inferences on your model. During second round, a [**Leaderboard**](https://cechallenge.github.io/leaderboard/) will be running and will be updated daily at **10:00 am(KST)**. If you submit multiple times, you will be ranked based on the score of your last submission.
+ 1. Documentation describing the optimization methods and algorithms used by participants. (**docs** or **pdf** format)  
+ 2. A GitBub URL containing the framework and source code that you modified.  
+ 3. Inference time
+
+Before the end of second round, Make sure you submit the above three items in the [**Submission.**](https://cechallenge.github.io/submission/)
 
 ###### Cautions
 
 ※ The Leaderboard is just a way to share other teams' results.  
-※ Participants must submit a GitHub URL containing their modified source code and  framework before the end of Round 2.  
 ※ Final rankings will be determined based on multiple evaluation criteria.
