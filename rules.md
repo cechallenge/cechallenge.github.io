@@ -16,7 +16,7 @@ excerpt:
 * 팀은 적절한 출처를 제공한다면 오픈 소스 코드와 라이브러리를 사용할 수 있습니다.
 * 출처 없이 외부 구현을 사용하거나, 다른 팀의 구현을 Copy 하여 사용하는 경우에는 실격 처리됩니다.
 * 한 팀은 3명 이하로 구성할 수 있으며, 팀은 팀원 중 이 대회의 다른 팀에 참가하지 않음을 스스로 인증해야 합니다.
-* 각 팀은 대회 기간 동안 매일 한 번 씩 제출할 수 있으며, 가장 우수한 성능을 보이는 팀의 순위를 매기고 최종 시스템 평가를 위해 매일 결과 갱신합니다.
+* 각 팀은 2차 라운드 기간 동안 모델 추론 결과를 제출할 수 있으며, 가장 우수한 성능을 보이는 팀의 순위를 매기고 매일 결과 갱신합니다.  
 * 대회와 관련된 주최자 및 관련자는 참가할 수 없습니다.
 * 상기 규칙을 위배하지 않더라도 신뢰에 반하는 행동을 하거나, 커뮤니티를 부당하게 이용하는 경우 실격 처리될 수 있습니다.
 
@@ -32,6 +32,6 @@ The competition aims to ensure fair evaluation and reproducible results. To achi
 * Teams can use open source code and libraries as long as they provide proper attribution.  
 * Using an external implementation without attribution, or copying another team's implementation, will result in disqualification.  
 * A team can consist of no more than three people. Teams must self-certify that none of their team members are participating on another team in this competition.  
-* Each team can make one submission per day for the duration of the competition. We rank the best performing teams and update the results daily for a final system evaluation.  
+* Each team can submit model inference results during the second round, rank the best-performing team, and update the results every day.  
 * Organizers and those associated with the competition are not eligible to participate.  
 * Even if you don't violate any of the above rules, you may be disqualified if you act in a way that violates trust or exploit the community.  
