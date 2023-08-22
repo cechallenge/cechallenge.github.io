@@ -90,7 +90,7 @@ title: "Samsung Computer Engineering Challenge" # Site name or title, also used 
 logo: "/assets/logos/Samsung_Orig_Wordmark_WHITE_RGB.png" # Site logo, also used in jekyll-seo-tag
 description: "Samsung CE Challenge site" # Site description and default description, also used in jekyll-seo-tag
 url: "https://www.sait.samsung.co.kr/" # Site url, also used in jekyll-seo-tag
-baseurl: ""
+baseurl: "https://cechallenge.github.io"
 repo: "https://github.com/SAITPublic"
 email: "cechallenge@samsung.com"
 # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
