@@ -112,9 +112,13 @@ The deep learning framework we will use for optimization is PyTorch 2.0. Please 
 ### Constraints
 
  1. Prohibit adjustments and fine-tuning (re-training) that significantly reduce the accuracy of the model.  
+  ※ Techniques that modify the model are not allowed, nor are modifications to weights and activations (e.g., quantization).  
  2. Allow a slight degradation of accuracy due to optimization and algorithmic adaptation.  
+  ※ Note that the 33B, 82.8%, presented in the LLaMA paper is not based on baseline accuracy, but on accuracy performed by participants and teams in their local environment.  
  3. Prohibit the use of data other than the provided dataset.  
- 4. Use of open source code and libraries is allowed if proper credit is given.
+ 4. Use of open source code and libraries is allowed if proper credit is given.  
+ 5. Latency, as defined by the competition, is "the time it takes to process all of the presented datasets", excluding time for data preprocessing.  
+  ※ Optimizations and algorithms that serve the purpose of the competition are acceptable, but cheating is not, and this will be fully considered in the qualitative evaluation.
 
 For other rules, please see the [**Rules**](https://cechallenge.github.io/rules/) page.
 
@@ -129,6 +133,7 @@ The first round of the competition aims for participants to run the given model 
 ###### First round assessment submissions
 
  1. Documentation describing the optimization methods and algorithms used by participants. (**docs** or **pdf** format)  
+  ※ Please list the inference time and accuracy performed on the participant's and team's local environment.  
  2. A GitBub URL containing the framework and source code that you modified.
 
 Make sure you submit the above two items in the [**Submission.**](https://cechallenge.github.io/submission/)
