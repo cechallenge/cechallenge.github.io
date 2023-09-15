@@ -32,7 +32,7 @@ excerpt:
 ### 제약사항 및 기준
 
  1. 모델의 정확도를 현저하게 떨어트리는 조정 및 미세 조정(re-training)은 금지합니다.  
-  ※ 모델을 수정하는 기법은 허용되지 않으며, 또한 Weight 및 Activation을 수정하는것 역시 허용하지 않습니다. (ex. Quantization)  
+  ※ 모델의 구조를 수정하는 기법은 허용되지 않으며, 또한 Weight 및 Activation을 수정하는것 역시 허용하지 않습니다. (ex. Quantization)  
  2. 최적화 및 알고리즘 적용으로 인해 생기는 약간의 Accuracy drop은 허용합니다.  
   ※ LLaMA 논문에서 제시한 33B, 82.8%는 기준이 되는 정확도는 아니며, 참가자 및 팀의 로컬 환경에서 수행한 정확도(Accuracy)를 기준으로 최적화 진행.  
  3. 제시한 데이터셋 이외에 다른 데이터 사용은 금지합니다.  
@@ -112,7 +112,7 @@ The deep learning framework we will use for optimization is PyTorch 2.0. Please 
 ### Constraints
 
  1. Prohibit adjustments and fine-tuning (re-training) that significantly reduce the accuracy of the model.  
-  ※ Techniques that modify the model are not allowed, nor are modifications to weights and activations (e.g., quantization).  
+  ※ Techniques that modify the model architecture are not allowed, nor are modifications to weights and activations (e.g., quantization).  
  2. Allow a slight degradation of accuracy due to optimization and algorithmic adaptation.  
   ※ Note that the 33B, 82.8%, presented in the LLaMA paper is not based on baseline accuracy, but on accuracy performed by participants and teams in their local environment.  
  3. Prohibit the use of data other than the provided dataset.  
