@@ -19,7 +19,7 @@ excerpt:
 
 ### 허용 모델
 
-대회의 베이스 모델(base model)은 instruction tuning이 없는 오픈 베이스 모델인 **LLaMA-30B** 또는 **OPT 30B**입니다. LLaMA 모델의 사용을 위해 다음 <a target="_blank" href="https://github.com/facebookresearch/llama/blob/main/LICENSE">LLaMA-1 Community License Agreement</a>을 확인하고 커뮤니티에 라이센스 요청을 해야 합니다. <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform">Download Link</a>를 참고하여 진행하세요. OPT-30B에 대한 다운로드는 다음 <a target="_blank" href="https://huggingface.co/facebook/opt-30b"> Huggingface link</a>을 참고하세요.
+대회의 베이스 모델(base model)은 instruction tuning이 없는 오픈 베이스 모델인 **LLaMA-30B** 또는 **OPT-30B**입니다. LLaMA 모델의 사용을 위해 다음 <a target="_blank" href="https://github.com/facebookresearch/llama/blob/main/LICENSE">LLaMA-1 Community License Agreement</a>을 확인하고 커뮤니티에 라이센스 요청을 해야 합니다. <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform">Download Link</a>를 참고하여 진행하세요. OPT-30B에 대한 다운로드는 다음 <a target="_blank" href="https://huggingface.co/facebook/opt-30b"> Huggingface link</a>을 참고하세요.
 
 ### 데이터셋
 
