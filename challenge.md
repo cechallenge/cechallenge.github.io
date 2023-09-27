@@ -60,7 +60,7 @@ excerpt:
 
 #### 2차 라운드
 
-2차 라운드는 정량적 평가로, **동일한 서버 환경** 내에서 가장 빠른 추론 시간을 달성하는 것을 목표로 합니다. 주어진 서버 환경은 다음과 같습니다.  
+2차 라운드는 정량적 평가로, **동일한 서버 환경** 내에서 가장 빠른 추론 시간을 달성하는 것을 목표로 합니다. 2차 라운드에서 사용할 모델은 **LLaMA-30B** 입니다. 2차 라운드 참가자에게 주어진 서버 환경은 다음과 같습니다.  
  * OS: Ubuntu 18.04 64-bit  
  * Number of vCPU core : 32  
  * Storage : SSD 1TB  
@@ -140,7 +140,7 @@ Make sure you submit the above two items in the [**Submission.**](https://cechal
 
 ##### Second
 
-The second round of the competition is a quantitative evaluation, with the goal of achieving the fastest inference time within the **same given server environment**. The given server environment looks like this.
+The second round of the competition is a quantitative evaluation, with the goal of achieving the fastest inference time within the **same given server environment**. The model to be used in the second round is **LLaMA-30B**. The given server environment looks like this.
 
  * OS: Ubuntu 18.04 64-bit  
  * Number of vCPU core : 32  
