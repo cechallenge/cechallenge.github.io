@@ -54,26 +54,3 @@ CE Challenge에 많은 관심과 참여를 부탁드리겠습니다.
 		</form>
 	</div>
 </div>
-
-<!-- layer popup content -->
-<div class="layerPopup" id="layer_popup" style="visibility: visible;">
-    <div class="layerBox">
-        <h4 class="title">2차 라운드 공지사항</h4>
-        <div class="cont">
-            <p>
-안녕하세요. 2차 라운드 설명회가 진행됩니다.
-<br>
-2차 라운드 설명회는 <b>10월 12일(목) 15:00</b>에 진행됩니다.
-<br>
-자세한 일정은 Timeline을 확인 바랍니다.
-<br>
-감사합니다.
-            </p>
-        </div>
-          <form name="pop_form">
-        <div id="check" ><input type="checkbox" name="chkbox" value="checkbox" id='chkbox' >
-        <label for="chkbox">오늘 하루동안 보지 않기</label></div>
-		<div id="close" ><a href="javascript:closePop();">닫기</a></div>    
-		</form>
-	</div>
-</div>
