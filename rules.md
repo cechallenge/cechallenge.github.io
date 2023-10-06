@@ -10,9 +10,10 @@ excerpt:
 
 이번 대회에서는 공정한 평가 및 재현 가능한 결과를 보장하는 것을 목표로 합니다. 이를 위해 다음 사항을 준수해야 합니다  
 
-* 제출물은 테스트 서버에서 재현할 수 있어야 하며, 대회 종료 후 MIT 또는 Apache 2 라이선스에 따라 공개되어야 합니다.
+* 제출물은 테스트 서버에서 재현할 수 있어야 하며, 소스 코드는 대회의 부정 행위 및 결과 재생산을 위해 사용 됩니다.
+* 대회 기간 동안 소스 코드는 비공개한 상태로 운영합니다.
 * 대상 모델은 모델의 정확도를 현저하게 떨어트리는 조정 및 미세 조정을 해서는 안 됩니다.
-* 제출물은 저작권이 있거나 독점적인 데이터, 코드 또는 비공개 소스 콘텐츠를 사용해서는 안 됩니다. 서비스 계약이나 다른 기업의 영업 비밀을 위반하는 데이터나 콘텐츠의 사용은 허용되지 않습니다.
+* 제출물은 저작권이 있거나 독점적인 데이터 또는 특허 또는 상표, 코드 또는 비공개 소스 콘텐츠를 사용해서는 안 됩니다. 서비스 계약이나 다른 기업의 영업 비밀을 위반하는 데이터나 콘텐츠의 사용은 허용되지 않습니다.
 * 팀은 적절한 출처를 제공한다면 오픈 소스 코드와 라이브러리를 사용할 수 있습니다.
 * 출처 없이 외부 구현을 사용하거나, 다른 팀의 구현을 Copy 하여 사용하는 경우에는 실격 처리됩니다.
 * 한 팀은 3명 이하로 구성할 수 있으며, 팀은 팀원 중 이 대회의 다른 팀에 참가하지 않음을 스스로 인증해야 합니다.
@@ -26,9 +27,10 @@ excerpt:
 
 The competition aims to ensure fair evaluation and reproducible results. To achieve this, you must comply with the following guidelines  
 
-* Submissions must be reproducible on a test server. Submissions, along with all associated code and data, must be released under an MIT or Apache 2 license after the competition ends.  
+* Submissions must be reproducible on a test server. Submissions, Source code is used to reproduce cheating and reproduce results in competitions.
+* During the competition, the source code is kept private.
 * The target model should not be subject to adjustments and fine-tuning (retraining) that significantly reduce the accuracy of the model.  
-* Submissions must not use copyrighted or proprietary data, code, or closed-source content. Use of data or content that violates a service agreement or another company's trade secrets is not permitted.
+* Submissions must not use copyrighted or proprietary data or patent or trade mark, code, or closed-source content. Use of data or content that violates a service agreement or another company's trade secrets is not permitted.
 * Teams can use open source code and libraries as long as they provide proper attribution.  
 * Using an external implementation without attribution, or copying another team's implementation, will result in disqualification.  
 * A team can consist of no more than three people. Teams must self-certify that none of their team members are participating on another team in this competition.  
