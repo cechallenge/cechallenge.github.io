@@ -34,12 +34,20 @@ Through this Computer Engineering Challenge, we hope that more students will be 
       		    <th scope="col">팀리더</th>
     		  </tr>
     		  <tr>
-      		    <td>Team H</td>
-      		    <td>김*훈</td>
+      		    <td>1조</td>
+      		    <td>이*태</td>
     		  </tr>
     		  <tr>
-      		    <td>서교수네 라마농장</td>
-      		    <td>유*열</td>
+      		    <td>ECo</td>
+      		    <td>이*훈</td>
+    		  </tr>
+    		  <tr>
+      		    <td>FullMoon</td>
+      		    <td>신*용</td>
+    		  </tr>
+    		  <tr>
+      		    <td>NAKTA</td>
+      		    <td>배*진</td>
     		  </tr>
     		  <tr>
       		    <td>Olivia</td>
@@ -50,28 +58,20 @@ Through this Computer Engineering Challenge, we hope that more students will be 
       		    <td>김*표</td>
     		  </tr>
     		  <tr>
-      		    <td>FullMoon</td>
-      		    <td>신*용</td>
-    		  </tr>
-    		  <tr>
-      		    <td>1조</td>
-      		    <td>이*태</td>
-    		  </tr>
-    		  <tr>
-      		    <td>빈이네 LLM</td>
-      		    <td>박*훈</td>
+      		    <td>Team H</td>
+      		    <td>김*훈</td>
     		  </tr>
     		  <tr>
       		    <td>TRG Rookies</td>
       		    <td>박*우</td>
     		  </tr>
     		  <tr>
-      		    <td>ECo</td>
-      		    <td>이*훈</td>
+      		    <td>빈이네 LLM</td>
+      		    <td>박*훈</td>
     		  </tr>
     		  <tr>
-      		    <td>NAKTA</td>
-      		    <td>배*진</td>
+      		    <td>서교수네 라마농장</td>
+      		    <td>유*열</td>
     		  </tr>
   	        </table>
 <br>
