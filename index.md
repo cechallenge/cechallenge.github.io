@@ -29,10 +29,9 @@ Through this Computer Engineering Challenge, we hope that more students will be 
 <br>
 참가해주신 모든 분들께 진심으로 감사드립니다.
 <br><br>
-<2차 라운드 대상팀>
   		<table>
     		  <tr>
-      		    <th scope="col">팀명</th>
+      		    <th scope="col">2차 라운드 대상팀</th>
       		    <th scope="col">팀리더</th>
     		  </tr>
     		  <tr>
@@ -77,11 +76,7 @@ Through this Computer Engineering Challenge, we hope that more students will be 
     		  </tr>
   	        </table>
 <br>
-* 순서는 심사점수와 무관합니다.
-<br>
 2023 Samsung CE Challenge의 2차 라운드 대상팀들은 반드시 차후 일정 숙지해주시기 바랍니다.
-<br><br>
-<차후 일정>
 <br>
 2차 라운드 설명회(online) : 2023년 10월 12일 (목) 15:00
 <br>
