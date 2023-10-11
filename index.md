@@ -24,15 +24,12 @@ Through this Computer Engineering Challenge, we hope that more students will be 
         <h4 class="title">1차 라운드 통과 발표</h4>
         <div class="cont">
             <p>
-안녕하세요. Samsung CE Challenge 운영 사무국입니다.
 <br>
 2023 Samsung CE Challenge 1차 라운드의 결과가 공개되었습니다.
 <br>
-다양한 아이디어와 창의적인 해결책들을 보면서 여러분들의 놀라운 역량과 잠재력을 확인할 수 있었습니다.
-<br>
 참가해주신 모든 분들께 진심으로 감사드립니다.
 <br><br>
-[2차 라운드 대상팀]
+<2차 라운드 대상팀>
   		<table>
     		  <tr>
       		    <th scope="col">팀명</th>
@@ -82,18 +79,18 @@ Through this Computer Engineering Challenge, we hope that more students will be 
 <br>
 * 순서는 심사점수와 무관합니다.
 <br>
-2023 Samsung CE Challenge의 2차 라운드 관련 차후 일정 안내입니다.
-<br>
-2차 라운드 대상팀들은 반드시 숙지해주시기 바랍니다.
+2023 Samsung CE Challenge의 2차 라운드 대상팀들은 반드시 차후 일정 숙지해주시기 바랍니다.
 <br><br>
-[차후 일정]
+<차후 일정>
 <br>
 2차 라운드 설명회(online) : 2023년 10월 12일 (목) 15:00
+<br>
 * 설명회(online) 접속 방법은 팀리더에게 메일로 개별 발송 예정입니다.
 <br><br>
 여러분의 열정과 노력이 이번 챌린지를 더욱 특별하게 만들어주었습니다.
 <br>
-다시 한 번, 참가자 분들께 진심으로 감사드립니다. 감사합니다.
+다시 한 번, 참가자 분들께 진심으로 감사드립니다.
+<br>
             </p>
         </div>
           <form name="pop_form">
