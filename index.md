@@ -89,11 +89,6 @@ Through this Computer Engineering Challenge, we hope that more students will be 
 [차후 일정]
 <br>
 2차 라운드 설명회(online) : 2023년 10월 12일 (목) 15:00
-<br>
-2차 라운드 : 2023년 10월 16일 (월) 12:00 ~ 2023년 10월 20일 (금) 17:59
-<br>
-최종 수상자 발표 : 2023년 10월 27일 (금)
-<br>
 * 설명회(online) 접속 방법은 팀리더에게 메일로 개별 발송 예정입니다.
 <br><br>
 여러분의 열정과 노력이 이번 챌린지를 더욱 특별하게 만들어주었습니다.
