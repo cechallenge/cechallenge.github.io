@@ -33,52 +33,52 @@ Through this Computer Engineering Challenge, we hope that more students will be 
 참가해주신 모든 분들께 진심으로 감사드립니다.
 <br><br>
 [2차 라운드 대상팀]
-  <table>
-    <tr>
-      <th scope="col">팀명</td>
-      <th scope="col">팀리더</td>
-    </tr>
-    <tr>
-      <td>Team H</td>
-      <td>김*훈</td>
-    </tr>
-    <tr>
-      <td>서교수네 라마농장</td>
-      <td>유*열</td>
-    </tr>
-    <tr>
-      <td>Olivia</td>
-      <td>방*현</td>
-    </tr>
-    <tr>
-      <td>ShongShong2</td>
-      <td>김*표</td>
-    </tr>
-    <tr>
-      <td>FullMoon</td>
-      <td>신*용</td>
-    </tr>
-    <tr>
-      <td>1조</td>
-      <td>이*태</td>
-    </tr>
-    <tr>
-      <td>빈이네 LLM</td>
-      <td>박*훈</td>
-    </tr>
-    <tr>
-      <td>TRG Rookies</td>
-      <td>박*우</td>
-    </tr>
-    <tr>
-      <td>ECo</td>
-      <td>이*훈</td>
-    </tr>
-    <tr>
-      <td>NAKTA</td>
-      <td>배*진</td>
-    </tr>
-  </table>
+  		<table>
+    		  <tr>
+      		    <th scope="col">팀명</th>
+      		    <th scope="col">팀리더</th>
+    		  </tr>
+    		  <tr>
+      		    <td>Team H</td>
+      		    <td>김*훈</td>
+    		  </tr>
+    		  <tr>
+      		    <td>서교수네 라마농장</td>
+      		    <td>유*열</td>
+    		  </tr>
+    		  <tr>
+      		    <td>Olivia</td>
+      		    <td>방*현</td>
+    		  </tr>
+    		  <tr>
+      		    <td>ShongShong2</td>
+      		    <td>김*표</td>
+    		  </tr>
+    		  <tr>
+      		    <td>FullMoon</td>
+      		    <td>신*용</td>
+    		  </tr>
+    		  <tr>
+      		    <td>1조</td>
+      		    <td>이*태</td>
+    		  </tr>
+    		  <tr>
+      		    <td>빈이네 LLM</td>
+      		    <td>박*훈</td>
+    		  </tr>
+    		  <tr>
+      		    <td>TRG Rookies</td>
+      		    <td>박*우</td>
+    		</tr>
+    		<tr>
+      		    <td>ECo</td>
+      		    <td>이*훈</td>
+    		</tr>
+    		<tr>
+      		    <td>NAKTA</td>
+      		    <td>배*진</td>
+    		</tr>
+  	      </table>
 <br>
 * 순서는 심사점수와 무관합니다.
 <br>
