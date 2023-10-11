@@ -69,16 +69,16 @@ Through this Computer Engineering Challenge, we hope that more students will be 
     		  <tr>
       		    <td>TRG Rookies</td>
       		    <td>박*우</td>
-    		</tr>
-    		<tr>
+    		  </tr>
+    		  <tr>
       		    <td>ECo</td>
       		    <td>이*훈</td>
-    		</tr>
-    		<tr>
+    		  </tr>
+    		  <tr>
       		    <td>NAKTA</td>
       		    <td>배*진</td>
-    		</tr>
-  	      </table>
+    		  </tr>
+  	        </table>
 <br>
 * 순서는 심사점수와 무관합니다.
 <br>
