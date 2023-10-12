@@ -124,6 +124,8 @@ navigation_header:
   url: /timeline/
 - title: Prizes
   url: /prizes/
+- title: Round 2
+  url: /round_two/
 - title: Submission
   url: /submission/
 - title: Leaderboard
