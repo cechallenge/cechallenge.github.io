@@ -8,17 +8,26 @@ excerpt:
 ---
 ## Round 2
 
-2차 라운드 진행 안내  
+2차 라운드에서 사용하게 될 base docker image는 **nvcr.io/nvidia/pytorch:23.05-py3** 입니다.  
+base framework는 **PyTorch 2.0**입니다.  
+(commit : https://github.com/pytorch/pytorch/tree/v2.0.0 + cherry-pick https://github.com/pytorch/pytorch/pull/97838)
 
-2차 라운드에서 사용하게 될 base docker image는 **???** 입니다.  
-base framework는 PyTorch **xx**입니다.
+### Q&A
+Q1. Docker container 실행시 옵션 변경해도 되나요?  
+A. --previliged 및 shm-mem size는 각 팀에서 용도에 맞게 변경하셔서 사용하시면 됩니다.  
 
-### Naver cloud server 접속 안내
+Q2. PyTorch version 및 설치?  
+A. baseline docker image에 PyTorch 2.0이 설치되어 있습니다. 별도로 소스 코드 수정이 필요하실 경우 source code download 후 install 하셔서 사용하시면 됩니다. 자세한 commit 정보는 Tutorial repository에 기재되어 있으니 확인 부탁드리겠습니다.  
 
-Putty / MobaXterm 등 SSH protocol을 사용하여 접속 가능한 클라이언트 환경에서  
-각자 전달 받은 IP 주소 및 계정 / 비밀번호로 접속합니다.  
+Q3. Custom evaluation code 사용 가능한가요?  
+A. 네, 다만 다른 팀과의 Scoring 방법이 현저하게 다르지 않도록 주의 부탁 드리겠습니다.  
 
-서버에 접속하시면, 해당 경로에 다음과 같은 파일이 있는지 확인합니다.
+Q4. Model 및 dataset download?  
+A. Model 및 dataset은 직접 서버에 다운로드 받으셔서 사용하셔야 합니다.
 
+### Tutorial & 가이드 문서
+
+2차 라운드를 위한 가이드 문서를 제공 드립니다.  
+해당 [Link](https://github.com/cechallenge/round_two_tutorial/tree/main) 참고 부탁드리겠습니다.
 
  
