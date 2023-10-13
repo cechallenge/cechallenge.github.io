@@ -9,8 +9,7 @@ excerpt:
 ## Round 2
 
 2차 라운드에서 사용하게 될 base docker image는 **nvcr.io/nvidia/pytorch:23.05-py3** 입니다.  
-base framework는 **PyTorch 2.0**입니다.  
-(commit : https://github.com/pytorch/pytorch/tree/v2.0.0 + cherry-pick https://github.com/pytorch/pytorch/pull/97838)
+base framework는 **PyTorch 2.0**입니다. [commit](https://github.com/pytorch/pytorch/tree/v2.0.0) + [cherry-pick](https://github.com/pytorch/pytorch/pull/97838)
 
 ### Q&A
 Q1. Docker container 실행시 옵션 변경해도 되나요?  
