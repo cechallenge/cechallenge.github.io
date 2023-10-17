@@ -6,6 +6,8 @@ feature_text: |
 feature_image: "/assets/logos/banner_last.png"
 excerpt:
 ---
+##### 대회 기간이 10월 21일 토요일 오전 11시까지 연장 되었습니다.
+
 ## Round 2
 
 2차 라운드에서 사용하게 될 base docker image는 **nvcr.io/nvidia/pytorch:23.05-py3** 입니다.  
