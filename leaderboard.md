@@ -13,9 +13,9 @@ excerpt:
 | 서교수네 라마농장      | 913.208515942           |     2
 | Olivia                | 998.406287748           |     3
 | NAKTA                 | 1412.010182715          |     4
-| FullMoon              | 0                       |     1
-| 1조                   | 0                       |     1
-| 빈이네 LLM            | 0                       |     1
-| TRG Rookies           | 0                       |     1
-| ECo                   | 0                       |     1
-| NAKTA                 | 0                       |     1
+| FullMoon              | 0                       |     5
+| 1조                   | 0                       |     5
+| 빈이네 LLM            | 0                       |     5
+| TRG Rookies           | 0                       |     5
+| ECo                   | 0                       |     5
+| NAKTA                 | 0                       |     5
