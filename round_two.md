@@ -6,8 +6,36 @@ feature_text: |
 feature_image: "/assets/logos/banner_last.png"
 excerpt:
 ---
-##### 대회 기간이 10월 21일 토요일 오전 11시까지 연장 되었습니다.
+# 대회 정보 안내(10월 18일 기준)
+먼저, 대회 운영이 원할하지 않았던 점 다시 한 번 사과 드립니다.
+아래와 같이 대회 일정 안내 드립니다.
 
+서버 재시작 이후의 대회 기간은
+**2023년 10월 19일(목) 오전 9시 ~ 2023년 10월 25일(수) 오전 12시**입니다.   
+**Leaderboard**는 10월 19일 목요일 오전 9시 이후 다시 운영 될 예정입니다.   
+Leaderboard 현황 업데이트는 10월 19일 ~ 10월 25일 **오전 10시**에 진행됩니다.    
+그리고, 대회 마지막 날 10월 25일(수)에는 **오전 9시**에 마지막 업데이트를 할 예정입니다.
+
+## 서버 이슈 발생
+제공해드린 서버에 이슈가 발생 할 경우, cechallenge@samsung.com으로 메일 부탁드리며
+최대한 빠르게 이슈 해결 및 새로운 서버를 제공해드릴 수 있도록 하겠습니다.
+
+## FAQ (자주 나온 질문)
+Q1. 정확한 inference time에 의미를 알려주세요    
+A1. 대회 설명회 때 안내 드린 사항처럼 Dataset pre-processing + Model inference + post-processing입니다.      
+&emsp;Model Load, Data I/O, Scoring time을 전부 포함합니다. 아래는 허용 및 금지에 대한 부분입니다.    
+&emsp;※ 단순한 Model Weight format 변경(meta -> huggyllama weight format change)은 허용됩니다.      
+&emsp;※ **주의** Model weight size가 변경되거나 이와 유사한 수행(Quantization / pruning 등)은 모두 금지합니다.     
+&emsp;※ 오프라인에서 Dataset pre-processing / post-processing은 금지합니다.       
+&emsp;&emsp;ex) Embedding값을 미리 계산하여 dataset에 더한 후 파일로 저장하여 model input으로 사용한다 등     
+&emsp;※ 런타임에서 Dataset pre-processing / post-processing은 허용합니다.
+Q2. Warm-up time을 포함하여 시간을 측정해야 하나요?   
+A2. 네, exec_evaluation.sh 코드 상에서 보시면 코드를 수행하기 전 / 후 시간을 측정하고 있습니다.    
+&emsp;warm-up time까지 포함하는 시간으로 측정 부탁드리겠습니다.    
+Q3. Evaluation은 어떻게 진행하나요?    
+A3. 제시해드린 exec_evaluation.sh 코드에서 저희가 lm-evaluation-harness를 제시드렸습니다. 이와 동일하게 수행 부탁드립니다.
+
+--------------------------------------------------------------------------------------------    
 ## Round 2
 
 2차 라운드에서 사용하게 될 base docker image는 **nvcr.io/nvidia/pytorch:23.05-py3** 입니다.  
