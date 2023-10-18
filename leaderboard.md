@@ -9,10 +9,10 @@ excerpt:
 ## Leaderboard
 
 | 팀이름                | Time(inference time)    |   rank 
-| Team H                | 0                       |     1
-| 서교수네 라마농장      | 0                       |     1
-| Olivia                | 0                       |     1
-| ShongShong2           | 0                       |     1
+| Team H                | 482.758830384           |     1
+| 서교수네 라마농장      | 913.208515942           |     2
+| Olivia                | 998.406287748           |     3
+| NAKTA                 | 1412.010182715          |     4
 | FullMoon              | 0                       |     1
 | 1조                   | 0                       |     1
 | 빈이네 LLM            | 0                       |     1
