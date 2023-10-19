@@ -6,7 +6,7 @@ feature_text: |
 feature_image: "/assets/logos/banner_last.png"
 excerpt:
 ---
-# 대회 정보 안내(10월 18일 기준)
+## 대회 정보 안내(10월 18일 기준)
 아래와 같이 대회 일정 안내 드립니다.
 
 대회 기간은 아래
@@ -15,11 +15,11 @@ excerpt:
 Leaderboard 현황 업데이트는 10월 19일 ~ 10월 25일 **오전 10시**에 진행됩니다.    
 그리고, 대회 마지막 날 10월 25일(수)에는 **오전 9시**에 마지막 업데이트를 할 예정입니다.
 
-## 서버 이슈 발생
+#### 서버 이슈 발생
 제공해드린 서버에 이슈가 발생 할 경우, cechallenge@samsung.com으로 메일 부탁드리며
 최대한 빠르게 이슈 해결 및 새로운 서버를 제공해드릴 수 있도록 하겠습니다.
 
-## FAQ (자주 나온 질문)
+### FAQ (자주 나온 질문)
 Q1. 정확한 inference time에 의미를 알려주세요    
 A1. 대회 설명회 때 안내 드린 사항처럼 Dataset pre-processing + Model inference + post-processing입니다.      
 &emsp;Model Load, Data I/O, Scoring time을 전부 포함합니다. 아래는 허용 및 금지에 대한 부분입니다.    
