@@ -27,12 +27,11 @@ A1. 대회 설명회 때 안내 드린 사항처럼 Dataset pre-processing + Mod
 &emsp;※ **주의** Model weight size가 변경되거나 이와 유사한 수행(Quantization / pruning 등)은 모두 금지합니다.     
 &emsp;※ 오프라인에서 Dataset pre-processing / post-processing은 금지합니다.       
 &emsp;&emsp;ex) Embedding값을 미리 계산하여 dataset에 더한 후 파일로 저장하여 model input으로 사용한다 등     
-&emsp;※ 런타임에서 Dataset pre-processing / post-processing은 허용합니다.
-Q2. Warm-up time을 포함하여 시간을 측정해야 하나요?   
-A2. 네, exec_evaluation.sh 코드 상에서 보시면 코드를 수행하기 전 / 후 시간을 측정하고 있습니다.    
-&emsp;warm-up time까지 포함하는 시간으로 측정 부탁드리겠습니다.    
+&emsp;※ 런타임에서 Dataset pre-processing / post-processing은 허용합니다.   
+Q2. Warm-up time을 포함하여 시간을 측정해야 하나요?    
+A2. 네, exec_evaluation.sh 코드 상에서 보시면 코드를 수행하기 전 / 후 시간을 측정하고 있습니다. warm-up time까지 포함하는 시간으로 측정 부탁드리겠습니다.    
 Q3. Evaluation은 어떻게 진행하나요?    
-A3. 제시해드린 exec_evaluation.sh 코드에서 저희가 lm-evaluation-harness를 제시드렸습니다. 이와 동일하게 수행 부탁드립니다.
+A3. exec_evaluation.sh 코드 사이에 있는 lm-evaluation-harness를 참가팀의 스크립트로 변경하여 사용해주시기 바랍니다.
 
 -------------------------------------------------------------------------------------------- 
 ## Round 2
