@@ -24,10 +24,11 @@ Q1. 정확한 inference time에 의미를 알려주세요
 A1. 대회 설명회 때 안내 드린 사항처럼 Dataset pre-processing + Model inference + post-processing입니다.      
 &emsp;Model Load, Data I/O, Scoring time을 전부 포함합니다. 아래는 허용 및 금지에 대한 부분입니다.    
 &emsp;※ 단순한 Model Weight format 변경(meta -> huggyllama weight format change)은 허용됩니다.      
-&emsp;※ **주의** Model weight size가 변경되거나 이와 유사한 수행(Quantization / pruning 등)은 모두 금지합니다.     
-&emsp;※ 오프라인에서 Dataset pre-processing / post-processing은 금지합니다.       
+&emsp;※ **주의1** Model weight size가 변경되거나 이와 유사한 수행(Quantization / pruning 등)은 모두 금지합니다.     
+&emsp;※ **주의2** Dataset 내의 item을 변경 및 훼손하는 행위는 금지합니다.    
+&emsp;※ **주의3** 오프라인에서 Dataset pre-processing / post-processing은 금지합니다.     
 &emsp;&emsp;ex) Embedding값을 미리 계산하여 dataset에 더한 후 파일로 저장하여 model input으로 사용한다 등     
-&emsp;※ 런타임에서 Dataset pre-processing / post-processing은 허용합니다.   
+&emsp;※ **런타임**에서 Dataset pre-processing / post-processing은 허용합니다.   
 Q2. Warm-up time을 포함하여 시간을 측정해야 하나요?    
 A2. 네, exec_evaluation.sh 코드 상에서 보시면 코드를 수행하기 전 / 후 시간을 측정하고 있습니다. warm-up time까지 포함하는 시간으로 측정 부탁드리겠습니다.    
 Q3. Evaluation은 어떻게 진행하나요?    
