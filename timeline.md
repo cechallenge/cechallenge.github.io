@@ -13,8 +13,8 @@ excerpt:
 |1차 라운드 통과자 발표 |~~2023년 10월 6일 (금)~~ -> 2023년 10월 11일 (수)|
 |2차 라운드 설명회     |2023년 10월 12일 (목) 15시(KST)|
 |2차 라운드 시작       |2023년 10월 16일 (월)|
-|2차 라운드 종료       |2023년 10월 21일 (토) 오전 11시(KST)|
-|2차 라운드 통과자 발표 |2023년 10월 27일 (금)|
+|2차 라운드 종료       |2023년 10월 25일 (수) 오전 11시(KST)|
+|2차 라운드 통과자 발표 |2023년 11월 1일 (수)|
 |수상                  |2023년 11월 7일 (화) (Samsung AI forum)|
 |챌린지 캠프           |2023년 11월 9일 (목) (대회 수상자 대상)|
 
@@ -30,8 +30,8 @@ excerpt:
 |First round Winners Notification |~~Friday, October 6th, 2023~~ -> **Wednesday, October 11th, 2023**|
 |Second round Briefing session    |Thursday, October 12th, 2023 at 15:00(KST)|
 |Second round submission Open     |Monday, October 16th, 2023|
-|Second round submission Deadline |Saturday, October 21th, 2023 at 11:00 am(KST)|
-|Second round Winners Notification|Friday, October 27th, 2023|
+|Second round submission Deadline |Wednesday, October 25th, 2023 at 11:00 am(KST)|
+|Second round Winners Notification|Wednesday, November 1th, 2023|
 |Award                            |Tuesday, November 7th, 2023 (Samsung AI forum)|
 
 <br>
