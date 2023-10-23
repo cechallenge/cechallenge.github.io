@@ -9,6 +9,6 @@ excerpt:
 ## Submission
 ※ If you get a 403 error, please sign in to your Google account and refresh.
 
-<iframe src="https://forms.gle/pK9rMHby8Pmjq4Zb6/viewform?embedded=true" width="640" height="1623" frameborder="0" marginheight="0" marginwidth="0">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf3FxNWMZYEif3Dzyk-kCURmNWtn5fSDCC7ksvyjWyiu9b2yg/viewform?embedded=true" width="640" height="1623" frameborder="0" marginheight="0" marginwidth="0">
   <p>Loading…&lt;/iframe&gt;</p>
 </iframe>
