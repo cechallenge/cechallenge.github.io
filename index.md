@@ -28,23 +28,20 @@ Through this Computer Engineering Challenge, we hope that more students will be 
               <br/>
               'Samsung Computer Engineering Challenge 2023' 최종 수상팀을 안내드립니다.
               <br/>
+	    </p>
               <h3> <1등> </h3>
-              TeamH
-              <br/>
+              <p>TeamH</p>
               <h3> <2등> </h3>
-              ShongShong2
-              <br/>
+              <p>ShongShong2</p>
               <h3> <3등> </h3>
-              ECo, 빈이네 LLM
-              <br/><br/>
-              수상을 진심으로 축하드립니다!
-              <br/><br/>
-              Computer Engineering Challenge에 마지막까지 최선을 다해 참여해주셔서 진심으로 감사드립니다.
+              <p>ECo, 빈이네 LLM</p>
               <br/>
-              내년에도 많은 관심과 참여를 부탁드립니다.
-              <br/><br/>
-              감사합니다.
-            </p>
+              <p>수상을 진심으로 축하드립니다!</p>
+              <br/>
+              <p>Computer Engineering Challenge에 마지막까지 최선을 다해 참여해주셔서 진심으로 감사드립니다.</p>
+              <p>내년에도 많은 관심과 참여를 부탁드립니다.</p>
+              <br/>
+              <p>감사합니다.</p>
         </div>
         <form name="pop_form">
             <div id="check" ><input type="checkbox" name="chkbox" value="checkbox" id='chkbox' >
