@@ -17,3 +17,39 @@ The Large-scale Language Models (LLM) can be used for Natural Language Processin
 SAIT holds the **Computer Engineering Challenge** to spread Large-scale Language Model-based services. The goal of this challenge is to increase inference performance while maintaining high accuracy by utilizing four GPUs for a Large-scale Language Model. The operation of the competition will be conducted in the 1st and 2nd rounds. For a fair evaluation, we will present an inference performance evaluation method and dataset, and conduct qualitative/quantitative evaluation of the submitted results. Among the teams participating in the Computer Engineering Challenge, 10 teams selected through the first round will receive the same computing platform in the second round, implement the ideas suggested by the teams, and award based on the submitted performance evaluation results.
 
 Through this Computer Engineering Challenge, we hope that more students will be interested in various technologies that accelerate Large-scale Language Models. We expect that this increased interest in Computer Engineering will advance the AI Computing era to come in the future and contribute greatly to reducing energy and costs.
+
+<!-- layer popup content -->
+<div class="layerPopup" id="layer_popup" style="visibility: visible;">
+    <div class="layerBox">
+        <h4 class="title">Samsung Computer Engineering Challenge 2023 결과 발표</h4>
+        <div class="cont">
+            <p>
+              긴 시간 동안 대회에 참가하신 모든 참가자 여러분 고생 많으셨습니다.
+              <br>
+              'Samsung Computer Engineering Challenge 2023' 최종 수상팀을 안내드립니다.
+              <br>
+              <h3> <1등> </h3>
+              TeamH
+              <br>
+              <h3> <2등> </h3>
+              ShongShong2
+              <br>
+              <h3> <3등> </h3>
+              ECo, 빈이네 LLM
+              <br><br>
+              수상을 진심으로 축하드립니다!
+              <br><br>
+              Computer Engineering Challenge에 마지막까지 최선을 다해 참여해주셔서 진심으로 감사드립니다.
+              <br>
+              내년에도 많은 관심과 참여를 부탁드립니다.
+              <br><br>
+              감사합니다.
+            </p>
+        </div>
+        <form name="pop_form">
+            <div id="check" ><input type="checkbox" name="chkbox" value="checkbox" id='chkbox' >
+            <label for="chkbox">오늘 하루동안 보지 않기</label></div>
+		      <div id="close" ><a href="javascript:closePop();">닫기</a></div>    
+		    </form>
+	  </div>
+</div>
