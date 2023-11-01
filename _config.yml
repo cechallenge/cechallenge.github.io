@@ -126,10 +126,6 @@ navigation_header:
   url: /prizes/
 - title: Round2
   url: /round_two/
-- title: Submission
-  url: /submission/
-- title: Leaderboard
-  url: /leaderboard/
 - title: Q&A
   url: /qna/
 
