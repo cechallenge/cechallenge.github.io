@@ -59,7 +59,7 @@ Jetson AGX Orin 32GB 모델의 세부 내용은 다음 <a target="_blank" href="
 
 ※ 이외의 다른 규칙은 [**Rules**](https://cechallenge.github.io/rules/)를 참고해주세요.
 
-### 대회 운영
+## 대회 운영
 
 각 팀에서 제출하는 결과물로 Inference time & Accuracy을 평가하여, 평가는 비공개 Dataset으로 사무국에서 시행합니다.
 
@@ -71,13 +71,13 @@ Jetson AGX Orin 32GB 모델의 세부 내용은 다음 <a target="_blank" href="
 비공개 Dataset으로 평가한 결과도 리더보드에 공개될 것입니다.
 
 
-##### 평가 제출물
+### 평가 제출물
 
-## Leader Board 제출물
+### Leader Board 제출물
 
  1. 모델을 수행했을 때 출력 되는 Inference time과 Accuracy를 스크린 샷 이미지 파일
  
-## 최종 제출물
+### 최종 제출물
 
  1. 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서. (**docs** 또는 **pdf** 형식)  
  2. 최적화를 위해 Docker Container를 DockerHub에 Upload한 주소
