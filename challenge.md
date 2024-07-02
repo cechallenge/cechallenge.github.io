@@ -1,22 +1,32 @@
 ---
 title:
 feature_text: |
-  # Samsung Computer Engineering Challenge 2023
-  ## No system, No AI: Let's Play with LLM!
+  # Samsung Computer Engineering Challenge 2024
 feature_image: "/assets/logos/banner_last.png"
 excerpt:
 ---
 
 ## 참가자격
 
- 1. '23년 8월 현재 대학 및 대학원 재학생 또는 휴학생  
+ 1. '24년 7월 현재 대학 및 대학원 재학생 또는 휴학생  
  2. 개인 또는 팀으로 참여 가능하며, 팀당 최대 3명까지 구성 할 수 있습니다.  
   (개인/팀은 1개 결과물만 제출 가능)
 
 ## 문제 설명
 
-문제에서 제시한 LLM과 데이터셋 그리고 기반이 되는 프레임워크를 활용하여 높은 정확도(Accuracy)를 유지하면서 Latency를 최소화하는 것이 목표입니다. 대회 참여자들은 추론 시간 최소화를 위해 여러 가지 최적화 방법 및 알고리즘을 적용시킬 수 있습니다. 대회 각 라운드에서 요구사항 및 제약사항은 아래를 참조하세요.
+Computer Engineering (CE) Challenge는 대규모 언어모델 (LLM), 데이터셋 그리고 기반이 되는 프레임워크를 활용하여 높은 정확도(Accuracy)를 유지하면서 Latency를 최소화하는 것을 목표로 합니다.
+이번 대회에 참여하는 학생들은 추론 시간을 최소화하기 위해 다양한 최적화 방법 및 알고리즘을 적용할 수 있습니다. 그러면서도 정확도를 유지하거나 개선하는 것이 중요합니다.
+참가자들은 컴퓨터 엔지니어링에 대한 전문 지식과 창의력을 발휘하여 최상의 Latency와 높은 정확도를 달성하기를 기대합니다.
 
+대회에서 요구사항 및 제약사항은 아래를 참조하세요.
+
+### Hardware
+대회는 Jetson AGX Orin 32GB 사용합니다.
+Jetson AGX Orin 32GB 모델의 세부 내용은 다음 <a target="_blank" href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"> Jetson AGX Orin</a>을 참고하세요
+해당 기기를 미보유한 참가자는 참가 접수시 기기대여 신청이 가능합니다. (단, 접수 기준 선착순으로 수량이 한정되어 있으니 참고 부탁드립니다.)
+
+
+<!-- 
 ### 허용 모델
 
 대회의 베이스 모델(base model)은 instruction tuning이 없는 오픈 베이스 모델인 **LLaMA-30B** 또는 **OPT-30B**입니다. LLaMA 모델의 사용을 위해 다음 <a target="_blank" href="https://github.com/facebookresearch/llama/blob/main/LICENSE">LLaMA-1 Community License Agreement</a>을 확인하고 커뮤니티에 라이센스 요청을 해야 합니다. <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform">Download Link</a>를 참고하여 진행하세요. OPT-30B에 대한 다운로드는 다음 <a target="_blank" href="https://huggingface.co/facebook/opt-30b"> Huggingface link</a>을 참고하세요.
@@ -28,6 +38,13 @@ excerpt:
 ### 프레임워크
 
 최적화를 위해 사용 할 딥러닝 프레임워크는 PyTorch 2.0입니다. 다음 <a target="_blank" href="https://github.com/pytorch/pytorch/tree/v2.0.0">link</a>를 참고하시기 바랍니다. 또한, PyTorch 2.0 기반의 프레임워크도 사용하실 수 있습니다. (예시: FasterTransformer)
+
+-->
+
+### 평가 기준
+본 대회는 주어진 Device 환경에서 LLM의 Inference를 최소화한 시간을 정량적으로 평가합니다. 
+또한, 공지된 Accuracy 대비 drop 제한은 평균 0.5 이내의 감소로 제한됩니다.
+
 
 ### 제약사항 및 기준
 
@@ -42,48 +59,38 @@ excerpt:
 
 ※ 이외의 다른 규칙은 [**Rules**](https://cechallenge.github.io/rules/)를 참고해주세요.
 
-### 라운드 진행 및 평가
+### 대회 운영
 
-이번 대회에서는 총 2번의 라운드가 진행됩니다.
+각 팀에서 제출하는 결과물로 Inference time & Accuracy을 평가하여, 평가는 비공개 Dataset으로 사무국에서 시행합니다.
 
-#### 1차 라운드  
+참가자는 대회가 진행되는 동안 제시된 Device에서 공개된 Dataset으로 모델 추론을 진행하고, Inference time과 Accuracy를 제출해야 합니다
+제출된 Score를 바탕으로 Leader Board가 운영될 예정이며, **매일 오전 10시(KST)** 에 업데이트 됩니다. 
+만약 여러 번 제출하신 경우에는 가장 마지막에 제출된 Score (Inference time & Accuracy)를 기준으로 등록될 예정입니다.
 
-대회의 첫 번째 라운드는 참가자의 로컬 머신 환경에서 제시한 모델과 데이터셋을 실행하고 주어진 환경 내에서 가능한 최적화 및 알고리즘을 적용하는 것을 목표로 합니다. 1차 라운드는 참가자의 기술 문서(레포트) 및 소스코드를 기반으로 정성적 평가를 진행합니다. 1차 평가가 끝나면 상위 10개 팀이 선정됩니다.
+각 팀에서 요청하는 경우 3회에 한하여 사무국에서 비공개 Dataset으로 성능 측정을 시행될 것입니다.
+비공개 Dataset으로 평가한 결과도 리더보드에 공개될 것입니다.
 
-##### 1차 평가 제출물
 
- 1. 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서. (**docs** 또는 **pdf** 형식)  
-  ※ 참가자 및 팀의 Local 환경에서 수행한 추론 시간(inference time) 및 Accuracy 기재 부탁드립니다.  
- 2. 수정한 프레임워크 및 작성한 소스 코드가 포함된 GitHub URL.
+##### 평가 제출물
 
+## Leader Board 제출물
+
+ 1. 모델을 수행했을 때 출력 되는 Inference time과 Accuracy를 스크린 샷 이미지 파일
+ 
+## 최종 제출물
+
+ 1. 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서. (**docs** 또는 **pdf** 형식)  
+ 2. 최적화를 위해 Docker Container를 DockerHub에 Upload한 주소
+    
 위 두 가지 항목을 [**Submission**](https://cechallenge.github.io/submission/)으로 제출해야 합니다.
 
-#### 2차 라운드
-
-2차 라운드는 정량적 평가로, **동일한 서버 환경** 내에서 가장 빠른 추론 시간을 달성하는 것을 목표로 합니다. 2차 라운드에서 사용할 모델은 **LLaMA-30B** 입니다. 2차 라운드 참가자에게 주어진 서버 환경은 다음과 같습니다.  
- * OS: Ubuntu 18.04 64-bit  
- * Number of vCPU core : 32  
- * Storage : SSD 1TB  
- * RAM : 360GB  
- * GPU : NVIDIA Tesla V100 Model 4EA  
-  * Total GPU Memory : 128GB  
-  * Supports NVLink  
-
-참가자는 2차 라운드가 진행되는 동안 주어진 서버에서 모델 추론을 진행하고, 추론 시간(inference time)을 제출해야 합니다. 2차 라운드 기간 동안 [**Leaderboard**](https://cechallenge.github.io/leaderboard/)가 운영 될 예정이며, 매일 **오전 10시(KST)**에 업데이트 됩니다. 여러 번 제출한 경우 마지막으로 제출한 내용을 기준으로 등록됩니다.
-
-##### 2차 평가 제출물
-
- 1. 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서. (**docs** 또는 **pdf** 형식)  
- 2. 수정한 프레임워크 및 작성한 소스 코드가 포함된 GitHub URL.  
- 3. 추론 시간  
-
-2차 라운드가 종료되기 전, 위 세 가지 항목을 [**Submission**](https://cechallenge.github.io/submission/)으로 제출해야 합니다.  
 
 ###### 주의 사항
 
 ※ Leaderboard에 표시된 순위표는 다른 팀의 결과를 공유하기 위한 수단일 뿐입니다.  
 ※ 최종 순위는 여러 가지 평가 기준을 통해 최종 결정됩니다.
 
+<!-- 
 <hr />
 
 ## Qualifications
@@ -100,6 +107,8 @@ The goal is to minimize latency while maintaining high accuracy using the LLM an
 ### Approved base model
 
 The competition base model is the **LLaMA-30B** or **OPT-30B**, an open base model with no instruction tuning. To use the LLaMA model, you need to check the following <a target="_blank" href="https://github.com/facebookresearch/llama/blob/main/LICENSE">LLaMA-1 Community License Agreement</a> and request a license from the community. Please refer to the <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform">Download Link</a> to proceed. If you are interested in using the OPT-30B, check out the <a target="_blank" href="https://huggingface.co/facebook/opt-30b">following links.</a>
+
+
 
 ### Datasets
 
@@ -164,3 +173,4 @@ Before the end of second round, Make sure you submit the above three items in th
 
 ※ The Leaderboard is just a way to share other teams' results.  
 ※ Final rankings will be determined based on multiple evaluation criteria.
+-->
