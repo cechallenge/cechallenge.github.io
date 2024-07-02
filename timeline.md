@@ -1,26 +1,24 @@
 ---
 title:
 feature_text: |
-  # Samsung Computer Engineering Challenge 2023
-  ## No system, No AI: Let's Play with LLM!
+  # Samsung Computer Engineering Challenge 2024
 feature_image: "/assets/logos/banner_last.png"
 excerpt:
 ---
 ## 대회 일정
 
-|1차 라운드 시작       |2023년 8월 21일 (월)|
-|1차 라운드 종료       |~~2023년 9월 22일 (금) 18시(KST)~~ -> 2023년 10월 3일 (화) 23:59(KST)|
-|1차 라운드 통과자 발표 |~~2023년 10월 6일 (금)~~ -> 2023년 10월 11일 (수)|
-|2차 라운드 설명회     |2023년 10월 12일 (목) 15시(KST)|
-|2차 라운드 시작       |2023년 10월 16일 (월)|
-|2차 라운드 종료       |2023년 10월 25일 (수) 오전 11시(KST)|
-|2차 라운드 통과자 발표 |2023년 11월 1일 (수)|
-|수상                  |2023년 11월 7일 (화) (Samsung AI forum)|
-|챌린지 캠프           |2023년 11월 9일 (목) (대회 수상자 대상)|
+|대회 시작       |2024년 8월 1일 (목) 11:00|
+|대외 종료       |2023년 9월 13일 (금) 17:00 |
+|코드 및 PPT 제출  |2023년 10월 25일 (수) 23:59 |
+|최종 결과 발표  |2024년 11월 8일 (수)|
+|시상           |2024년 11월 4일 (월) (Samsung AI forum)|
+|수상자 캠프     |2024년 11월 5일 (화) (대회 수상자 대상)|
 
 <br>
 ※ 자세한 일정은 대회 진행 상황에 따라 변경될 수 있습니다.
 <br>
+
+<!--
 <hr />
 
 ## Competition schedule
@@ -36,3 +34,4 @@ excerpt:
 
 <br>
 ※ The detailed schedule is subject to change as the competition progresses.
+-->
