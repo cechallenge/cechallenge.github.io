@@ -1,8 +1,7 @@
 ---
 title:
 feature_text: |
-  # Samsung Computer Engineering Challenge 2023
-  ## No system, No AI: Let's Play with LLM!
+  # Samsung Computer Engineering Challenge 2024
 feature_image: "/assets/logos/banner_last.png"
 excerpt:
 ---
@@ -24,6 +23,8 @@ excerpt:
 * 대회와 관련된 주최자 및 관련자는 참가할 수 없습니다.
 * 상기 규칙을 위배하지 않더라도 신뢰에 반하는 행동을 하거나, 커뮤니티를 부당하게 이용하는 경우 실격 처리될 수 있습니다.
 
+<!--
+
 <hr />
 
 ## Rules
@@ -43,3 +44,5 @@ The competition aims to ensure fair evaluation and reproducible results. To achi
 * Each team can submit model inference results during the second round, rank the best-performing team, and update the results every day.  
 * Organizers and those associated with the competition are not eligible to participate.  
 * Even if you don't violate any of the above rules, you may be disqualified if you act in a way that violates trust or exploit the community.  
+
+-->
