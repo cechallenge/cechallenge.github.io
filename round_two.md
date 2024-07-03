@@ -1,11 +1,11 @@
 ---
 title:
 feature_text: |
-  # Samsung Computer Engineering Challenge 2023
-  ## No system, No AI: Let's Play with LLM!
+  # Samsung Computer Engineering Challenge 2024
 feature_image: "/assets/logos/banner_last.png"
 excerpt:
 ---
+<!--
 ## 대회 정보 안내(10월 18일 기준)
 아래와 같이 대회 일정 안내 드립니다.
 
@@ -58,4 +58,4 @@ A. Model 및 dataset은 직접 서버에 다운로드 받으셔서 사용하셔�
 2차 라운드를 위한 가이드 문서를 제공 드립니다.  
 해당 [Link](https://github.com/cechallenge/round_two_tutorial/tree/main) 참고 부탁드리겠습니다.
 
- 
+ -->
