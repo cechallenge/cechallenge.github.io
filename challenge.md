@@ -14,11 +14,11 @@ excerpt:
 
 ### 문제 설명
 
-Computer Engineering (CE) Challenge는 대규모 언어모델(LLM), 데이터셋 그리고 기반이 되는 프레임워크를 활용하여 높은 정확도(Accuracy)를 유지하면서 Latency를 최소화하는 것을 목표로 합니다.
-이번 대회에 참여하는 학생들은 추론 시간을 최소화하기 위해 다양한 최적화 방법 및 알고리즘을 적용할 수 있습니다. 그러면서도 정확도를 유지하거나 개선하는 것이 중요합니다.  
-참가자들은 컴퓨터 엔지니어링에 대한 전문 지식과 창의력을 발휘하여 최상의 Latency와 높은 정확도를 달성하기를 기대합니다.
+Computer Engineering(CE) Challenge는 대규모 언어모델(LLM), 데이터셋 그리고 기반이 되는 프레임워크를 활용하여 높은 정확도(Accuracy)를 유지하면서 Latency를 최소화하는 것을 목표로 합니다.
+이번 대회에 참가자들은 추론 시간을 최소화하기 위해 다양한 최적화 방법 및 알고리즘을 적용할 수 있습니다. 그러면서도 정확도를 유지하거나 개선하는 것이 중요합니다.  
+참가자분들의 컴퓨터 엔지니어링에 대한 전문 지식과 창의력을 발휘하여 최상의 Latency와 높은 정확도를 달성하기를 기대합니다.
 
-대회에서 요구사항 및 제약사항은 아래를 참조하세요.
+대회 평가기준 및 제약사항은 아래를 참조하세요.
 
 
 ### 평가 기준
@@ -27,12 +27,12 @@ Computer Engineering (CE) Challenge는 대규모 언어모델(LLM), 데이터셋
 
 ### Hardware
 대회는 NVIDIA Jetson AGX Orin 32GB 사용합니다.  
-NVIDIA Jetson AGX Orin 32GB 모델의 세부사양은 다음 <a target="_blank" href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"> Jetson AGX Orin</a>을 참고하세요.  
-해당 기기를 미보유한 참가자는 참가 접수시 기기대여 신청이 가능합니다.  
+NVIDIA Jetson AGX Orin 32GB 모델의 자세한 사양은 다음 <a target="_blank" href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"> Jetson AGX Orin</a>을 참고하세요.  
+해당 기기를 미보유한 참가자는 참가 접수시 기기대여가 가능합니다.
  (단, 접수 기준 선착순으로 수량이 한정되어 있으니 참고 부탁드립니다.)
 
 ### 모델/데이터셋/프레임워크
-모델/데이터셋/프레임워크와 관련된 사항은 대회시작시점(8/1일 오전 10시)에 공개될 예정입니다. 
+모델/데이터셋/프레임워크와 관련된 사항은 대회가 시작하는 8/1일 오전 10시에 공개됩니다. 
 
 <!-- 
 ### 허용 모델
@@ -54,8 +54,7 @@ NVIDIA Jetson AGX Orin 32GB 모델의 세부사양은 다음 <a target="_blank" 
  1. 모델의 정확도를 현저하게 떨어트리는 조정 및 미세 조정(re-training)은 금지합니다.  
   ※ 모델의 구조를 수정하는 기법은 허용되지 않으며, 또한 Weight 및 Activation을 수정하는것 역시 허용하지 않습니다. (ex. Quantization)  
  2. 최적화 및 알고리즘 적용으로 인해 생기는 약간의 Accuracy drop은 허용합니다.  
-  ※ LLaMA 논문에서 제시한 33B, 82.8%는 기준이 되는 정확도는 아니며, 참가자 및 팀의 로컬 환경에서 수행한 정확도(Accuracy)를 기준으로 최적화 진행.  
- 3. 제시한 데이터셋 이외에 다른 데이터 사용은 금지합니다.  
+ 3. 제시한 데이터셋 이외에 다른 데이터 사용은 금지합니다.
  4. 적절한 출처를 제공한다면 오픈 소스 코드와 라이브러리 사용은 허용합니다.  
  5. 대회에서 규정한 Latency는 "제시한 데이터셋을 모두 처리하는데 걸리는 시간"이며, 데이터 전처리를 위한 시간을 제외한 나머지 요소들은 포함됩니다.  
   ※ 대회 취지에 맞는 최적화 및 알고리즘을 적용하여 추론 시간 외 나머지 사항에 대한 최적화는 허용합니다. 이 부분은 정성적 평가때 충분히 고려 할 예정입니다.
@@ -64,21 +63,20 @@ NVIDIA Jetson AGX Orin 32GB 모델의 세부사양은 다음 <a target="_blank" 
 
 ### 대회 운영
 
-각 팀에서 제출하는 결과물로 Inference time & Accuracy을 평가하여, 평가는 비공개 Dataset으로 사무국에서 시행합니다.
+최종 평가는 각 팀에서 제출하는 결과물로 사무국에서 선정한 Datast에서 모델 추론을 진행하고, Inference time & Accuracy을 기준으로 평가합니다.  
 
 참가자는 대회가 진행되는 동안 제시된 Device에서 공개된 Dataset으로 모델 추론을 진행하고, Inference time과 Accuracy를 제출해야 합니다.  
 제출된 Score를 바탕으로 Leader Board가 운영될 예정이며, **매일 오전 10시(KST)** 에 업데이트 됩니다.  
 만약 여러 번 제출하신 경우에는 가장 마지막에 제출된 Score (Inference time & Accuracy)를 기준으로 등록될 예정입니다.  
 
-각 팀에서 요청하는 경우 3회에 한하여 사무국에서 비공개 Dataset으로 성능 측정을 시행될 것입니다.   
-비공개 Dataset으로 평가한 결과는 리더보드에 공개됩니다.  
+각 팀에서 요청하는 경우 3회에 한하여 사무국에서 사무국에서 선정한 Dataset으로 성능 측정이 가능하며, 평가한 결과는 리더보드에 공개됩니다.  
 
 
 ### 평가 제출물
 
 #### Leader Board 제출물
 
- 1. 모델을 수행했을 때 출력 되는 Inference time과 Accuracy를 스크린 샷 이미지 파일.
+ 1. 모델을 수행했을 때 출력 되는 Inference time과 Accuracy 결과 스크린 샷 이미지 파일.
  
 #### 최종 제출물
  1. 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서. (**docs** 또는 **pdf** 형식)
