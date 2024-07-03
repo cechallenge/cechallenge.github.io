@@ -74,6 +74,21 @@ NVIDIA Jetson AGX Orin 32GB 모델의 자세한 사양은 다음 <a target="_bla
 ※ 이외의 다른 규칙은 [**Rules**](https://cechallenge.github.io/rules/)를 참고해주세요.
 
 
+#### Leader Board 제출물
+
+ 모델을 수행했을 때 출력 되는 Inference time과 Accuracy 결과 스크린 샷 이미지 파일.
+ 
+#### 최종 제출물  
+ 1. 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서. (**docs** 또는 **pdf** 형식)
+ 2. 최적화를 위해 Docker Container를 DockerHub에 Upload한 주소.
+    
+위 두 가지 항목을 [**Submission**](https://cechallenge.github.io/submission/)으로 제출해야 합니다.
+
+
+###### 주의 사항
+
+※ Leaderboard에 표시된 순위표는 다른 팀의 결과를 공유하기 위한 수단일 뿐입니다.  
+※ 최종 순위는 여러 가지 평가 기준을 통해 최종 결정됩니다.
 
 <!-- 
 <hr />
