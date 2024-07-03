@@ -25,6 +25,18 @@ Computer Engineering(CE) Challenge는 대규모 언어모델(LLM), 데이터셋 
 본 대회는 주어진 Device 환경에서 LLM의 Inference를 최소화한 시간을 정량적으로 평가합니다.   
 또한, 공지된 Accuracy 대비 drop 제한은 평균 0.5 이내의 감소로 제한됩니다.
 
+
+### 대회 운영
+
+최종 평가는 각 팀에서 제출하는 결과물로 사무국에서 선정한 Datast에서 모델 추론을 진행하고, Inference time & Accuracy을 기준으로 평가합니다.  
+
+참가자는 대회가 진행되는 동안 제시된 Device에서 공개된 Dataset으로 모델 추론을 진행하고, Inference time과 Accuracy를 제출해야 합니다.  
+제출된 Score를 바탕으로 Leader Board가 운영될 예정이며, **매일 오전 10시(KST)** 에 업데이트 됩니다.  
+만약 여러 번 제출하신 경우에는 가장 마지막에 제출된 Score (Inference time & Accuracy)를 기준으로 등록될 예정입니다.  
+
+각 팀에서 요청하는 경우 3회에 한하여 사무국에서 사무국에서 선정한 Dataset으로 성능 측정이 가능하며, 평가한 결과는 리더보드에 공개됩니다.  
+
+
 ### Hardware
 대회는 NVIDIA Jetson AGX Orin 32GB 사용합니다.  
 NVIDIA Jetson AGX Orin 32GB 모델의 자세한 사양은 다음 <a target="_blank" href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"> Jetson AGX Orin</a>을 참고하세요.  
@@ -61,34 +73,7 @@ NVIDIA Jetson AGX Orin 32GB 모델의 자세한 사양은 다음 <a target="_bla
 
 ※ 이외의 다른 규칙은 [**Rules**](https://cechallenge.github.io/rules/)를 참고해주세요.
 
-### 대회 운영
 
-최종 평가는 각 팀에서 제출하는 결과물로 사무국에서 선정한 Datast에서 모델 추론을 진행하고, Inference time & Accuracy을 기준으로 평가합니다.  
-
-참가자는 대회가 진행되는 동안 제시된 Device에서 공개된 Dataset으로 모델 추론을 진행하고, Inference time과 Accuracy를 제출해야 합니다.  
-제출된 Score를 바탕으로 Leader Board가 운영될 예정이며, **매일 오전 10시(KST)** 에 업데이트 됩니다.  
-만약 여러 번 제출하신 경우에는 가장 마지막에 제출된 Score (Inference time & Accuracy)를 기준으로 등록될 예정입니다.  
-
-각 팀에서 요청하는 경우 3회에 한하여 사무국에서 사무국에서 선정한 Dataset으로 성능 측정이 가능하며, 평가한 결과는 리더보드에 공개됩니다.  
-
-
-### 평가 제출물
-
-#### Leader Board 제출물
-
- 1. 모델을 수행했을 때 출력 되는 Inference time과 Accuracy 결과 스크린 샷 이미지 파일.
- 
-#### 최종 제출물  
- 1. 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서. (**docs** 또는 **pdf** 형식)
- 2. 최적화를 위해 Docker Container를 DockerHub에 Upload한 주소.
-    
-위 두 가지 항목을 [**Submission**](https://cechallenge.github.io/submission/)으로 제출해야 합니다.
-
-
-###### 주의 사항
-
-※ Leaderboard에 표시된 순위표는 다른 팀의 결과를 공유하기 위한 수단일 뿐입니다.  
-※ 최종 순위는 여러 가지 평가 기준을 통해 최종 결정됩니다.
 
 <!-- 
 <hr />
