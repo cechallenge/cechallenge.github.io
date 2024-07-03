@@ -6,9 +6,9 @@ feature_image: "/assets/logos/banner_last.png"
 excerpt:
 ---
 ## Q&A
-Please write a comment below and submit.
 
-NOTE: Questions that are irrelevant or not related to the contest content can be deleted at will.
+NOTE: 대회와 관련 없는 글은 관리자에 의해 예고없이 임의 삭제될 수 있습니다.   
+      Questions that are irrelevant or not related to the contest content can be deleted at will.
 
 <script src="https://giscus.app/client.js"
         data-repo="cechallenge/cechallenge.github.io"
