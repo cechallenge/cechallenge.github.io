@@ -25,6 +25,8 @@ NOTE: Questions that are irrelevant or not related to the contest content can be
         crossorigin="anonymous"
         async>
 </script>
+<div class="giscus">
+</div> 
 
 <!--
 <script src="https://utteranc.es/client.js"
