@@ -8,11 +8,11 @@ feature_image: "/assets/logos/banner_last.png"
 대규모 언어모델은 Scaling Law를 기반으로 지속적으로 그 규모가 증가하고 있으나, 메모리 용량과 메모리 대역폭 등의 시스템 제약에 의해 추론 성능의 개선은 한계에 부딪치고 있습니다.
 특히 온 디바이스 활용에서는 부족한 메인 메모리 용량을 보완하기 위한 다양한 방법(ex. 멀티 티어 메모리)이 사용 되지만 이에 대한 추론 성능의 최적화 방식은 아직 확립되지 않았습니다.
 
-삼성전자 SAIT는 온 디바이스 언어모델 이용을 활성화 하기 위하여 **Computer Engineering (CE) Challenge**를 개최하게 되었습니다.
-이번 Computer Engineering (CE) Challenge의 목표는 대규모 언어 모델의 정확도를 유지한 채로 제한된 메모리 및 컴퓨팅 리소스를 사용하여 추론 속도를 최대화하는 것 입니다.
-Computer Engineering (CE) Challengee에 참여한 각 팀은 주어진 동일한 디바이스 환경에서 추론 속도를 최대화하는 방법론을 제안 및 구현하고, 그 성능 평가 결과를 기반으로 시상할 예정입니다.
+삼성전자 SAIT는 온 디바이스 언어모델 이용을 활성화 하기 위하여 **Computer Engineering(CE) Challenge**를 개최하게 되었습니다.
+이번 Computer Engineering(CE) Challenge의 목표는 대규모 언어 모델의 정확도를 유지한 채로 제한된 메모리 및 컴퓨팅 리소스를 사용하여 추론 속도를 최대화하는 것 입니다.
+Computer Engineering(CE) Challenge에 참여한 각 팀은 주어진 동일한 디바이스 환경에서 추론 속도를 최대화하는 방법론을 제안 및 구현하고, 그 성능 평가 결과를 기반으로 시상할 예정입니다.
 
-이번 Computer Engineering (CE) Challenge를 통해 더 많은 학생이 대규모 언어모델을 위한 시스템 최적화 방법론에 흥미를 갖기를 희망합니다. 저희는 이러한 Computer Engineering 관심 증가가 앞으로 도래할 AI Computing 시대를 앞당기고 더불어 에너지와 비용을 절감하는 데 크게 기여할 것으로 기대합니다.
+이번 Computer Engineering(CE) Challenge를 통해 더 많은 학생이 대규모 언어모델을 위한 시스템 최적화 방법론에 흥미를 갖기를 희망합니다. 저희는 이러한 Computer Engineering 분야 관심 증가가 앞으로 도래할 AI Computing 시대를 앞당기고 더불어 에너지와 비용을 절감하는 데 크게 기여할 것으로 기대합니다.
 
 
 <hr />
