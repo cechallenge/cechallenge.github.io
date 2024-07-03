@@ -78,7 +78,7 @@ NVIDIA Jetson AGX Orin 32GB 모델의 자세한 사양은 다음 <a target="_bla
 
  1. 모델을 수행했을 때 출력 되는 Inference time과 Accuracy 결과 스크린 샷 이미지 파일.
  
-#### 최종 제출물
+#### 최종 제출물  
  1. 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서. (**docs** 또는 **pdf** 형식)
  2. 최적화를 위해 Docker Container를 DockerHub에 Upload한 주소.
     
