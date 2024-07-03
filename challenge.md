@@ -6,13 +6,13 @@ feature_image: "/assets/logos/banner_last.png"
 excerpt:
 ---
 
-## 참가자격
+### 참가자격
 
  1. '24년 7월 현재 대학 및 대학원 재학생 또는 휴학생  
  2. 개인 또는 팀으로 참여 가능하며, 팀당 최대 3명까지 구성 할 수 있습니다.  
   (개인/팀은 1개 결과물만 제출 가능)
 
-## 문제 설명
+### 문제 설명
 
 Computer Engineering (CE) Challenge는 대규모 언어모델(LLM), 데이터셋 그리고 기반이 되는 프레임워크를 활용하여 높은 정확도(Accuracy)를 유지하면서 Latency를 최소화하는 것을 목표로 합니다.
 이번 대회에 참여하는 학생들은 추론 시간을 최소화하기 위해 다양한 최적화 방법 및 알고리즘을 적용할 수 있습니다. 그러면서도 정확도를 유지하거나 개선하는 것이 중요합니다.  
@@ -62,7 +62,7 @@ NVIDIA Jetson AGX Orin 32GB 모델의 세부사양은 다음 <a target="_blank" 
 
 ※ 이외의 다른 규칙은 [**Rules**](https://cechallenge.github.io/rules/)를 참고해주세요.
 
-## 대회 운영
+### 대회 운영
 
 각 팀에서 제출하는 결과물로 Inference time & Accuracy을 평가하여, 평가는 비공개 Dataset으로 사무국에서 시행합니다.
 
@@ -74,13 +74,13 @@ NVIDIA Jetson AGX Orin 32GB 모델의 세부사양은 다음 <a target="_blank" 
 비공개 Dataset으로 평가한 결과는 리더보드에 공개됩니다.  
 
 
-## 평가 제출물
+### 평가 제출물
 
-### Leader Board 제출물
+#### Leader Board 제출물
 
  1. 모델을 수행했을 때 출력 되는 Inference time과 Accuracy를 스크린 샷 이미지 파일.
  
-### 최종 제출물
+#### 최종 제출물
  1. 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서. (**docs** 또는 **pdf** 형식)
  2. 최적화를 위해 Docker Container를 DockerHub에 Upload한 주소.
     
