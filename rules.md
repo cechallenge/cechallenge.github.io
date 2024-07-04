@@ -5,7 +5,7 @@ feature_text: |
 feature_image: "/assets/logos/banner_last.png"
 excerpt:
 ---
-## 규칙
+### 규칙
 
 이번 대회에서는 공정한 평가 및 재현 가능한 결과를 보장하는 것을 목표로 합니다. 이를 위해 다음 사항을 준수해야 합니다  
 
