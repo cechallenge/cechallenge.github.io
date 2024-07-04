@@ -7,7 +7,7 @@ excerpt:
 ---
 
 Computer Engineering(CE) Challenge는 대규모 언어모델(LLM), 데이터셋 그리고 기반이 되는 프레임워크를 활용하여 높은 정확도(Accuracy)를 유지하면서 Latency를 최소화하는 것을 목표로 합니다.
-이번 대회에 참가자들은 추론 시간을 최소화하기 위해 다양한 최적화 방법 및 알고리즘을 적용할 수 있습니다. 그러면서도 정확도를 유지하거나 개선하는 것이 중요합니다.  
+이번 대회에서 참가자들은 추론 시간을 최소화하기 위해 다양한 최적화 방법 및 알고리즘을 적용할 수 있습니다. 그러면서도 정확도를 유지하거나 개선하는 것이 중요합니다.  
 참가자분들의 컴퓨터 엔지니어링에 대한 전문 지식과 창의력을 발휘하여 최상의 Latency와 높은 정확도를 달성하기를 기대합니다.
   
   
@@ -20,13 +20,13 @@ Computer Engineering(CE) Challenge는 대규모 언어모델(LLM), 데이터셋 
   
 #### 대회 운영
 
-최종 평가는 각 팀에서 제출하는 결과물로 사무국에서 선정한 Datast에서 모델 추론을 진행하고, Inference time & Accuracy을 기준으로 평가합니다.  
+최종 평가는 각 팀에서 제출하는 결과물로 사무국에서 선정한 Dataset에서 모델 추론을 진행하고, Inference time & Accuracy을 기준으로 평가합니다.  
 
 참가자는 대회가 진행되는 동안 제시된 Device에서 [**Rules**](https://cechallenge.github.io/rules/)에 제시된 Dataset으로 모델 추론을 진행하고, Inference time과 Accuracy를 제출해야 합니다.  
 제출된 Score를 바탕으로 Leader Board가 운영될 예정이며, **매일 오전 10시(KST)** 에 업데이트 됩니다.  
 만약 여러 번 제출하신 경우에는 가장 마지막에 제출된 Score (Inference time & Accuracy)를 기준으로 등록될 예정입니다.  
 
-각 팀에서 요청하는 경우 3회에 한하여 사무국에서 사무국에서 선정한 Dataset으로 성능 측정이 가능하며, 평가한 결과는 리더보드에 공개됩니다.  
+각 팀에서 요청하는 경우 3회에 한하여 사무국에서 선정한 Dataset으로 성능 측정이 가능하며, 평가 결과는 리더보드에 공개됩니다.   
 
 ※ 대회 평가규칙, 제약사항은 [**Rules**](https://cechallenge.github.io/rules/)를 참고해주세요.
   
@@ -38,7 +38,7 @@ Computer Engineering(CE) Challenge는 대규모 언어모델(LLM), 데이터셋 
   
 #### 최종 제출물
 
- 1. 문제 해결을 휘애 사용한 최적화 방법과 알고리즘을 설명하는 문서. (**docs**/**ppt**/**pdf** 등)
+ 1. 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서. (**docs**/**ppt**/**pdf** 등)  
  2. 최적화를 위해 Docker Container를 DockerHub에 Upload한 주소.  
     
 위 항목을 [**Submission**](https://cechallenge.github.io/submission/)으로 제출합니다.
