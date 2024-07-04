@@ -5,18 +5,18 @@ feature_text: |
 feature_image: "/assets/logos/banner_last.png"
 excerpt:
 ---
-## Leaderboard
+### Leaderboard
 
-| 팀이름            | Inference Time(sec)        |   Accuracy(%)      |   rank 
-|       |       |       |1
-|       |       |       |2
-|       |       |       |3
-|       |       |       |4
-|       |       |       |5
-|       |       |       |6
-|       |       |       |7
-|       |       |       |8
-|       |       |       |9
-|       |       |       |10
+|   rank | 팀이름            | Inference Time(sec)        |   Accuracy(%)      
+|1|       |       |       
+|2|       |       |       
+|3|       |       |       
+|4|       |       |       
+|5|       |       |       
+|6|       |       |       
+|7|       |       |       
+|8|       |       |       
+|9|       |       |       
+|10|      |       |      
 
 
