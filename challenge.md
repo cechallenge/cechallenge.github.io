@@ -74,7 +74,7 @@ NVIDIA Jetson AGX Orin 32GB 모델의 자세한 사양은 다음 <a target="_bla
 ※ 이외의 다른 규칙은 [**Rules**](https://cechallenge.github.io/rules/)를 참고해주세요.
 
 
-#### Leader Board 제출물
+#### Leaderboard 제출물
 
  '모델을 수행했을 때 출력 되는 Inference time과 Accuracy를 캡쳐한 이미지 파일.  
 
