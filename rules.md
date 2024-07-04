@@ -19,11 +19,25 @@ NVIDIA Jetson AGX Orin 32GB 자세한 사양은 다음 <a target="_blank" href="
    
    
 #### 모델/데이터셋/프레임워크
-Comming soon~
+Comming soon~  
 ※ 대회가 시작하는 8/1일 오전 10시에 공개됩니다. 
-   
-   
-#### 제약사항 및 기준
+
+<!-- 
+#### 허용 모델
+
+대회의 베이스 모델(base model)은 instruction tuning이 없는 오픈 베이스 모델인 **LLaMA-30B** 또는 **OPT-30B**입니다. LLaMA 모델의 사용을 위해 다음 <a target="_blank" href="https://github.com/facebookresearch/llama/blob/main/LICENSE">LLaMA-1 Community License Agreement</a>을 확인하고 커뮤니티에 라이센스 요청을 해야 합니다. <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform">Download Link</a>를 참고하여 진행하세요. OPT-30B에 대한 다운로드는 다음 <a target="_blank" href="https://huggingface.co/facebook/opt-30b"> Huggingface link</a>을 참고하세요.
+
+#### 데이터셋
+
+대회에서 허용되는 데이터셋은 <a target="_blank" href="https://huggingface.co/datasets/hellaswag">HellaSwag</a>입니다. 해당 데이터셋을 사용한 추론만 허용되며, 다른 데이터셋은 허용되지 않습니다.
+
+#### 프레임워크
+
+최적화를 위해 사용 할 딥러닝 프레임워크는 PyTorch 2.0입니다. 다음 <a target="_blank" href="https://github.com/pytorch/pytorch/tree/v2.0.0">link</a>를 참고하시기 바랍니다. 또한, PyTorch 2.0 기반의 프레임워크도 사용하실 수 있습니다. (예시: FasterTransformer)
+
+--> 
+
+#### 제약사항 
 
  1. 모델의 정확도를 현저하게 떨어트리는 조정 및 미세 조정(re-training)은 금지합니다.  
   ※ 모델의 구조를 수정하는 기법은 허용되지 않으며, 또한 Weight 및 Activation을 수정하는것 역시 허용하지 않습니다. (ex. Quantization)  
@@ -52,21 +66,6 @@ Comming soon~
 * 대회와 관련된 주최자 및 관련자는 참가할 수 없습니다.
 * 상기 규칙을 위배하지 않더라도 신뢰에 반하는 행동을 하거나, 커뮤니티를 부당하게 이용하는 경우 실격 처리될 수 있습니다.
 
-
-<!-- 
-#### 허용 모델
-
-대회의 베이스 모델(base model)은 instruction tuning이 없는 오픈 베이스 모델인 **LLaMA-30B** 또는 **OPT-30B**입니다. LLaMA 모델의 사용을 위해 다음 <a target="_blank" href="https://github.com/facebookresearch/llama/blob/main/LICENSE">LLaMA-1 Community License Agreement</a>을 확인하고 커뮤니티에 라이센스 요청을 해야 합니다. <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform">Download Link</a>를 참고하여 진행하세요. OPT-30B에 대한 다운로드는 다음 <a target="_blank" href="https://huggingface.co/facebook/opt-30b"> Huggingface link</a>을 참고하세요.
-
-#### 데이터셋
-
-대회에서 허용되는 데이터셋은 <a target="_blank" href="https://huggingface.co/datasets/hellaswag">HellaSwag</a>입니다. 해당 데이터셋을 사용한 추론만 허용되며, 다른 데이터셋은 허용되지 않습니다.
-
-#### 프레임워크
-
-최적화를 위해 사용 할 딥러닝 프레임워크는 PyTorch 2.0입니다. 다음 <a target="_blank" href="https://github.com/pytorch/pytorch/tree/v2.0.0">link</a>를 참고하시기 바랍니다. 또한, PyTorch 2.0 기반의 프레임워크도 사용하실 수 있습니다. (예시: FasterTransformer)
-
--->
 
 
 
