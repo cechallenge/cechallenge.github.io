@@ -33,13 +33,13 @@ Computer Engineering(CE) Challenge는 대규모 언어모델(LLM), 데이터셋 
   
 #### Leaderboard 제출물
 
- '모델을 수행했을 때 출력 되는 Inference time과 Accuracy를 캡쳐한 이미지 파일.  
+ 모델을 수행했을 때 출력 되는 Inference time과 Accuracy를 캡쳐한 이미지 파일   
   
   
 #### 최종 제출물
 
- 1. 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서. (**docs**/**ppt**/**pdf** 등)  
- 2. 최적화를 위해 Docker Container를 DockerHub에 Upload한 주소.  
+ 1. 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서 (**docs**/**ppt**/**pdf** 등)  
+ 2. 최적화를 위해 Docker Container를 DockerHub에 Upload한 주소  
     
 위 항목을 [**Submission**](https://cechallenge.github.io/submission/)으로 제출합니다.
 
