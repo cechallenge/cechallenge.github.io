@@ -13,14 +13,14 @@ excerpt:
        
 #### Hardware
 Device는 NVIDIA Jetson AGX Orin 32GB를 사용합니다.  
-NVIDIA Jetson AGX Orin 32GB 자세한 사양은 다음 <a target="_blank" href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"> Jetson AGX Orin</a>을 참고하세요.  
-해당 기기를 미보유한 참가자는 참가 접수시 기기대여가 가능합니다.   
+NVIDIA Jetson AGX Orin 32GB 자세한 사양은 <a target="_blank" href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"> 다음</a>을 참고하세요.  
+해당 기기를 미보유한 참가팀은 참가 접수시 기기대여가 가능합니다.   
  (단, 접수 기준 선착순으로 수량이 한정되어 있으니 참고 부탁드립니다.)
    
    
 #### 모델/데이터셋/프레임워크
 Comming soon~  
-※ 대회가 시작하는 8/1일 오전 10시에 공개됩니다. 
+※ 대회가 시작되는 8/1일 오전 10시에 공개됩니다. 
 
 <!-- 
 #### 허용 모델
@@ -34,6 +34,11 @@ Comming soon~
 #### 프레임워크
 
 최적화를 위해 사용 할 딥러닝 프레임워크는 PyTorch 2.0입니다. 다음 <a target="_blank" href="https://github.com/pytorch/pytorch/tree/v2.0.0">link</a>를 참고하시기 바랍니다. 또한, PyTorch 2.0 기반의 프레임워크도 사용하실 수 있습니다. (예시: FasterTransformer)
+
+#### CUDA Version  
+
+대회에서 허용되는 CUDA Version은      입니다.   
+
 
 --> 
 
