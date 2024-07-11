@@ -19,7 +19,7 @@ NVIDIA Jetson AGX Orin 32GB 자세한 사양은 <a target="_blank" href="https:/
    
    
 #### 모델/데이터셋/프레임워크
-Comming soon~  
+Coming soon~  
 ※ 대회가 시작되는 8/1일 오전 10시에 공개됩니다. 
 
 <!-- 
