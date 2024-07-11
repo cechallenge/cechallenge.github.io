@@ -13,6 +13,8 @@ excerpt:
  * 3등 상금: 각 ₩3,000,000원  
 
 ※ 상금은 수상 팀 대표에게 지급되며, 상금에 대한 세금은 주최 측에서 부담합니다. 상금과 세금은 수상팀 대표의 과세 대상 소득입니다.  
+
+<!--
 <hr />
 
 ### Prizes
@@ -23,3 +25,4 @@ We will select winning teams for the top three positions: 1st place, 2nd place, 
  * The third place teams will receive ₩3,000,000 respectively.  
 <br>
 ※ The prize money will be paid to the representative of the winning team, and taxes on the prize money will be covered by the organizers. The prize money and taxes are taxable income for the winning team representative.  
+-->
