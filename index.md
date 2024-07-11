@@ -12,7 +12,7 @@ feature_image: "/assets/logos/banner_last.png"
 이번 Computer Engineering Challenge의 목표는 대규모 언어 모델의 정확도를 유지한 채로 제한된 메모리 및 컴퓨팅 리소스를 사용하여 추론 속도를 최대화하는 것 입니다.
 Computer Engineering Challenge에 참여한 각 팀은 주어진 동일한 디바이스 환경에서 추론 속도를 최대화하는 방법론을 제안 및 구현하고, 그 성능 평가 결과를 기반으로 시상할 예정입니다.
 
-이번 Computer Engineering Challenge는 대규모 언어모델을 위한 시스템 최적화 방법론에 대한 학생들의 관심을 높이기 위해 개최되었습니다. 저희는 더 많은 학생들이 Computer Engineering 분야에 대한 관심을 가지고 연구하길 희망하며, 이를 통해 AI Computing 시대를 앞당기고 에너지와 비용을 절감하는 데 큰 역할을 할 것으로 기대합니다.    
+이번 Computer Engineering Challenge는 대규모 언어모델을 위한 시스템 최적화 방법론에 대한 학생들의 관심을 높이기 위해 개최되었습니다. 저희는 더 많은 학생들이 Computer Engineering 분야에 관심을 가지고 연구하길 희망하며, 이를 통해 AI Computing 시대를 앞당기고 에너지와 비용을 절감하는 데 큰 역할을 할 것으로 기대합니다.    
 
 
 <hr />
