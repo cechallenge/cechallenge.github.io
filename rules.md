@@ -25,11 +25,21 @@ Coming soon~
 <!-- 
 #### 허용 모델
 
-대회의 베이스 모델(base model)은 instruction tuning이 없는 오픈 베이스 모델인 **LLaMA-30B** 또는 **OPT-30B**입니다. LLaMA 모델의 사용을 위해 다음 <a target="_blank" href="https://github.com/facebookresearch/llama/blob/main/LICENSE">LLaMA-1 Community License Agreement</a>을 확인하고 커뮤니티에 라이센스 요청을 해야 합니다. <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform">Download Link</a>를 참고하여 진행하세요. OPT-30B에 대한 다운로드는 다음 <a target="_blank" href="https://huggingface.co/facebook/opt-30b"> Huggingface link</a>을 참고하세요.
+대회에서 허용된 모델은 아래와 같습니다.   
+* **Phi3-medium-4k-instruct(14B)** 모델의 사용을 위해 <a target="_blank" href="https://huggingface.co/datasets/cais/mmlu"> 다음</a>을 참고하세요.  
+
 
 #### 데이터셋
 
-대회에서 허용되는 데이터셋은 <a target="_blank" href="https://huggingface.co/datasets/hellaswag">HellaSwag</a>입니다. 해당 데이터셋을 사용한 추론만 허용되며, 다른 데이터셋은 허용되지 않습니다.
+대회에서 허용되는 데이터셋은 아래와 같습니다. 해당 데이터셋을 사용한 추론만 허용되며, 다른 데이터셋은 허용되지 않습니다.  
+
+* **MMLU** 데이터셋의 사용을 위해 <a target="_blank" href="https://huggingface.co/datasets/cais/mmlu"> 다음</a>을 참고하세요.  
+* **CommonSenseQA** 데이터셋의 사용을 위해 <a target="_blank" href="https://www.tau-nlp.sites.tau.ac.il/commonsenseqa"> 다음</a>을 참고하세요.  
+* **Winogrande** 데이터셋의 사용을 위해 <a target="_blank" href="https://huggingface.co/datasets/allenai/winogrande"> 다음</a>을 참고하세요.  
+* **BIG-Bench Hard** 데이터셋의 사용을 위해 <a target="_blank" href="https://github.com/suzgunmirac/BIG-Bench-Hard"> 다음</a>을 참고하세요.  
+* **BoolQ** 데이터셋의 사용을 위해 <a target="_blank" href="https://github.com/google-research-datasets/boolean-questions"> 다음</a>을 참고하세요.  
+* **DROP** 데이터셋의 사용을 위해 <a target="_blank" href="https://huggingface.co/datasets/ucinlp/drop"> 다음</a>을 참고하세요.  
+
 
 #### 프레임워크
 
