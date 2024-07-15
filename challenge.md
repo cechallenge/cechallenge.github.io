@@ -39,7 +39,7 @@ Computer Engineering(CE) Challenge는 대규모 언어모델(LLM), 데이터셋 
 #### 최종 제출물
 
  1. 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서 (**docs**/**ppt**/**pdf** 등)  
- 2. 최적화를 위해 Docker Container를 DockerHub에 Upload한 주소  
+ 2. 최적화 결과물이 포함되어 있는 docker image 주소 (다운로드 가능해야 합니다.)  
     
 위 항목을 [**Submission**](https://cechallenge.github.io/submission/)으로 제출합니다.
 
