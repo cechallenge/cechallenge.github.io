@@ -15,7 +15,7 @@ excerpt:
 Device는 NVIDIA Jetson AGX Orin 32GB를 사용합니다.  
 NVIDIA Jetson AGX Orin 32GB 자세한 사양은 <a target="_blank" href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"> 다음</a>을 참고하세요.  
 해당 기기를 미보유한 참가팀은 참가 접수시 기기대여가 가능합니다.   
- (단, 접수 기준 선착순으로 수량이 한정되어 있으니 참고 부탁드립니다.)
+ (단, 수량이 한정되어 있으니 참고 부탁드립니다.)
    
    
 #### 모델/데이터셋/프레임워크
