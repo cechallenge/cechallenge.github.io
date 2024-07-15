@@ -8,3 +8,31 @@ excerpt:
 
 Coming soon!
 (SAIT)
+
+TEST
+
+#### 허용 모델
+
+대회에서 허용된 모델은 아래와 같습니다.   
+* **Phi3-medium-4k-instruct(14B)** 모델의 사용을 위해 <a target="_blank" href="https://huggingface.co/datasets/cais/mmlu"> 다음</a>을 참고하세요.  
+
+
+#### 데이터셋
+
+대회에서 허용되는 데이터셋은 아래와 같습니다. 해당 데이터셋을 사용한 추론만 허용되며, 다른 데이터셋은 허용되지 않습니다.  
+
+* **MMLU** 데이터셋의 사용을 위해 <a target="_blank" href="https://huggingface.co/datasets/cais/mmlu"> 다음</a>을 참고하세요.  
+* **CommonSenseQA** 데이터셋의 사용을 위해 <a target="_blank" href="https://www.tau-nlp.sites.tau.ac.il/commonsenseqa"> 다음</a>을 참고하세요.  
+* **Winogrande** 데이터셋의 사용을 위해 <a target="_blank" href="https://huggingface.co/datasets/allenai/winogrande"> 다음</a>을 참고하세요.  
+* **BIG-Bench Hard** 데이터셋의 사용을 위해 <a target="_blank" href="https://github.com/suzgunmirac/BIG-Bench-Hard"> 다음</a>을 참고하세요.  
+* **BoolQ** 데이터셋의 사용을 위해 <a target="_blank" href="https://github.com/google-research-datasets/boolean-questions"> 다음</a>을 참고하세요.  
+* **DROP** 데이터셋의 사용을 위해 <a target="_blank" href="https://huggingface.co/datasets/ucinlp/drop"> 다음</a>을 참고하세요.  
+
+
+#### 프레임워크
+
+최적화를 위해 사용 할 딥러닝 프레임워크는 PyTorch 2.0입니다. 다음 <a target="_blank" href="https://github.com/pytorch/pytorch/tree/v2.0.0">link</a>를 참고하시기 바랍니다. 또한, PyTorch 2.0 기반의 프레임워크도 사용하실 수 있습니다. (예시: FasterTransformer)
+
+#### CUDA Version  
+
+대회에서 허용되는 CUDA Version은      입니다. 
