@@ -23,8 +23,8 @@ Computer Engineering(CE) Challenge는 대규모 언어모델(LLM), 데이터셋 
 최종 평가는 각 팀에서 제출하는 결과물로 사무국에서 선정한 Dataset에서 모델 추론을 진행하고, Inference time & Accuracy을 기준으로 평가합니다.  
 
 참가자는 대회가 진행되는 동안 제시된 Device에서 [**Rules**](https://cechallenge.github.io/rules/)에 제시된 Dataset으로 모델 추론을 진행하고, Inference time과 Accuracy를 제출해야 합니다.  
-제출된 Score를 바탕으로 Leader Board가 운영될 예정이며, **매일 오전 10시(KST)** 에 업데이트 됩니다.  
-만약 여러 번 제출하신 경우에는 가장 마지막에 제출된 Score (Inference time & Accuracy)를 기준으로 등록될 예정입니다.  
+제출된 Inference time과 Accuracy 결과를 바탕으로 Leader Board가 운영될 예정이며, **매일 오전 10시(KST)** 에 업데이트 됩니다.  
+만약 여러 번 제출하신 경우에는 가장 마지막에 제출된 결과(Inference time & Accuracy)를 기준으로 등록될 예정입니다.  
 
 각 팀에서 요청하는 경우 3회에 한하여 사무국에서 선정한 Dataset으로 성능 측정이 가능하며, 평가 결과는 리더보드에 공개됩니다.   
 
