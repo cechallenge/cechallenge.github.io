@@ -15,7 +15,8 @@ TEST
 #### 데이터셋
 
 최종 심사에 사용할 비공개 데이터셋에는 <a target="_blank" href="https://huggingface.co/microsoft/Phi-3-medium-4k-instruct"> Huggingface Phi3-medium-4k-instruct repository</a>의 Benchmark set 19개 중 일부가 포함되어있습니다.   
-1차 심사(리더보드) 단계에서는 참가자들에게 OpenBookQA를 가공한 공개 데이터셋이 제공됩니다. (출처: https://huggingface.co/datasets/allenai/openbookqa)    
+1차 심사(리더보드) 단계에서는 참가자들에게 OpenBookQA를 가공한 공개 데이터셋이 제공됩니다.    
+ (출처: https://huggingface.co/datasets/allenai/openbookqa)     
 참가자들은 제공된 스크립트와 데이터셋으로 실행한 결과를 운영측에 전달하면 결과가 리더보드에 반영됩니다.    
 
 
