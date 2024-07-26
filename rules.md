@@ -19,8 +19,8 @@ NVIDIA Jetson AGX Orin 32GB 자세한 사양은 <a target="_blank" href="https:/
    
 #### 허용 모델
 
-대회에서 허용된 모델은 아래와 같습니다.   
-* **Phi3-medium-4k-instruct(14B)** 모델의 사용을 위해 <a target="_blank" href="https://huggingface.co/datasets/cais/mmlu"> 다음</a>을 참고하세요.  
+대회에서 허용된 모델은 오픈 베이스 모델인 **Phi3-medium-4k-instruct(14B)** 입니다.  
+모델의 사용을 위해 <a target="_blank" href="https://ai.azure.com/explore/models/Phi-3-medium-4k-instruct/version/1/registry/azureml"> 다음</a>을 참고하세요.  
 
 
 #### 데이터셋/프레임워크
@@ -29,23 +29,18 @@ NVIDIA Jetson AGX Orin 32GB 자세한 사양은 <a target="_blank" href="https:/
 <!--
 #### 데이터셋
 
-대회에서 허용되는 데이터셋은 아래와 같습니다. 해당 데이터셋을 사용한 추론만 허용되며, 다른 데이터셋은 허용되지 않습니다.  
-
-* **MMLU** 데이터셋의 사용을 위해 <a target="_blank" href="https://huggingface.co/datasets/cais/mmlu"> 다음</a>을 참고하세요.  
-* **CommonSenseQA** 데이터셋의 사용을 위해 <a target="_blank" href="https://www.tau-nlp.sites.tau.ac.il/commonsenseqa"> 다음</a>을 참고하세요.  
-* **Winogrande** 데이터셋의 사용을 위해 <a target="_blank" href="https://huggingface.co/datasets/allenai/winogrande"> 다음</a>을 참고하세요.  
-* **BIG-Bench Hard** 데이터셋의 사용을 위해 <a target="_blank" href="https://github.com/suzgunmirac/BIG-Bench-Hard"> 다음</a>을 참고하세요.  
-* **BoolQ** 데이터셋의 사용을 위해 <a target="_blank" href="https://github.com/google-research-datasets/boolean-questions"> 다음</a>을 참고하세요.  
-* **DROP** 데이터셋의 사용을 위해 <a target="_blank" href="https://huggingface.co/datasets/ucinlp/drop"> 다음</a>을 참고하세요.  
+최종 심사에 사용할 비공개 데이터셋에는 <a target="_blank" href="https://huggingface.co/microsoft/Phi-3-medium-4k-instruct"> Huggingface Phi3-medium-4k-instruct repository</a>의 Benchmark set 19개 중 일부가 포함되어있습니다.   
+1차 심사(리더보드) 단계에서는 참가자들에게 OpenBookQA를 가공한 공개 데이터셋이 제공됩니다. (출처: https://huggingface.co/datasets/allenai/openbookqa)    
+참가자들은 제공된 스크립트와 데이터셋으로 실행한 결과를 운영측에 전달하면 결과가 리더보드에 반영됩니다.    
 
 
 #### 프레임워크
 
-최적화를 위해 사용 할 딥러닝 프레임워크는 PyTorch 2.0입니다. 다음 <a target="_blank" href="https://github.com/pytorch/pytorch/tree/v2.0.0">link</a>를 참고하시기 바랍니다. 또한, PyTorch 2.0 기반의 프레임워크도 사용하실 수 있습니다. (예시: FasterTransformer)
+최적화를 위해 사용 할 딥러닝 프레임워크는 PyTorch 2.0입니다. 다음 <a target="_blank" href="https://github.com/pytorch/pytorch/tree/v2.0.0">link</a>를 참고하시기 바랍니다. 또한, 적절한 출처를 제공한다면 오픈 소스 코드와 라이브러리 사용은 허용합니다.     
 
-#### CUDA Version  
+#### JetPack Version   
 
-대회에서 허용되는 CUDA Version은      입니다.   
+대회에서 허용되는 버전은 6.0입니다.    
 
 
 --> 
@@ -54,6 +49,7 @@ NVIDIA Jetson AGX Orin 32GB 자세한 사양은 <a target="_blank" href="https:/
 
 * 모델의 정확도를 현저하게 떨어트리는 조정 및 미세 조정(re-training)은 금지합니다.  
   ※ 모델의 구조를 수정하는 기법은 허용되지 않으며, 또한 Weight 및 Activation을 수정하는것 역시 허용하지 않습니다.
+     (모델의 weight 및 activation을 직접적으로 건드는 quantization, pruning 등 불가) 
 *  최적화 및 알고리즘 적용으로 인해 생기는 약간의 Accuracy drop은 허용합니다.  
 *  제시한 데이터셋 이외에 다른 데이터 사용은 금지합니다.  
 *  적절한 출처를 제공한다면 오픈 소스 코드와 라이브러리 사용은 허용합니다.  
