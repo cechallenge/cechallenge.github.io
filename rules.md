@@ -51,30 +51,40 @@ excerpt:
  12. 대회와 관련된 주최자 및 관련자는 참가할 수 없습니다.  
  13. 상기 규칙을 위배하지 않더라도 신뢰에 반하거나 부당 행위를 하는 경우 실격 처리될 수 있습니다.  
 
-
-
-
-
-<!--
-
 <hr />
 
-## Rules
+#### Evaluation Criteria
+The competition quantitatively evaluates the time taken to minimize LLM inference on a given device, limited to a 0.5% accuracy drop from the announced accuracy.
 
-The competition aims to ensure fair evaluation and reproducible results. To achieve this, you must comply with the following guidelines  
+#### Target Device
+ * NVIDIA Jetson AGX Orin 32GB. Please refer to the following for detailed specifications of NVIDIA Jetson AGX Orin.  
+ * Device rental is available for teams without the device.  (However, please note that the quantity is limited. )
 
-* Submissions must be reproducible on a test server. Submissions, Source code is used to reproduce cheating and reproduce results in competitions.
-* Participants must submit the requested materials for evaluation.
-* During the competition, the source code is kept private.
-* The target model should not be subject to adjustments and fine-tuning (retraining) that significantly reduce the accuracy of the model.  
-* Submissions must not use copyrighted or proprietary data or patent or trade mark, code, or closed-source content. Use of data or content that violates a service agreement or another company's trade secrets is not permitted.
-* We will have no liability if your Submission contains any such conduct, other than that it does not infringe any third party's intellectual property rights.
-* We will only use the submitted results for sharing among participants or for copy protection checks, and will not use or retain them for commercial purposes after the competition ends, and participants will be liable for any damages resulting from any infringement of a third party's intellectual property rights as a result of their submission.
-* Teams can use open source code and libraries as long as they provide proper attribution.  
-* Using an external implementation without attribution, or copying another team's implementation, will result in disqualification.  
-* A team can consist of no more than three people. Teams must self-certify that none of their team members are participating on another team in this competition.  
-* Each team can submit model inference results during the second round, rank the best-performing team, and update the results every day.  
-* Organizers and those associated with the competition are not eligible to participate.  
-* Even if you don't violate any of the above rules, you may be disqualified if you act in a way that violates trust or exploit the community.  
+#### Target Model
+ * Allowed model: **Phi3-medium-4k-instruct (14B)**
+ * Please refer to the following for using the model.
 
--->
+#### Target Dataset & Framework
+ * To be announced on August 1st, 10 AM.
+
+#### Constraints
+ * No significant accuracy drop adjustments or retraining.
+   * No structural modifications or direct weight/activation modifications allowed (Quantization, pruning, etc. that directly modify the weight and activation of the model are not possible.)
+ * Accuracy drop from optimization must be within 0.5%.
+ * Only the provided dataset can be used.
+ * Open-source code and libraries are allowed with proper attribution.
+
+#### Competition Rules
+ 1. Submissions must be reproducible in the test environment.  
+ 2. Latency is defined as the time taken to process the entire dataset, excluding preprocessing.  
+ 3. External memory (Micro SD) is allowed on the Jetson AGX Orin kit.  
+ 4. Teams must submit requested materials for evaluation.  
+ 5. Daily ranking updates based on performance, excluding weekends and holidays.  
+ 6. Source code remains private during the competition.  
+ 7. Submissions must not use copyrighted, proprietary data, or violate service agreements or trade secrets.  
+ 8. No responsibility for third-party IP infringement.  
+ 9. Submissions are used only for verification and are not kept for commercial use post-competition.  
+ 10. Disqualification for using external implementations without attribution or copying from other teams.  
+ 11. Teams can have up to three members, with no overlapping participation in other teams.  
+ 12. Organizers and related parties cannot participate.  
+ 13. Any behavior against trust or fairness can result in disqualification.  
