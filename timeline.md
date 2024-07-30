@@ -19,20 +19,17 @@ excerpt:
 ※ 자세한 일정은 대회 진행 상황에 따라 변경될 수 있습니다.
 <br>
 
-<!--
 <hr />
 
-## Competition schedule
+### Competition schedule
 
-|First round submission Open      |Monday, August 21th, 2023|
-|First round submission Deadline  |~~Friday, September 22th, 2023 at 18:00(KST)~~ -> **Tuesday, October 3th, 2023 at 23:59(KST)**|
-|First round Winners Notification |~~Friday, October 6th, 2023~~ -> **Wednesday, October 11th, 2023**|
-|Second round Briefing session    |Thursday, October 12th, 2023 at 15:00(KST)|
-|Second round submission Open     |Monday, October 16th, 2023|
-|Second round submission Deadline |Wednesday, October 25th, 2023 at 11:00 am(KST)|
-|Second round Winners Notification|Wednesday, November 1th, 2023|
-|Award                            |Tuesday, November 7th, 2023 (Samsung AI forum)|
+|Participant Registration and Kit Rental Application      |July 29, 2024 (Monday) from 10:00 AM|
+|Competition Start  |August 1, 2024 (Thursday) from 10:00 AM|
+|Competition End |September 13, 2024 (Friday) at 9:59 AM|
+|Code and PPT Submission    |September 24, 2024 (Tuesday) by 11:59 PM|
+|Final Results Announcement     |October 8, 2024 (Tuesday)|
+|Awards Ceremony |November 4, 2024 (Monday) at the Samsung AI Forum|
+|Winners' Camp|November 5, 2024 (Tuesday) for competition winners|
 
 <br>
-※ The detailed schedule is subject to change as the competition progresses.
--->
+※Note: The schedule may change based on the competition progress.
