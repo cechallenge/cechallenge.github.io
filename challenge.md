@@ -44,87 +44,29 @@ Computer Engineering(CE) Challenge는 대규모 언어모델(LLM), 데이터셋 
  
 위 항목을 팀명과 함께 <cechallenge@samsung.com>으로 송부합니다.   
  
-<!-- 
+
 <hr />
 
-## Qualifications
+The Computer Engineering (CE) challenge aims to minimize an inference latency of LLM (Large Language Model) while maintaining high accuracy for the given datasets and underlying frameworks. Participants can apply optimization techniques and algorithms to achieve the best results.
 
-To participate in this competition, You must meet the following qualifications criteria.  
- 1. Be enrolled in college or graduate school as of August '23, or be on a leave of absence.  
- 2. Participate as an individual or as a team, with a maximum of 3 people per team.  
-  (A person/team can only submit 1 deliverable)  
+#### Eligibility
 
-## Competition description
+ 1. University or graduate students @ current (July 2024), including those on leave.  
+ 2. Participation can be individual or a team with up to 3 members (Only one submission per individual/team)
 
-The goal is to minimize latency while maintaining high accuracy using the LLM and the dataset and underlying framework presented in the problem. Participants can apply various optimization methods and algorithms to minimize inference time. See below for the competition constraints and requirements for each round.
+#### Competition Details
+The final evaluation will be based on the results submitted by each team. The evaluation will be assessed based on inference time and accuracy by performing a model inference for the dataset selected by the secretariat.
 
-### Approved base model
+Participants are required to perform the model inference on the given device using the dataset specified in the [**Rules**](https://cechallenge.github.io/rules/) during the competition. They must submit their inference time and accuracy. The leaderboard will be managed based on the inference time and accuracy results submitted by each team and will be updated daily **at 2 PM (KST)**. If multiple submissions are made, the most recent results (inference time & accuracy) will be recorded.
 
-The competition base model is the **LLaMA-30B** or **OPT-30B**, an open base model with no instruction tuning. To use the LLaMA model, you need to check the following <a target="_blank" href="https://github.com/facebookresearch/llama/blob/main/LICENSE">LLaMA-1 Community License Agreement</a> and request a license from the community. Please refer to the <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform">Download Link</a> to proceed. If you are interested in using the OPT-30B, check out the <a target="_blank" href="https://huggingface.co/facebook/opt-30b">following links.</a>
+Upon request from each team, performance measurement can be conducted up to three times using the dataset selected by the secretariat, and the evaluation results will be published on the leaderboard.
 
+※ For competition evaluation rules and constraints, please refer to the [**Rules**](https://cechallenge.github.io/rules/).
 
+#### Leaderboard Submission
+ * Capture and submit images showing inference time and accuracy, along with the team name, to cechallenge@samsung.com.
 
-### Datasets
-
-The dataset we accept in the competition is <a target="_blank" href="https://huggingface.co/datasets/hellaswag">HellaSwag</a>. We only accept inferences made using that dataset, and no other datasets.
-
-### Framework
-
-The deep learning framework we will use for optimization is PyTorch 2.0. Please refer to the following <a target="_blank" href="https://github.com/pytorch/pytorch/tree/v2.0.0">link</a>. We also accept frameworks based on PyTorch 2.0. (ex. FasterTransformer)
-
-### Constraints
-
- 1. Prohibit adjustments and fine-tuning (re-training) that significantly reduce the accuracy of the model.  
-  ※ Techniques that modify the model architecture are not allowed, nor are modifications to weights and activations (e.g., quantization).  
- 2. Allow a slight degradation of accuracy due to optimization and algorithmic adaptation.  
-  ※ Note that the 33B, 82.8%, presented in the LLaMA paper is not based on baseline accuracy, but on accuracy performed by participants and teams in their local environment.  
- 3. Prohibit the use of data other than the provided dataset.  
- 4. Use of open source code and libraries is allowed if proper credit is given.  
- 5. Latency, as defined by the competition, is "the time it takes to process all of the presented datasets", excluding time for data preprocessing.  
-  ※ Optimizations and algorithms that serve the purpose of the competition are acceptable, but cheating is not, and this will be fully considered in the qualitative evaluation.
-
-For other rules, please see the [**Rules**](https://cechallenge.github.io/rules/) page.
-
-### Evaluation
-
-There are two rounds to this challenge.
-
-##### Primary
-
-The first round of the competition aims for participants to run the given model and dataset in their local machine environment and apply possible optimizations and algorithms within the given environment. The first round is a qualitative evaluation based on participants' technical documentation (reports) and source code. At the end of the first round of evaluation, the top 10 teams will be selected.
-
-###### First round assessment submissions
-
- 1. Documentation describing the optimization methods and algorithms used by participants. (**docs** or **pdf** format)  
-  ※ Please list the inference time and accuracy performed on the participant's and team's local environment.  
- 2. A GitBub URL containing the framework and source code that you modified.
-
-Make sure you submit the above two items in the [**Submission.**](https://cechallenge.github.io/submission/)
-
-##### Second
-
-The second round of the competition is a quantitative evaluation, with the goal of achieving the fastest inference time within the **same given server environment**. The model to be used in the second round is **LLaMA-30B**. The given server environment looks like this.
-
- * OS: Ubuntu 18.04 64-bit  
- * Number of vCPU core : 32  
- * Storage : SSD 1TB  
- * RAM : 360GB  
- * GPU : NVIDIA Tesla V100 Model 4EA  
-  * Total GPU Memory : 128GB  
-  * Supports NVLink
-
-Participants must proceed with model inference on a given server during the second round and submit inference time. The leaderboard runs in two rounds and is updated at **10 a.m.(KST)** every day. If you submit it several times, it will be registered based on the last submission.
-
-###### Second round assessment submissions
-
- 1. Documentation describing the optimization methods and algorithms used by participants. (**docs** or **pdf** format)  
- 2. A GitBub URL containing the framework and source code that you modified.  
- 3. Inference time
-
-Before the end of second round, Make sure you submit the above three items in the [**Submission.**](https://cechallenge.github.io/submission/)
-
-###### Cautions
-
-※ The Leaderboard is just a way to share other teams' results.  
-※ Final rankings will be determined based on multiple evaluation criteria.
--->
+#### Final Submission
+ 1. Document: explaining the optimization methods and algorithms used (docs, ppt, pdf, etc.).  
+ 2. Docker image: containing the optimization results (It should be available for download).  
+Submit final materials with the team name to cechallenge@samsung.com.
