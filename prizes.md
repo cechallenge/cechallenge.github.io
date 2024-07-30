@@ -24,7 +24,7 @@ The competition will award the top four teams as follows:
  * Grand Prize: ₩10,000,000  
  * Excellence Prize: ₩5,000,000  
  * Encouragement Prize (2 teams): ₩3,000,000 each  
-Additionally, top teams interested in joining SAIT will receive job recommendations and be added to SAIT's talent pool.
+ > Additionally, top teams interested in joining SAIT will receive job recommendations and be added to SAIT's talent pool.
 
 **※ NOTE:**
 
