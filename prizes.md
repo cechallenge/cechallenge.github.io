@@ -15,15 +15,19 @@ excerpt:
 
 ※ 상금은 수상팀 대표에게 지급되며, 상금에 대한 세금은 주최 측에서 부담합니다. 상금과 세금은 수상팀 대표의 과세 대상 소득입니다.  
 
-<!--
 <hr />
 
 ### Prizes
 
-We will select winning teams for the top three positions: 1st place, 2nd place, and 3rd place(2 teams)  
- * The first place winning team will receive a ₩10,000,000 cash prize,  
- * The second place team will receive ₩5,000,000, and  
- * The third place teams will receive ₩3,000,000 respectively.  
-<br>
-※ The prize money will be paid to the representative of the winning team, and taxes on the prize money will be covered by the organizers. The prize money and taxes are taxable income for the winning team representative.  
--->
+The competition will award the top four teams as follows:
+
+ * Grand Prize: ₩10,000,000  
+ * Excellence Prize: ₩5,000,000  
+ * Encouragement Prize (2 teams): ₩3,000,000 each  
+Additionally, top teams interested in joining SAIT will receive job recommendations and be added to SAIT's talent pool.
+
+**※ NOTE:**
+
+ * The prize money is awarded to the team representative, and taxes on the prize money are covered by the organizer.   
+ * Prize money and taxes are taxable income for the winning team representative  
+
