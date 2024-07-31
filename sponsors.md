@@ -10,5 +10,5 @@ Coming soon!
 (SAIT)
 
 
-  <a target="_blank" href="assets/files/test_script.py">test_script.py</a>
+  <a target="_blank" href="assets/files/test.py">test_script.py</a>
 
