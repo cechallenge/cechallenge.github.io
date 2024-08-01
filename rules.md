@@ -93,6 +93,7 @@ The competition quantitatively evaluates the time taken to minimize LLM inferenc
  * Open-source code and libraries are allowed with proper attribution.
 
 #### Competition Rules
+* The competition aims to ensure fair evaluation and reproducible results. To do this, you must adhere to the following.    
  1. Submissions must be reproducible in a test environment, and the source code will be used to detect cheating and reproduce results.    
  2. Latency is defined as "the time it takes to process all of the presented dataset".    
  3. External memory can be added to the Jetson AGX Orin kit (Micro SD only).    
