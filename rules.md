@@ -11,18 +11,26 @@ excerpt:
    
        
 #### Target Device
-* Device는 NVIDIA Jetson AGX Orin 32GB를 사용합니다.  NVIDIA Jetson AGX Orin의 자세한 사양은 <a target="_blank" href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"> 다음</a>을 참고하세요.  
-* 해당 기기를 미보유한 참가팀은 참가 접수시 기기대여가 가능합니다. (단, 수량이 한정되어 있으니 참고 부탁드립니다.)
+ * Device는 NVIDIA Jetson AGX Orin 32GB를 사용합니다.  NVIDIA Jetson AGX Orin의 자세한 사양은 <a target="_blank" href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"> 다음</a>을 참고하세요.  
+ * 해당 기기를 미보유한 참가팀은 참가 접수시 기기대여가 가능합니다. (단, 수량이 한정되어 있으니 참고 부탁드립니다.)
    
 #### Target Model
-* 대회에서 허용된 모델은 오픈 베이스 모델인 **Phi3-medium-4k-instruct(14B)** 입니다.  
-* 모델의 사용을 위해 <a target="_blank" href="https://ai.azure.com/explore/models/Phi-3-medium-4k-instruct/version/1/registry/azureml"> 다음</a>을 참고하세요.  
+ * 대회에서 허용된 모델은 오픈 베이스 모델인 **Phi3-medium-4k-instruct(14B)** 입니다.  
+ * 모델의 사용을 위해 <a target="_blank" href="https://ai.azure.com/explore/models/Phi-3-medium-4k-instruct/version/1/registry/azureml"> 다음</a>을 참고하세요.  
 
 
-#### Target Dataset & Framework
-※ 대회가 시작되는 8/1일 오전 10시에 공개됩니다. 
+#### Target Dataset
+ * 최종 심사에 사용할 비공개 데이터셋에는 Huggingface Phi3-medium-4k-instruct repository의 Benchmark set 19개 중 일부가 포함되어있습니다.
+ * 자체 점검 및 리더보드 등록을 위해 참가자들에게 OpenBookQA를 가공한 공개 데이터셋이 제공됩니다. (출처: https://huggingface.co/datasets/allenai/openbookqa)
+   * <a href="/assets/files/test_script.py" download="test_script.py"> test_script.py</a>
+   * <a href="/assets/files/test_dataset.jsonl" download="test_dataset.jsonl"> test_dataset.jsonl</a>
+  
+#### Framework
+ * 최적화를 위해 사용 할 딥러닝 프레임워크는 PyTorch 2.x입니다.
+ * 적절한 출처를 제공한다면 오픈 소스 코드와 라이브러리 사용은 허용합니다.
 
-
+#### JetPack Version
+ * 대회에서 허용되는 버전은 6.0입니다.
 
 #### 제약사항 
 
@@ -38,13 +46,13 @@ excerpt:
 
 * 이번 대회에서는 공정한 평가 및 재현 가능한 결과를 보장하는 것을 목표로 합니다. 이를 위해 다음 사항을 준수해야 합니다  
  1. 제출물은 테스트 환경에서 재현할 수 있어야 하며, 소스 코드는 부정 행위 및 결과 재현을 위해 사용됩니다.
- 2. 대회에서 규정한 Latency는 “제시한 Dataset을 모두 처리하는데 걸리는 시간”이며, 데이터 전처리를 위한 시간을 제외한 나머지 요소들은 포함됩니다.
+ 2. 대회에서 규정한 Latency는 “제시한 Dataset을 모두 처리하는데 걸리는 시간” 입니다.  
  3. Jetson AGX Orin kit에 외장 메모리를 추가하여 사용 가능합니다. (Micro SD 한정)  
  4. 참가팀은 평가를 위해 요청된 자료를 제출해야 합니다.    
  5. 각 참가팀은 대회 기간 동안 모델 추론 결과를 제출할 수 있으며, 가장 우수한 성능을 보이는 참가팀의 순위를 매기고 매일 결과를 갱신합니다. (단, 휴일과 주말제외)    
  6. 대회 기간 동안 참가팀들이 작성하는 소스 코드는 비공개한 상태로 운영합니다.
  7. 제출물은 저작권이 있거나 독점적인 데이터 또는 특허 또는 상표, 코드 또는 비공개 소스 콘텐츠를 사용해서는 안 됩니다. 서비스 계약이나 다른 기업의 영업 비밀을 위반하는 데이터나 콘텐츠의 사용은 허용되지 않습니다.    
- 8. 제출물에 제3자 지식재산권 침해 금지 조건 외에 이러한 행위가 발생하는 경우 당사는 어떠한 책임도 부담하지 않습니다.    
+ 8. 제출물에 제3자의 지식재산권을 침해하는 행위 등이 포함될 경우, 당사는 이에 대한 책임을 지지 않습니다.  
  9. 당사는 참가팀들 간 공유나 카피 방지 검증용으로만 제출물을 사용할 예정이며 대회 종료 후에는 어떠한 경우에도 상업적 목적으로 해당 결과물을 사용하거나 보관하지 않으며, 만약 제출물로 인해 제3자 지식재산권 침해가 발생하는 경우 해당 침해로 인한 손해는 모두 참가팀에게 책임이 있습니다.    
  10. 출처 없이 외부 구현을 사용하거나, 다른 참가팀의 구현을 Copy 하여 사용하는 경우에는 실격 처리됩니다.   
  11. 한 참가팀은 3명 이하로 구성할 수 있으며, 참가팀에서는 팀원이 이 대회의 다른 팀에 중복 참가하지 않음을 스스로 입증해야 합니다.    
@@ -64,8 +72,18 @@ The competition quantitatively evaluates the time taken to minimize LLM inferenc
  * Allowed model: **Phi3-medium-4k-instruct (14B)**
  * Please refer to the following for using the model.
 
-#### Target Dataset & Framework
- * To be announced on August 1st, 10 AM.
+#### Target Dataset
+ * The private dataset used for the final evaluation includes some of the 19 Benchmark sets from Phi3-medium-4k-instruct repository in Huggingface.
+ * For self-check and leaderboard registration, a test dataset processed from OpenBookQA will be provided to the participants.
+   * <a href="/assets/files/test_script.py" download="test_script.py"> test_script.py</a>
+   * <a href="/assets/files/test_dataset.jsonl" download="test_dataset.jsonl"> test_dataset.jsonl</a>
+  
+#### Framework
+ * Allowed framwork is PyTorch 2.x.
+ * Use of open source code and libraries is permitted, provided that appropriate sources are cited.
+
+#### JetPack Version
+ * The version 6.0 is allowed.
 
 #### Constraints
  * No significant accuracy drop adjustments or retraining.
@@ -75,16 +93,17 @@ The competition quantitatively evaluates the time taken to minimize LLM inferenc
  * Open-source code and libraries are allowed with proper attribution.
 
 #### Competition Rules
- 1. Submissions must be reproducible in the test environment.  
- 2. Latency is defined as the time taken to process the entire dataset, excluding preprocessing.  
- 3. External memory (Micro SD) is allowed on the Jetson AGX Orin kit.  
- 4. Teams must submit requested materials for evaluation.  
- 5. Daily ranking updates based on performance, excluding weekends and holidays.  
- 6. Source code remains private during the competition.  
- 7. Submissions must not use copyrighted, proprietary data, or violate service agreements or trade secrets.  
- 8. No responsibility for third-party IP infringement.  
- 9. Submissions are used only for verification and are not kept for commercial use post-competition.  
- 10. Disqualification for using external implementations without attribution or copying from other teams.  
- 11. Teams can have up to three members, with no overlapping participation in other teams.  
- 12. Organizers and related parties cannot participate.  
- 13. Any behavior against trust or fairness can result in disqualification.  
+ 1. Submissions must be reproducible in a test environment, and the source code will be used to detect cheating and reproduce results.    
+ 2. Latency is defined as "the time it takes to process all of the presented dataset".    
+ 3. External memory can be added to the Jetson AGX Orin kit (Micro SD only).    
+ 4. Teams must submit the requested materials for evaluation.    
+ 5. Each team can submit model inference results during the competition period, and the best performing teams will be ranked and the results will be updated daily 
+(excluding holidays and weekends).    
+ 6. The source code created by teams should be remained private during the competition.    
+ 7. Submissions must not use copyrighted or proprietary data or patents or trademarks, code, or closed source content. Use of data or content that violates a service agreement or another company's trade secrets is not permitted.    
+ 8. We are not responsible if your Submission contains conduct that infringes any third party's intellectual property rights.    
+ 9. We will only use the submissions to verify cheating and sharing among participating teams. We will not use or retain the results for commercial purposes under any circumstances after the Competition ends. If your submission results in any infringement of third-party intellectual property rights, you will be responsible for any damages resulting from such infringement.    
+ 10. Using an external implementation without citation, or copying another team's implementation, will be eliminated.    
+ 11. A participating team should consist of no more than 3 people, and the participating team must certify that no team member is a duplicate participant in any other team.    
+ 12. Organizers and associated with the competition are not eligible to participate.    
+ 13. Even if you do not violate any of the above rules, you may be eliminated if you act is untrustworthy or unfair.    
