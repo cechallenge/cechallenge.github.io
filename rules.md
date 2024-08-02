@@ -32,6 +32,15 @@ excerpt:
 #### JetPack Version
  * 대회에서 허용되는 버전은 6.0입니다.
 
+#### 평가 방식
+ * PyTorch 2.x 프레임워크 최적화를 통해 Latency 성능 개선을 평가합니다. 성능 측정에 포함되는 부분은 **데이터 로드**와 **inference time** 입니다.  
+ * inference 이후 **accuracy 측정을 위한 데이터 처리는 포함되지 않습니다.**  
+   * 예를 들어, 제공된 test_script.py내에 **Section 3** 부분만 Latency 측정에 포함됩니다.  
+ * 제공된 script처럼 Transformer의 pipeline을 사용할 필요는 없습니다. 다만, **pipe() 실행 output의 form과 동일한 결과**만 허용됩니다.  
+ * 다른 최적화된 패키지를 사용하는 경우에는 최종 결과물에 test_script.py와 유사한 형태의 python script를 제공해야 합니다.  
+ * script에서 사용한 text-generation은 한 예시로, dataset의 특성에 따라 바뀔 수 있습니다. (dataset 별 output form이 pipe와 동일해야함)  
+ * 최종 평가에서 accuracy 측정은 주최측에서 진행할 예정입니다. (리더보드에서는 편의를 위해 간단한 accuracy 측정이 포함되어 있습니다.)
+
 #### 제약사항 
 
 * 모델의 정확도를 현저하게 떨어트리는 조정 및 미세 조정(re-training)은 금지합니다.  
@@ -84,6 +93,15 @@ The competition quantitatively evaluates the time taken to minimize LLM inferenc
 
 #### JetPack Version
  * The version 6.0 is allowed.
+
+#### Evaluation Method
+ * We evaluate the improvement in Latency performance through optimization of the PyTorch 2.x framework. The performance measurement includes **data loading** and **inference time**.  
+ * Data processing for accuracy measurement after **inference is not included**.  
+   * For example, **only Section 3** within the provided test_script.py is included in the Latency measurement.  
+ * There is no need to use the Transformer's pipeline like the provided script. However, **only the result with the same form as the output of the pipe() execution** is allowed.  
+ * In case of using other optimized package, you must provide a python script similar to test_script.py in the final product.  
+ * The text-generation used in the script is an example and can change depending on  the dataset. (The output form for each dataset must be the same as the pipe)  
+ * In the final evaluation, accuracy measurement will be carried out by the host. (For convenience, a simple accuracy measurement is included in the leaderboard.)
 
 #### Constraints
  * No significant accuracy drop adjustments or retraining.
