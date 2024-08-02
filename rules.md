@@ -37,7 +37,7 @@ excerpt:
  * inference 이후 **accuracy 측정을 위한 데이터 처리는 포함되지 않습니다.**  
    * 예를 들어, 제공된 test_script.py내에 **Section 3** 부분만 Latency 측정에 포함됩니다.  
  * 제공된 script처럼 Transformer의 pipeline을 사용할 필요는 없습니다. 다만, **pipe() 실행 output의 form과 동일한 결과**만 허용됩니다.  
- * 다른 최적화된 패키지를 사용하는 경우에는 최종 결과물에 test_script.py와 유사한 형태의 python script를 제공해야 합니다.  
+   * 다른 최적화된 패키지를 사용하는 경우에는 최종 결과물에 test_script.py와 유사한 형태의 python script를 제공해야 합니다.  
  * script에서 사용한 text-generation은 한 예시로, dataset의 특성에 따라 바뀔 수 있습니다. (dataset 별 output form이 pipe와 동일해야함)  
  * 최종 평가에서 accuracy 측정은 주최측에서 진행할 예정입니다. (리더보드에서는 편의를 위해 간단한 accuracy 측정이 포함되어 있습니다.)
 
@@ -99,7 +99,7 @@ The competition quantitatively evaluates the time taken to minimize LLM inferenc
  * Data processing for accuracy measurement after **inference is not included**.  
    * For example, **only Section 3** within the provided test_script.py is included in the Latency measurement.  
  * There is no need to use the Transformer's pipeline like the provided script. However, **only the result with the same form as the output of the pipe() execution** is allowed.  
- * In case of using other optimized package, you must provide a python script similar to test_script.py in the final product.  
+   * In case of using other optimized package, you must provide a python script similar to test_script.py in the final product.  
  * The text-generation used in the script is an example and can change depending on  the dataset. (The output form for each dataset must be the same as the pipe)  
  * In the final evaluation, accuracy measurement will be carried out by the host. (For convenience, a simple accuracy measurement is included in the leaderboard.)
 
