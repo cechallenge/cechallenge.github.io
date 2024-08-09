@@ -17,8 +17,6 @@ Computer Engineering Challenge에 참여한 각 팀은 주어진 동일한 디�
 
 <hr />
 
-<!-- layer  content -->
-
 The Large-scale language models are continuously increasing in size based on the Scaling Law. However, improvements in inference performance are limited due to system constraints such as memory capacity and memory bandwidth. In particular, various methods (e.g. multi-tier memory) are used to compensate for insufficient main memory capacity in on-device utilization, but the optimization method for inference performance has not been established yet.
 
 Samsung SAIT is holding the **Computer Engineering(CE) Challenge** to promote the use of on-device language models. The goal of this Computer Engineering Challenge is to maximize the inference speed while maintaining the accuracy of large-scale language models using limited memory and computing resources. Each team participating in the Computer Engineering Challenge will propose and implement methodologies to maximize the inference speed in the given device environment. Awards will be based on the evaluation of their performance.
@@ -32,18 +30,23 @@ Through this Computer Engineering Challenge, we hope that more students will bec
         <h4 class="title">Samsung Computer Engineering Challenge 2023 결과 발표</h4>
         <div class="cont">
             <p>
-              긴 시간 동안 대회에 참가하신 모든 참가자 여러분 고생 많으셨습니다.
-              <br/>
-              'Samsung Computer Engineering Challenge 2023' 최종 수상팀을 안내드립니다.
+              안녕하세요,
+	      
+              Samsung Computer Engineering Challenge 2024에 대한 깊은 관심에 진심으로 감사드립니다.
+                
+                많은 분들의 지원이 예상치를 초과하여, 이번 공모전의 원활한 진행을 위해 다음과 같이 참가 신청을 조기 마감하게 되었습니다.
+
+                아직 신청서를 제출하지 않으신 분은 8월 14일까지 꼭 제출해주시기 바랍니다.
+                이후에는 추가적으로 등록을 받지 않을 예정이오니 이점 양해 부탁드립니다.
+                
+                내년 Samsung Computer Engineering Challenge에서는 더욱 많은 분들이 참여하실 수 있도록 최선을 다해 준비하겠습니다.
+                다시 한번 본 공모전에 관심을 가져주셔서 감사드리며, 앞으로도 계속해서 발전하는 모습 보여드리겠습니다.
+
+                감사합니다.
+                  
               <br/>
 	    </p>
-              <h3> <1등> </h3>
-              <p>TeamH</p>
-              <h3> <2등> </h3>
-              <p>ShongShong2</p>
-              <h3> <3등> </h3>
-              <p>ECo, 빈이네 LLM</p>
-              <br/>
+                           <br/>
               <p>수상을 진심으로 축하드립니다!</p>
               <br/>
               <p>Computer Engineering Challenge에 마지막까지 최선을 다해 참여해주셔서 진심으로 감사드립니다.</p>
