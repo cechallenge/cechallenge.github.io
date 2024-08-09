@@ -11,7 +11,7 @@ Coming soon!
 
 
 <!-- layer popup content -->
-
+<!--
 <div class="layerPopup" id="layer_popup" style="visibility: visible;">
     <div class="layerBox">
         <h5 class="title">Samsung Computer Engineering Challenge 2024 접수마감 안내</h5>
@@ -35,7 +35,7 @@ Coming soon!
 	  </div>
 </div>
 
-
+ -->
 
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="assets/files/test.py">test_script.py</a>
 
