@@ -14,7 +14,7 @@ Coming soon!
 
 <div class="layerPopup" id="layer_popup" style="visibility: visible;">
     <div class="layerBox">
-        <h4 class="title">Samsung Computer Engineering Challenge 2024 접수마감 안내</h4>
+        <h4 class="title">Samsung Computer Engineering Challenge 2024<br>접수마감 안내</h4>
         <div class="cont">
             <p>안녕하세요</p>
 	      
@@ -26,7 +26,7 @@ Coming soon!
               <p>아직 신청서를 제출하지 않으신 분은 8월 14일까지 꼭 제출해주시기 바랍니다.   
               이후에는 추가적으로 등록을 받지 않을 예정이오니 이점 양해 부탁드립니다.</p>
                 
-              <p>공모전에 참여해주신 모든 분들께 다시 한번 감사드리며, 다음 Samsung Computer Engineering Challenge에서는<br> 
+              <p>공모전에 참여해주신 모든 분들께 다시 한번 감사드리며, 다음 Samsung Computer Engineering Challenge에서는
               더욱 많은 분들이 참여하실 수 있도록 최선을 다해 준비하겠습니다.</p>
 
               <p>감사합니다.</p>
