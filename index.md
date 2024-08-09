@@ -23,37 +23,24 @@ Samsung SAIT is holding the **Computer Engineering(CE) Challenge** to promote th
 
 Through this Computer Engineering Challenge, we hope that more students will become interested in system optimization methodologies for large-scale language models. We expect that this increased interest in Computer Engineering will advance the AI Computing era to come in the future and contribute greatly to reducing energy and costs.
 
+
 <!-- layer popup content -->
-<!-- 
+
 <div class="layerPopup" id="layer_popup" style="visibility: visible;">
     <div class="layerBox">
-        <h4 class="title">Samsung Computer Engineering Challenge 2023 결과 발표</h4>
+        <h5 class="title">Samsung Computer Engineering Challenge 2024 접수마감 안내</h5>
         <div class="cont">
-            <p>
-              안녕하세요,
-	      
-              Samsung Computer Engineering Challenge 2024에 대한 깊은 관심에 진심으로 감사드립니다.
-                
-                많은 분들의 지원이 예상치를 초과하여, 이번 공모전의 원활한 진행을 위해 다음과 같이 참가 신청을 조기 마감하게 되었습니다.
+            <p>안녕하세요</p>
+	    <p>CE Challenge 2024에 대한 여러분의 관심과 참여에 진심으로 감사드립니다.</p>  
+	   
+	    <p>예상보다 많은 분들이 지원해주셔서 오는 8월 14일 부로 참가 접수를 마감하게 되었습니다.    </p>  
+	    <p>아직 신청서를 제출하지 않으신 분들은 기한 내에 제출해주시기 바랍니다.</p>  
+            
+	    <p>이번 공모전에 참여해 주신 모든 분들께 다시 한번 감사드리며, 다음 CE Challenge에서는 더 많은 분들이 참여하실 수 있도록 노력하겠습니다.    </p>
 
-                아직 신청서를 제출하지 않으신 분은 8월 14일까지 꼭 제출해주시기 바랍니다.
-                이후에는 추가적으로 등록을 받지 않을 예정이오니 이점 양해 부탁드립니다.
-                
-                내년 Samsung Computer Engineering Challenge에서는 더욱 많은 분들이 참여하실 수 있도록 최선을 다해 준비하겠습니다.
-                다시 한번 본 공모전에 관심을 가져주셔서 감사드리며, 앞으로도 계속해서 발전하는 모습 보여드리겠습니다.
-
-                감사합니다.
+            <p>감사합니다.</p>    
                   
-              <br/>
-	    </p>
-                           <br/>
-              <p>수상을 진심으로 축하드립니다!</p>
-              <br/>
-              <p>Computer Engineering Challenge에 마지막까지 최선을 다해 참여해주셔서 진심으로 감사드립니다.</p>
-              <p>내년에도 많은 관심과 참여를 부탁드립니다.</p>
-              <br/>
-              <p>감사합니다.</p>
-        </div>
+         </div>
         <form name="pop_form">
             <div id="check" ><input type="checkbox" name="chkbox" value="checkbox" id='chkbox' >
             <label for="chkbox">오늘 하루동안 보지 않기</label></div>
@@ -61,4 +48,4 @@ Through this Computer Engineering Challenge, we hope that more students will bec
 		    </form>
 	  </div>
 </div>
--->
+
