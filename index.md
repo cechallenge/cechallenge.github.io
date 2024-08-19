@@ -26,6 +26,7 @@ Through this Computer Engineering Challenge, we hope that more students will bec
 
 <!-- layer popup content -->
 
+<!-- 
 <div class="layerPopup" id="layer_popup" style="visibility: visible;">
     <div class="layerBox">
         <h5 class="title">Samsung Computer Engineering Challenge 2024 접수마감 안내</h5>
@@ -49,5 +50,5 @@ Through this Computer Engineering Challenge, we hope that more students will bec
 	  </div>
 </div>
 
-
+ -->
 
