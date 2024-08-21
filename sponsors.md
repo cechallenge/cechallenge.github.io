@@ -58,7 +58,9 @@ Coming soon!
   		</table>
 		<p></p>
             <p> 다시 한번 Samsung Computer Engineering Challenge2024에 관심 가져주시고 참여해주셔서 감사드립니다.</p>   
-	    <p>삼성전자 Computer Engineering Challenge 사무국 드림.</p>    
+	    <p>삼성전자 Computer Engineering Challenge 사무국 드림.</p>
+            <p>   </p>
+	    <p>   </p>
 
      
                   
