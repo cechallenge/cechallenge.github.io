@@ -32,8 +32,8 @@ Coming soon!
 
 		<p>
   		<table class="table table-bordered table-sm">
-			<tr>
-   			<thead class="thead-info">	
+    		<thead class="thead-info">	
+			<tr>   	
 				<td> 주요 일정 </td> 
 				<td> 기존 일정 </td> 
    				<td> 변경 일정 </td> 
