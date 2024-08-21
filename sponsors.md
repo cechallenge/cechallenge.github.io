@@ -19,7 +19,7 @@ Coming soon!
         <div class="cont">
 		
             <p>
-	    <br> 안녕하세요  </br>        
+	    안녕하세요<br> </br>        
 	    Samsung Computer Engineering Challenge 사무국입니다.</p>  
 	   
 	    <p>먼저 이번 대회를 향한 많은 관심과 참여에 진심으로 감사드립니다.</p>  
