@@ -57,13 +57,12 @@ Coming soon!
             <p>다시 한번 Samsung Computer Engineering Challenge2024에 관심 가져주시고 참여해주셔서 감사드립니다.</p>    
 	    <p>삼성전자 Computer Engineering Challenge 사무국 드림.</p>    
                   
-         </div>
+         
         <form name="pop_form">
             <div id="check" ><input type="checkbox" name="chkbox" value="checkbox" id='chkbox' >
             <label for="chkbox">오늘 하루동안 보지 않기</label></div>
 		      <div id="close" ><a href="javascript:closePop();">닫기</a></div>    
 		    </form>
-	  </div>
-</div>
-
+	 </div>
+         </div>
 
