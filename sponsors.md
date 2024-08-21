@@ -31,9 +31,8 @@ Coming soon!
                더불어 코드 PPT 제출일과 최종 결과 발표일도 함께 조정되었으니 상세한 일정은 아래 표를 확인해주시기 바랍니다. </p>
 
 		<p>
-  		<table class="table table-bordered table-sm">
+  		<table class="table table-sm">
     		<thead>
-			<tr class="table-light">   	
 				<th> 주요 일정 </th> 
 				<th> 기존 일정 </th> 
    				<th> 변경 일정 </th> 
