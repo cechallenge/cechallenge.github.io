@@ -11,7 +11,8 @@ Coming soon!
 
 
 <!-- layer popup content -->
-<!--
+
+
 <div class="layerPopup" id="layer_popup" style="visibility: visible;">
     <div class="layerBox">
         <h5 class="title">Samsung Computer Engineering Challenge 2024 대회 기간 연장 안내</h5>
@@ -27,7 +28,10 @@ Coming soon!
                더불어 코드 PPT 제출일과 최종 결과 발표일도 함께 조정되었으니 상세한 일정은 아래 표를 확인해주시기 바랍니다. </p>
 
 
-
+|주요 일정    | 기존 일정| 변경 일정 |
+|대회 종료         |9월 13일 (금) 9:59 | 9월 27일(금) 23:59|
+|코드 및 PPT 제출  |9월 24일 (화) 23:59 | 9월 27일(금) 23:59|
+|최종 결과 발표    |10월 8일 (화)| 10월 15일(화) |
 
 
             <p>다시 한번 Samsung Computer Engineering Challenge2024에 관심 가져주시고 참여해주셔서 감사드립니다.</p>    
@@ -42,7 +46,7 @@ Coming soon!
 	  </div>
 </div>
 
- -->
+ 
 
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="assets/files/test.py">test_script.py</a>
 
