@@ -67,5 +67,5 @@ Coming soon!
             <div id="check" ><input type="checkbox" name="chkbox" value="checkbox" id='chkbox' >
             <label for="chkbox">오늘 하루동안 보지 않기</label></div>
 		      <div id="close" ><a href="javascript:closePop();">닫기</a>
-		    </form>
+		
 	</div>    
