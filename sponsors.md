@@ -12,7 +12,6 @@ Coming soon!
 
 <!-- layer popup content -->
 
-<!-- 
 <div class="layerPopup" id="layer_popup" style="visibility: visible;">
     <div class="layerBox">
         <h5 class="title">Samsung Computer Engineering Challenge 2024 대회 기간 연장 안내</h5>
@@ -72,4 +71,3 @@ Coming soon!
 	</div>  
 
 
-  -->
