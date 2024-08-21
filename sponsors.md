@@ -14,17 +14,24 @@ Coming soon!
 <!--
 <div class="layerPopup" id="layer_popup" style="visibility: visible;">
     <div class="layerBox">
-        <h5 class="title">Samsung Computer Engineering Challenge 2024 접수마감 안내</h5>
+        <h5 class="title">Samsung Computer Engineering Challenge 2024 대회 기간 연장 안내</h5>
         <div class="cont">
             <p>안녕하세요</p>
-	    <p>CE Challenge 2024에 대한 여러분의 관심과 참여에 진심으로 감사드립니다.</p>  
+	    <p>Samsung Computer Engineering Challenge 사무국입니다.</p>  
 	   
-	    <p>예상보다 많은 분들이 지원해주셔서 오는 8월 14일 부로 참가 접수를 마감하게 되었습니다.    </p>  
-	    <p>아직 신청서를 제출하지 않으신 분들은 기한 내에 제출해주시기 바랍니다.</p>  
+	    <p>먼저 이번 대회를 향한 많은 관심과 참여에 진심으로 감사드립니다.</p>  
+	    <p>본 대회의 주제는 디바이스 환경에서의 LLM의 구조, Weight 및 Activation을 수정하지 않고 메모리와 컴퓨팅 리소스의 한계를 극복하여 추론 속도를 향상시키는 시스템 최적화입니다.    
+               모델에 대한 직접적인 최적화가 불가능한 점 때문에 많은 분들이 과제 수행에 어려움이 많으신 것으로 생각됩니다.</p>  
             
-	    <p>이번 공모전에 참여해 주신 모든 분들께 다시 한번 감사드리며, 다음 CE Challenge에서는 더 많은 분들이 참여하실 수 있도록 노력하겠습니다.    </p>
+	    <p>이에 따라, 참가자 여러분들께 문제 해결에 더욱 충분한 시간을 제공해 드리고자 대회 최종 마감일을 기존 9월 13일 금요일에서 9월 27일 금요일로 연장하기로 결정했습니다.     
+               더불어 코드 PPT 제출일과 최종 결과 발표일도 함께 조정되었으니 상세한 일정은 아래 표를 확인해주시기 바랍니다. </p>
 
-            <p>감사합니다.</p>    
+
+
+
+
+            <p>다시 한번 Samsung Computer Engineering Challenge2024에 관심 가져주시고 참여해주셔서 감사드립니다.</p>    
+	    <p>삼성전자 Computer Engineering Challenge 사무국 드림.</p>    
                   
          </div>
         <form name="pop_form">
