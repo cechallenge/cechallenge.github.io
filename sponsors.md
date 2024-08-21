@@ -47,7 +47,4 @@ Coming soon!
 	  </div>
 </div>
 
- 
-
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="assets/files/test.py">test_script.py</a>
 
