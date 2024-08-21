@@ -34,9 +34,9 @@ Coming soon!
   		<table class="table table-bordered table-sm">
     		<thead class="table-light">
 			<tr>   	
-				<th scope="col"> 주요 일정 </th> 
-				<th scope="col"> 기존 일정 </th> 
-   				<th scope="col"> 변경 일정 </th> 
+				<th> 주요 일정 </th> 
+				<th> 기존 일정 </th> 
+   				<th> 변경 일정 </th> 
  			</tr>		
 			</thead>
   		<tbody>
