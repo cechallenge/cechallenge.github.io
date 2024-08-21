@@ -17,7 +17,7 @@ Coming soon!
     <div class="layerBox">
         <h5 class="title">Samsung Computer Engineering Challenge 2024 대회 기간 연장 안내</h5>
         <div class="cont">
-            <p>안녕하세요    
+            <p>안녕하세요         
 	    Samsung Computer Engineering Challenge 사무국입니다.</p>  
 	   
 	    <p>먼저 이번 대회를 향한 많은 관심과 참여에 진심으로 감사드립니다.</p>  
