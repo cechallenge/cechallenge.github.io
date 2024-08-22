@@ -51,7 +51,7 @@ Coming soon!
  		</tr>
       		<tr>
    			<td> 시상  </td> 
-			<td colspan="2"> 2024년 11월 4일 (월) (Samsung AI forum) </td> 
+			<td colspan="2", vertical-align; middle> 2024년 11월 4일 (월) (Samsung AI forum) </td> 
    		</tr>	
      		<tr>
    			<td> 수상자 캠프  </td> 
