@@ -34,20 +34,20 @@ Coming soon!
   		<tr>
 			<td> 대회 종료 </td> 
 			<td> 
-				<p style="text-decoration : underline;"> 9월 13일 (금) 9:59 </p>
+				<strike> 9월 13일 (금) 9:59 </strike>  </p>
 			</td> 
-   			<td rowspan="2"> <b> **9월 27일(금) 23:59** </b> </td> 
+   			<td rowspan="2"> <b> 9월 27일(금) 23:59 </b> </td> 
  		</tr>	
    		<tr>
    			<td> 코드 및 PPT 제출 </td> 
 			<td>
-				<p style="text-decoration : underline;"> 9월 24일 (화) 23:59 </p>
+				<strike> 9월 24일 (화) 23:59 </strike>
 			</td> 
  		</tr>	
    		<tr>
    			<td> 최종 결과 발표 </td> 
-			<td> ~~10월 8일 (화)~~ </td> 
-   			<td> **10월 15일(화)** </td> 
+			<td> <strike> 10월 8일 (화) </strike> </td> 
+   			<td> <b> 10월 15일(화) </b> </td> 
  		</tr>
       		<tr>
    			<td> 시상  </td> 
