@@ -36,7 +36,7 @@ Coming soon!
 			<td> 
 				<strike> 9월 13일 (금) 9:59 </strike> 
 			</td> 
-   			<td rowspan="2"> <b> 9월 27일(금) 23:59 </b> </td> 
+   			<td rowspan="2" vertical-align; middle> <b> 9월 27일(금) 23:59 </b> </td> 
  		</tr>	
    		<tr>
    			<td> 코드 및 PPT 제출 </td> 
@@ -51,7 +51,7 @@ Coming soon!
  		</tr>
       		<tr>
    			<td> 시상  </td> 
-			<td colspan="2", vertical-align; middle> 2024년 11월 4일 (월) (Samsung AI forum) </td> 
+			<td colspan="2"> 2024년 11월 4일 (월) (Samsung AI forum) </td> 
    		</tr>	
      		<tr>
    			<td> 수상자 캠프  </td> 
