@@ -33,12 +33,16 @@ Coming soon!
    		</tr>	
   		<tr>
 			<td> 대회 종료 </td> 
-			<td> ~~9월 13일 (금) 9:59~~</td> 
+			<td> 
+				<p style="text-decoration : underline;"> 9월 13일 (금) 9:59 </p>
+			</td> 
    			<td rowspan="2"> <b> **9월 27일(금) 23:59** </b> </td> 
  		</tr>	
    		<tr>
    			<td> 코드 및 PPT 제출 </td> 
-			<td> ~~9월 24일 (화) 23:59~~ </td> 
+			<td>
+				<p style="text-decoration : underline;"> 9월 24일 (화) 23:59 </p>
+			</td> 
  		</tr>	
    		<tr>
    			<td> 최종 결과 발표 </td> 
