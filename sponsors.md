@@ -36,7 +36,7 @@ Coming soon!
 			<td> 
 				<strike> 9월 13일 (금) 9:59 </strike> 
 			</td> 
-   			<td rowspan="2" vertical-align; middle> <b> 9월 27일(금) 23:59 </b> </td> 
+   			<td rowspan="2"; vertical-align; middle> <b> 9월 27일(금) 23:59 </b> </td> 
  		</tr>	
    		<tr>
    			<td> 코드 및 PPT 제출 </td> 
