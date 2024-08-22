@@ -34,7 +34,7 @@ Coming soon!
   		<tr>
 			<td> 대회 종료 </td> 
 			<td> 
-				<strike> 9월 13일 (금) 9:59 </strike>  </p>
+				<strike> 9월 13일 (금) 9:59 </strike> 
 			</td> 
    			<td rowspan="2"> <b> 9월 27일(금) 23:59 </b> </td> 
  		</tr>	
