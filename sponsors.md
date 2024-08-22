@@ -51,9 +51,9 @@ Coming soon!
    		</tr>	
 
         	<tr>
-   			<td> <b> Dataset 평가 3차 제출 </b>  </td> 
+   			<td> <b> Dataset 평가 3차 제출 </b>  </td>
 			<td colspan="2"> <b> ~2024년 9월 22일 (일) 23:59  </td>
-   		</tr>	
+   		</tr>
      
   		<tr>
 			<td> 대회 종료 </td> 
