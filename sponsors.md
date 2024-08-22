@@ -27,11 +27,11 @@ Coming soon!
   		<table class="table table-sm">
 		<tr>
    			<td> 참가접수 및 Kit 대여신청  </td> 
-			<td>  <td colspan="2"> 2024년 7월 29일 (월) 10:00 ~ </td> 
+			<td colspan="2"> 2024년 7월 29일 (월) 10:00 ~ </td> 
    		</tr>	
    		<tr>
    			<td> 대회 시작  </td> 
-			<td>  <td colspan="2"> 2024년 8월 1일 (목) 10:00 ~  </td> 
+			<td colspan="2"> 2024년 8월 1일 (목) 10:00 ~  </td> 
    		</tr>	
   		<tr>
 			<td> 대회 종료 </td> 
@@ -49,11 +49,11 @@ Coming soon!
  		</tr>
       		<tr>
    			<td> 시상  </td> 
-			<td>  <td colspan="2"> 2024년 11월 4일 (월) (Samsung AI forum) </td> 
+			<td colspan="2"> 2024년 11월 4일 (월) (Samsung AI forum) </td> 
    		</tr>	
      		<tr>
    			<td> 수상자 캠프  </td> 
-			<td>  <td colspan="2"> 2024년 11월 5일 (화) (대회 수상자 대상) </td> 
+			<td colspan="2"> 2024년 11월 5일 (화) (대회 수상자 대상) </td> 
    		</tr>
   		</table>
 
