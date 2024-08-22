@@ -26,7 +26,7 @@ Coming soon!
 <p>
 
 	#### 2안
-  		<table class="table table-sm" >
+  		<table class="table table-sm" style="display: block;margin-left: auto;margin-right: auto;" >
 		<tr>
    			<td> 참가접수 및 Kit 대여신청  </td> 
 			<td colspan="2"> 2024년 7월 29일 (월) 10:00 ~ </td> 
