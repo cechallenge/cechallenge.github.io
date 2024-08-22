@@ -82,7 +82,7 @@ Coming soon!
                더불어 코드 PPT 제출일과 최종 결과 발표일도 함께 조정되었으니 상세한 일정은  <a target="_blank" href="https://cechallenge.github.io/timeline"> Timeline </a> 를 확인해주시기 바랍니다. </p>
 
 		<p>
-  		<table class="table table-sm">
+  		<table class="table table-sm" style ="text-align: center">
     	
   		<tbody>
 		<tr>
