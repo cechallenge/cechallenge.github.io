@@ -27,7 +27,7 @@ Coming soon!
             
 	    <p>
               이에 따라, 참가자 여러분들께 문제 해결에 더욱 충분한 시간을 제공해 드리고자 대회 최종 마감일을 기존 9월 13일 금요일에서 9월 27일 금요일로 연장하기로 결정했습니다.<br>           
-               더불어 코드 PPT 제출일과 최종 결과 발표일도 함께 조정되었으니 상세한 일정은 Timeline<https://cechallenge.github.io/timeline/> 를 확인해주시기 바랍니다. </p>
+               더불어 코드 PPT 제출일과 최종 결과 발표일도 함께 조정되었으니 상세한 일정은  <a target="_blank" href="https://cechallenge.github.io/timeline"> Timeline </a> 를 확인해주시기 바랍니다. </p>
 
 		<p>
   		<table class="table table-sm">
