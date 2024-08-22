@@ -20,8 +20,8 @@ Coming soon!
 |수상자 캠프       |2024년 11월 5일 (화) (대회 수상자 대상) |
 
 <br>
-<p> </p>
 
+<p>
   		<table class="table table-sm">
 		<tr>
    			<td> 참가접수 및 Kit 대여신청  </td> 
@@ -54,7 +54,7 @@ Coming soon!
 			<td colspan="2"> 2024년 11월 5일 (화) (대회 수상자 대상) </td> 
    		</tr>
   		</table>
-
+<p></p>
 
 <!-- layer popup content -->
 <!-- 
