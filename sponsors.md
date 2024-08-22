@@ -36,9 +36,9 @@ Coming soon!
    		</tr>	
 			
    		<tr>
-   			<td> 대회 시작  </td> 
-			<td colspan="2"> 2024년 8월 1일 (목) 10:00 ~  </td> 
-   		</tr>	
+   			<td> 대회 시작 </td>
+			<td colspan="2"> 2024년 8월 1일 (목) 10:00 ~  </td>
+   		</tr>
 
       		<tr>
    			<td> <b> Dataset 평가 1차 제출 </b>  </td> 
@@ -79,6 +79,8 @@ Coming soon!
 			<td colspan="2"> 2024년 11월 5일 (화) (대회 수상자 대상) </td> 
    		</tr>
   		</table>
+    
+
 <p></p>
 
 <!-- layer popup content -->
