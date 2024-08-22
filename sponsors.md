@@ -11,7 +11,8 @@ Coming soon!
 
 ### 대회 일정
 
-#### 1안    
+#### 1안      
+<p></p>
 
 |참가접수 및 Kit 대여신청     |2024년 7월 29일 (월) 10:00 ~ |
 |대회 시작         |2024년 8월 1일 (목) 10:00 ~ |
@@ -23,9 +24,10 @@ Coming soon!
 
 <br>
 
+#### 2안
+<p></p>
+ 
 <p>
-
-	#### 2안
   		<table class="table table-sm" style="display: block;margin-left: auto;margin-right: auto;" >
 		<tr>
    			<td> 참가접수 및 Kit 대여신청  </td> 
