@@ -25,8 +25,6 @@ Coming soon!
 <br>
 
 #### 2안
-<p></p>
- 
 <p>
   		<table class="table table-sm" style="align-items: center" >
 		<tr>
