@@ -85,25 +85,20 @@ Coming soon!
 
 		<p>
   		<table class="table table-sm">
-    		<thead>
-				<th> 주요 일정 </th> 
-				<th> 기존 일정 </th> 
-   				<th> 변경 일정 </th> 
- 				
-		</thead>
+    	
   		<tbody>
 		<tr>
 			<td> 대회 종료 </td> 
-			<td> 9월 13일 (금) 9:59 </td> 
+			<strike> 9월 13일 (금) 9:59 </strike> 
    			<td rowspan="2"> <b> 9월 27일(금) 23:59 </b> </td> 
  		</tr>	
    		<tr>
    			<td> 코드 및 PPT 제출 </td> 
-			<td> 9월 24일 (화) 23:59 </td> 
+			<strike> 9월 24일 (화) 23:59 </strike>
  		</tr>	
    		<tr>
    			<td> 최종 결과 발표 </td> 
-			<td> 10월 8일 (화) </td> 
+			<td> <strike> 10월 8일 (화) </strike> </td> 
    			<td> 10월 15일(화) </td> 
  		</tr>			
   		</tbody>
