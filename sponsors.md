@@ -108,9 +108,8 @@ Coming soon!
 	    <p>삼성전자 Computer Engineering Challenge 사무국 드림.</p>
             <p>   </p>
 	    <p>   </p>
-
-     
-                  
+  
+                 
          
         <form name="pop_form">
             <div id="check" ><input type="checkbox" name="chkbox" value="checkbox" id='chkbox' >
