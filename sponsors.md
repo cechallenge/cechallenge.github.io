@@ -34,6 +34,7 @@ Coming soon!
    			<td> 참가접수 및 Kit 대여신청  </td> 
 			<td colspan="2"> 2024년 7월 29일 (월) 10:00 ~ </td> 
    		</tr>	
+			
    		<tr>
    			<td> 대회 시작  </td> 
 			<td colspan="2"> 2024년 8월 1일 (목) 10:00 ~  </td> 
@@ -44,20 +45,22 @@ Coming soon!
 			<td colspan="2"> <b> ~2024년 9월 1일 (일) 23:59  </td> 
    		</tr>	
 
-        		<tr>
+        	<tr>
    			<td> <b> Dataset 평가 2차 제출 </b>  </td> 
 			<td colspan="2"> <b> ~2024년 9월 8일 (일) 23:59  </td> 
    		</tr>	
 
-        		<tr>
+        	<tr>
    			<td> <b> Dataset 평가 3차 제출 </b>  </td> 
 			<td colspan="2"> <b> ~2024년 9월 22일 (일) 23:59  </td>
    		</tr>	
+     
   		<tr>
 			<td> 대회 종료 </td> 
 			<td> <strike> 9월 13일 (금) 9:59 </strike> </td> 
    			<td rowspan="2" style ="vertical-align: middle"> <b> 9월 27일(금) 23:59 </b> </td> 
  		</tr>	
+   
    		<tr>
    			<td> 코드 및 PPT 제출 </td> 
 			<td> <strike> 9월 24일 (화) 23:59 </strike> </td> 
@@ -79,7 +82,7 @@ Coming soon!
 <p></p>
 
 <!-- layer popup content -->
-
+<!--
 <div class="layerPopup" id="layer_popup" style="visibility: visible;">
     <div class="layerBox">
         <h5 class="title">Samsung Computer Engineering Challenge 2024 대회 기간 연장 안내</h5>
@@ -132,4 +135,4 @@ Coming soon!
 		
 	</div>  
 
-
+-->
