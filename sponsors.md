@@ -22,7 +22,7 @@ Coming soon!
 <br>
 
 <p>
-  		<table class="table table-sm valign = "middle">
+  		<table class="table table-sm" valign = "middle">
 		<tr>
    			<td> 참가접수 및 Kit 대여신청  </td> 
 			<td colspan="2"> 2024년 7월 29일 (월) 10:00 ~ </td> 
