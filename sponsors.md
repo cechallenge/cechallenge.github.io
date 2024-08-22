@@ -11,7 +11,8 @@ Coming soon!
 
 ### 대회 일정
 
-####1안
+####1안    
+
 |참가접수 및 Kit 대여신청     |2024년 7월 29일 (월) 10:00 ~ |
 |대회 시작         |2024년 8월 1일 (목) 10:00 ~ |
 |대회 종료         |~~2024년 9월 13일 (금) 9:59~~  &rarr; **2024년 9월 27일 (금) 23:59** |
@@ -63,7 +64,7 @@ Coming soon!
 <p></p>
 
 <!-- layer popup content -->
-<!-- 
+
 <div class="layerPopup" id="layer_popup" style="visibility: visible;">
     <div class="layerBox">
         <h5 class="title">Samsung Computer Engineering Challenge 2024 대회 기간 연장 안내</h5>
@@ -121,4 +122,4 @@ Coming soon!
 		
 	</div>  
 
--->
+
