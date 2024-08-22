@@ -51,13 +51,13 @@ Coming soon!
    		</tr>	
 
         	<tr>
-   			<td> <b> Dataset 평가 3차 제출 </b>  </td>
-			<td colspan="2"> <b> ~2024년 9월 22일 (일) 23:59  </td>
+   			<td> <b> Dataset 평가 3차 제출 </b> </td>
+			<td colspan="2"> <b> ~2024년 9월 22일 (일) 23:59 </b> </td>
    		</tr>
      
   		<tr>
-			<td> 대회 종료 </td> 
-			<td> <strike> 9월 13일 (금) 9:59 </strike> </td> 
+			<td> 대회 종료 </td>
+			<td> <strike> 9월 13일 (금) 9:59 </strike> </td>
    			<td rowspan="2" style ="vertical-align: middle"> <b> 9월 27일(금) 23:59 </b> </td> 
  		</tr>	
    
