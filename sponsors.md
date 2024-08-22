@@ -58,7 +58,7 @@ Coming soon!
   		</table>
 
 
-
+<!--
 <!-- layer popup content -->
 
 <div class="layerPopup" id="layer_popup" style="visibility: visible;">
@@ -118,4 +118,4 @@ Coming soon!
 		
 	</div>  
 
-
+-->
