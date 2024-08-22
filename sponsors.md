@@ -20,42 +20,9 @@ Coming soon!
 |수상자 캠프       |2024년 11월 5일 (화) (대회 수상자 대상) |
 
 <br>
-<!--
-<p>
-  		<table class="table table-sm">
-		<tr>
-   			<td> 참가접수 및 Kit 대여신청  </td> 
-			<td colspan="2"> 2024년 7월 29일 (월) 10:00 ~ </td> 
-   		</tr>	
-   		<tr>
-   			<td> 대회 시작  </td> 
-			<td colspan="2"> 2024년 8월 1일 (목) 10:00 ~  </td> 
-   		</tr>	
-  		<tr>
-			<td> 대회 종료 </td> 
-			<td> 9월 13일 (금) 9:59 </td> 
-   			<td rowspan="2"> <b> 9월 27일(금) 23:59 </b> </td> 
- 		</tr>	
-   		<tr>
-   			<td> 코드 및 PPT 제출 </td> 
-			<td> 9월 24일 (화) 23:59 </td> 
- 		</tr>	
-   		<tr>
-   			<td> 최종 결과 발표 </td> 
-			<td> 10월 8일 (화) </td> 
-   			<td> 10월 15일(화) </td> 
- 		</tr>
-      		<tr>
-   			<td> 시상  </td> 
-			<td colspan="2"> 2024년 11월 4일 (월) (Samsung AI forum) </td> 
-   		</tr>	
-     		<tr>
-   			<td> 수상자 캠프  </td> 
-			<td colspan="2"> 2024년 11월 5일 (화) (대회 수상자 대상) </td> 
-   		</tr>
-  		</table>
 
- -->
+<p>
+
 
 <!-- layer popup content -->
 <!-- 
