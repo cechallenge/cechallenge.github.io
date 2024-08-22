@@ -90,7 +90,7 @@ Coming soon!
  		</tr>	
    		<tr>
    			<td> 코드 및 PPT 제출 </td> 
-			<strike> 9월 24일 (화) 23:59 </strike>
+			<td> <strike> 9월 24일 (화) 23:59 </strike> </td>
  		</tr>	
    		<tr>
    			<td> 최종 결과 발표 </td> 
