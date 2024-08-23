@@ -29,11 +29,11 @@ Coming soon!
 
 #### 2안
 <p>
-  		<table class="table table-sm" style="align-items: center" >
+  		<table class="table table-sm" style="width:100%">
 		<table style="width:450px;table-layout:fixed">
 		<tr>
    			<td colspan="2"> 참가접수 및 Kit 대여신청  </td> 
-			<td colspan="2"> 2024년 7월 29일 (월) 10:00 ~ </td> 
+			<td colspan="2" style="width:70%"> 2024년 7월 29일 (월) 10:00 ~ </td> 
    		</tr>	
 			
    		<tr>
