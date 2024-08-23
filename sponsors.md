@@ -44,7 +44,7 @@ Coming soon!
       		<tr>
 			<td rowspan="3" style ="vertical-align: middle"> Dateset 평가 </td>
    			<td> <b> 1차 제출 </b>  </td> 
-			<td colspan="2"> <b> ~2024년 9월 1일 (일) 23:59 </b>  </td> 
+			<td colspan="2"> <span style="background-color:#FF00DD; color:#000000;"><b> ~2024년 9월 1일 (일) 23:59 </b></span>  </td> 
    		</tr>	
 
         	<tr>
