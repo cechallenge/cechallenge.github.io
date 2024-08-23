@@ -44,7 +44,7 @@ Coming soon!
       		<tr>
 			<td rowspan="3" style ="vertical-align: middle"> Dateset 평가 </td>
    			<td> <b> 1차 제출 </b>  </td> 
-			<td colspan="2"> <span style="background-color:#FF00DD; color:#000000;"><b> ~2024년 9월 1일 (일) 23:59 </b></span>  </td> 
+			<td colspan="2"> <b> ~2024년 9월 1일 (일) 23:59 </b>  </td> 
    		</tr>	
 
         	<tr>
@@ -60,7 +60,7 @@ Coming soon!
   		<tr>
 			<td colspan="2">  대회 종료 </td>
 			<td> <strike> 9월 13일 (금) 9:59 </strike> </td>
-   			<td rowspan="2" style ="vertical-align: middle"> <b> 9월 27일(금) 23:59 </b> </td> 
+   			<td rowspan="2" style ="vertical-align: middle"><span style="background-color:#FFFF00; color:#000000;"> <b> 9월 27일(금) 23:59 </b></span> </td> 
  		</tr>	
    
    		<tr>
