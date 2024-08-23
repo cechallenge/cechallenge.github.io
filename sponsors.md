@@ -32,7 +32,7 @@ Coming soon!
   		<table class="table table-sm" width="100%">
 		<tr>
    			<td colspan="2"> 참가접수 및 Kit 대여신청 </td> 
-			<td colspan="2" width="60%"> 2024년 7월 29일 (월) 10:00 ~ </td> 
+			<td colspan="2" width="65%"> 2024년 7월 29일 (월) 10:00 ~ </td> 
    		</tr>	
 			
    		<tr>
