@@ -83,58 +83,59 @@ Coming soon!
   		</table>
 
 #### 영문
-	<table class="table table-sm" width="100%">
+	<p>
+  		<table class="table table-sm" width="100%">
 		<tr>
    			<td colspan="2"> Participant Registration and Kit Rental Application </td> 
-			<td colspan="2" width="65%"> 2024년 7월 29일 (월) 10:00 ~ </td> 
+			<td colspan="2" width="65%"> July 29, 2024 (Monday) from 10:00 AM </td> 
    		</tr>	
 			
    		<tr>
    			<td colspan="2"> Competition Start </td>
-			<td colspan="2"> 2024년 8월 1일 (목) 10:00 ~  </td>
+			<td colspan="2"> August 1, 2024 (Thursday) from 10:00 AM  </td>
    		</tr>
 
       		<tr>
 			<td rowspan="3" style ="vertical-align: middle"> Dateset Official Evaluation </td>
    			<td> <b> 1st Submission </b>  </td> 
-			<td colspan="2"> <b> ~ 2024년 9월 1일 (일) 23:59 </b>  </td> 
+			<td colspan="2"> <b> ~ September 1, 2024 (Sunday) at 11:59 PM </b>  </td> 
    		</tr>	
 
         	<tr>
    			<td> <b> 2nd Submission </b>  </td> 
-			<td colspan="2"> <b> ~ 2024년 9월 8일 (일) 23:59 </b> </td> 
+			<td colspan="2"> <b> ~ September 8, 2024 (Sunday) at 11:59 PM  </b> </td> 
    		</tr>	
 
         	<tr>
    			<td> <b> 3rd Submission </b> </td>
-			<td colspan="2"> <b> ~ 2024년 9월 22일 (일) 23:59 </b> </td>
+			<td colspan="2"> <b> ~ September 22, 2024 (Sunday) at 11:59 PM </b> </td>
    		</tr>
      
   		<tr>
 			<td colspan="2"> Competition End </td>
-			<td> <strike> 9월 13일 (금) 9:59 </strike> </td>
-   			<td rowspan="2" style ="vertical-align: middle"> <b> 9월 27일(금) 23:59 </b> </td> 
+			<td> <strike> September 13, 2024 (Friday) at 9:59 AM </strike> </td>
+   			<td rowspan="2" style ="vertical-align: middle"> <b> September 27 2024 (Friday) at 11:59 PM</b> </td> 
  		</tr>	
    
    		<tr>
    			<td colspan="2"> Code and PPT Submission </td> 
-			<td> <strike> 9월 24일 (화) 23:59 </strike> </td> 
+			<td> <strike> September 24, 2024 (Tuesday) by 11:59 PM </strike> </td> 
  		</tr>	
    		<tr>
    			<td colspan="2"> Final Results Announcement </td> 
-			<td> <strike> 10월 8일 (화) </strike> </td> 
-   			<td> <b> 10월 15일(화) </b> </td> 
+			<td> <strike> October 8, 2024 (Tuesday) </strike> </td> 
+   			<td> <b> October 15, 2024 (Tuesday) </b> </td> 
  		</tr>
       		<tr>
    			<td colspan="2"> Awards Ceremony  </td> 
-			<td colspan="2"> 2024년 11월 4일 (월) (Samsung AI forum) </td> 
+			<td colspan="2"> November 4, 2024 (Monday) at the Samsung AI Forum </td> 
    		</tr>	
      		<tr>
    			<td colspan="2"> Winners' Camp  </td> 
-			<td colspan="2"> 2024년 11월 5일 (화) (대회 수상자 대상) </td> 
+			<td colspan="2"> November 5, 2024 (Tuesday) for competition winners </td> 
    		</tr>
   		</table>
-
+    
 <P> </P>    
 
 <!--
