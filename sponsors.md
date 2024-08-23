@@ -101,7 +101,7 @@ Coming soon!
             
 	    <p>
                이에 따라, 참가자분들께 문제 해결을 위한 보다 충분한 시간을 드리고자 대회 최종 마감일을 <b>9월 27일 금요일로 연장</b>하였습니다.<br>  
-               더불어 코드 PPT 제출 등 주요 일정도 함께 조정되었으니 상세한 일정은 <a target="_blank" href="https://cechallenge.github.io/timeline"> Timeline </a> 를 확인해주시기 바랍니다. </p>
+               더불어 코드 PPT 제출 등 주요 일정도 함께 조정되었으니 상세한 일정은 <a target="_blank" href="https://cechallenge.github.io/timeline"> Timeline </a>을 확인해주시기 바랍니다. </p>
 
 		<p>
   		<table class="table table-sm" style ="text-align: center">
@@ -124,7 +124,7 @@ Coming soon!
   		</tbody>
   		</table>
 		<p></p>
-            <p> 다시 한번 Samsung Computer Engineering Challenge2024에 관심 가져주시고 참여해주셔서 감사드립니다.</p>   
+            <p> 다시 한번 Samsung Computer Engineering Challenge 2024에 관심 가져주시고 참여해주셔서 감사드립니다.</p>   
 	    <p>삼성전자 Computer Engineering Challenge 사무국 드림.</p>
             <p>   </p>
 	    <p>   </p>
