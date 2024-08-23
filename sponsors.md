@@ -81,6 +81,61 @@ Coming soon!
    		</tr>
   		</table>
     
+#### 3안
+<p>
+  		<table class="table table-sm" width="100%">
+		<tr>
+   			<td colspan="2"> 참가접수 및 Kit 대여신청 </td> 
+			<td colspan="2" width="65%"> 2024년 7월 29일 (월) 10:00 ~ </td> 
+   		</tr>	
+			
+   		<tr>
+   			<td colspan="2"> 대회 시작 </td>
+			<td colspan="2"> 2024년 8월 1일 (목) 10:00 ~  </td>
+   		</tr>
+
+      		<tr>
+			<td rowspan="3" style ="vertical-align: middle"> Dateset 평가 </td>
+   			<td> <b> 1차 제출 </b>  </td> 
+			<td colspan="2"> <b> ~2024년 9월 1일 (일) 23:59 </b>  </td> 
+   		</tr>	
+
+        	<tr>
+   			<td> <b> 2차 제출 </b>  </td> 
+			<td colspan="2"> <b> ~2024년 9월 8일 (일) 23:59 </b> </td> 
+   		</tr>	
+
+        	<tr>
+   			<td> <b> 3차 제출 </b> </td>
+			<td colspan="2"> <b> ~2024년 9월 22일 (일) 23:59 </b> </td>
+   		</tr>
+     
+  		<tr>
+			<td colspan="2">  대회 종료 </td>
+			<td> <strike> 9월 13일 (금) 9:59 </strike> &rarr; <b>2024년 9월 27일 (금) 23:59</b>  </td>
+   		
+ 		</tr>	
+   
+   		<tr>
+   			<td colspan="2">  코드 및 PPT 제출 </td> 
+			<td> <strike> 9월 24일 (화) 23:59 </strike> &rarr; <b>2024년 9월 27일 (금) 23:59</b>  </td> 
+ 		</tr>	
+   		<tr>
+   			<td colspan="2">  최종 결과 발표 </td> 
+			<td> <strike> 10월 8일 (화) </strike> </td> 
+   			<td> <b> 10월 15일(화) </b> </td> 
+ 		</tr>
+      		<tr>
+   			<td colspan="2">  시상  </td> 
+			<td colspan="2"> 2024년 11월 4일 (월) (Samsung AI forum) </td> 
+   		</tr>	
+     		<tr>
+   			<td colspan="2">  수상자 캠프  </td> 
+			<td colspan="2"> 2024년 11월 5일 (화) (대회 수상자 대상) </td> 
+   		</tr>
+  		</table>
+    
+
 
 <p></p>
 
