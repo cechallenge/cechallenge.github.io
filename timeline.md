@@ -103,17 +103,17 @@ excerpt:
       		<tr>
 			<td rowspan="3" style ="vertical-align: middle"> Dateset Official Evaluation </td>
    			<td> <b> 1st Submission </b>  </td> 
-			<td colspan="2"> <b> ~ September 1, 2024 (Sunday) at 11:59 PM </b>  </td> 
+			<td colspan="2"> <b> September 1, 2024 (Sunday) at 11:59 PM </b>  </td> 
    		</tr>	
 
         	<tr>
    			<td> <b> 2nd Submission </b>  </td> 
-			<td colspan="2"> <b> ~ September 8, 2024 (Sunday) at 11:59 PM  </b> </td> 
+			<td colspan="2"> <b> September 8, 2024 (Sunday) at 11:59 PM  </b> </td> 
    		</tr>	
 
         	<tr>
    			<td> <b> 3rd Submission </b> </td>
-			<td colspan="2"> <b> ~ September 22, 2024 (Sunday) at 11:59 PM </b> </td>
+			<td colspan="2"> <b> September 22, 2024 (Sunday) at 11:59 PM </b> </td>
    		</tr>
      
   		<tr>
