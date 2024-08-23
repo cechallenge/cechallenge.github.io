@@ -68,10 +68,7 @@ excerpt:
 			<td colspan="2"> 2024년 11월 5일 (화) (대회 수상자 대상) </td> 
    		</tr>
   		</table>
-
 </P>
-
-<br>
 ※ 자세한 일정은 대회 진행 상황에 따라 변경될 수 있습니다.
 <br>
 
@@ -141,6 +138,4 @@ excerpt:
    		</tr>
   		</table>
 </P>
-
-<br>
 ※Note: The schedule may change based on the competition progress.
