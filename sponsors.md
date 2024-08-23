@@ -113,17 +113,17 @@ Coming soon!
      
   		<tr>
 			<td colspan="2">  대회 종료 </td>
-			<td> <strike> 9월 13일 (금) 9:59 </strike>&nbsp; &xrarr; &nbsp; <b>2024년 9월 27일 (금) 23:59</b>  </td>
+			<td> <strike> 9월 13일 (금) 9:59</strike> &nbsp; &xrarr; &nbsp; <b>2024년 9월 27일 (금) 23:59</b>  </td>
    		
  		</tr>	
    
    		<tr>
    			<td colspan="2">  코드 및 PPT 제출 </td> 
-			<td> <strike> 9월 24일 (화) 23:59 </strike> &nbsp; &xrarr; &nbsp;<b>2024년 9월 27일 (금) 23:59</b>  </td> 
+			<td> <strike> 9월 24일 (화) 23:59</strike> &nbsp; &xrarr; &nbsp; <b>2024년 9월 27일 (금) 23:59</b>  </td> 
  		</tr>	
    		<tr>
    			<td colspan="2">  최종 결과 발표 </td> 
-			<td> <strike> 10월 8일 (화) </strike>&nbsp; &xrarr;&nbsp; <b>2024년 10월 15일 (화) 23:59</b> </td> 
+			<td> <strike> 10월 8일 (화)</strike> &nbsp; &xrarr; &nbsp; <b>2024년 10월 15일 (화) 23:59</b> </td> 
  		</tr>
       		<tr>
    			<td colspan="2">  시상  </td> 
