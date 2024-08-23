@@ -80,7 +80,8 @@ Coming soon!
 			<td colspan="2"> 2024년 11월 5일 (화) (대회 수상자 대상) </td> 
    		</tr>
   		</table>
-    
+
+<P> </P>    
 #### 3안
 <p>
   		<table class="table table-sm" width="100%">
