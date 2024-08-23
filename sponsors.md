@@ -70,7 +70,7 @@ Coming soon!
    		<tr>
    			<td colspan="2">  최종 결과 발표 </td> 
 			<td> <strike> 10월 8일 (화) </strike> </td> 
-   			<td> <b> 10월 15일(화) </b> </td> 
+   			<td> <span style="background-color:#FFFF00; color:#000000;"><b> 10월 15일(화) </b></span> </td> 
  		</tr>
       		<tr>
    			<td colspan="2">  시상  </td> 
@@ -114,7 +114,7 @@ Coming soon!
   		<tr>
 			<td colspan="2"> Competition End </td>
 			<td> <strike> September 13, 2024 (Friday) at 9:59 AM </strike> </td>
-   			<td rowspan="2" style ="vertical-align: middle"> <b> September 27 2024 (Friday) at 11:59 PM</b> </td> 
+   			<td rowspan="2" style ="vertical-align: middle"> <span style="background-color:#FFFF00; color:#000000;"> <b> September 27 2024 (Friday) at 11:59 PM</b></span> </td> 
  		</tr>	
    
    		<tr>
@@ -124,7 +124,7 @@ Coming soon!
    		<tr>
    			<td colspan="2"> Final Results Announcement </td> 
 			<td> <strike> October 8, 2024 (Tuesday) </strike> </td> 
-   			<td> <b> October 15, 2024 (Tuesday) </b> </td> 
+   			<td><span style="background-color:#FFFF00; color:#000000;">  <b> October 15, 2024 (Tuesday) </b> </span></td> 
  		</tr>
       		<tr>
    			<td colspan="2"> Awards Ceremony  </td> 
