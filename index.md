@@ -24,31 +24,58 @@ Samsung SAIT is holding the **Computer Engineering(CE) Challenge** to promote th
 Through this Computer Engineering Challenge, we hope that more students will become interested in system optimization methodologies for large-scale language models. We expect that this increased interest in Computer Engineering will advance the AI Computing era to come in the future and contribute greatly to reducing energy and costs.
 
 
+
 <!-- layer popup content -->
 
-<!-- 
 <div class="layerPopup" id="layer_popup" style="visibility: visible;">
     <div class="layerBox">
-        <h5 class="title">Samsung Computer Engineering Challenge 2024 접수마감 안내</h5>
+        <h5 class="title">Samsung Computer Engineering Challenge 2024 대회 기간 연장 안내</h5>
         <div class="cont">
-            <p>안녕하세요</p>
-	    <p>CE Challenge 2024에 대한 여러분의 관심과 참여에 진심으로 감사드립니다.</p>  
+		
+            <p>
+	    안녕하세요<br>      
+	    Samsung Computer Engineering Challenge 사무국입니다.</p>  
 	   
-	    <p>예상보다 많은 분들이 지원해주셔서 오는 8월 14일 부로 참가 접수를 마감하게 되었습니다.    </p>  
-	    <p>아직 신청서를 제출하지 않으신 분들은 기한 내에 제출해주시기 바랍니다.</p>  
+	    <p>이번 대회에 보내주신 많은 관심과 참여에 깊은 감사의 말씀드립니다.</p>  
+	    <p>본 대회의 주제는 제한된 디바이스 환경에서 LLM의 구조, Weight 및 Activation을 수정하지 않고 메모리와 컴퓨팅 리소스의 한계를 극복하여 추론 속도를 향상시키는 시스템 최적화입니다.         
+               하지만 '모델에 대한 직접적인 최적화가 불가능'하다는 제약사항으로 과제 수행에 어려움이 있으실 것이라 생각됩니다.</p>  
             
-	    <p>이번 공모전에 참여해 주신 모든 분들께 다시 한번 감사드리며, 다음 CE Challenge에서는 더 많은 분들이 참여하실 수 있도록 노력하겠습니다.    </p>
+	    <p>
+               이에 따라, 참가자분들께 문제 해결을 위한 충분한 시간을 드리고자 대회 최종 마감일을 <b>9월 27일(금)로 연장</b>하였습니다.<br>  
+               더불어 코드 PPT 제출 등 주요 일정도 함께 조정되었으니 상세한 일정은 <a target="_blank" href="https://cechallenge.github.io/timeline"> Timeline </a>을 확인해주시기 바랍니다. </p>
 
-            <p>감사합니다.</p>    
-                  
-         </div>
+		<p>
+  		<table class="table table-sm" style ="text-align: center">
+    	
+  		<tbody>
+		<tr>
+			<td> 대회 종료 </td> 
+			<td> <strike> 9월 13일 (금) 9:59 </strike> </td>
+   			<td rowspan="2" style ="vertical-align: middle"> <b> 9월 27일(금) 23:59 </b> </td> 
+ 		</tr>	
+   		<tr>
+   			<td> 코드 및 PPT 제출 </td> 
+			<td> <strike> 9월 24일 (화) 23:59 </strike> </td>
+ 		</tr>	
+   		<tr>
+   			<td> 최종 결과 발표 </td> 
+			<td> <strike> 10월 8일 (화) </strike> </td> 
+   			<td> 10월 15일(화) </td> 
+ 		</tr>			
+  		</tbody>
+  		</table>
+		<p></p>
+            <p> 다시 한번 Samsung Computer Engineering Challenge 2024에 관심 가져주시고 참여해주셔서 감사드립니다.</p>   
+	    <p>삼성전자 Computer Engineering Challenge 사무국 드림.</p>
+            <p>   </p>
+	    <p>   </p>
+  
+                 
+         
         <form name="pop_form">
             <div id="check" ><input type="checkbox" name="chkbox" value="checkbox" id='chkbox' >
             <label for="chkbox">오늘 하루동안 보지 않기</label></div>
-		      <div id="close" ><a href="javascript:closePop();">닫기</a></div>    
-		    </form>
-	  </div>
-</div>
-
- -->
+		      <div id="close" ><a href="javascript:closePop();">닫기</a>
+		
+	</div>  
 
