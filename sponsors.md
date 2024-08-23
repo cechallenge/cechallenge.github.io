@@ -31,8 +31,8 @@ Coming soon!
 <p>
   		<table class="table table-sm" width="100%">
 		<tr>
-   			<td colspan="2"> 참가접수 및 Kit 대여신청  </td> 
-			<td colspan="2" width="70%"> 2024년 7월 29일 (월) 10:00 ~ </td> 
+   			<td colspan="2"> 참가접수 및 Kit 대여신청 </td> 
+			<td colspan="2" width="60%"> 2024년 7월 29일 (월) 10:00 ~ </td> 
    		</tr>	
 			
    		<tr>
@@ -41,7 +41,7 @@ Coming soon!
    		</tr>
 
       		<tr>
-			<td rowspan="3" style ="vertical-align: middle"> Dateset 평가
+			<td rowspan="3" style ="vertical-align: middle"> Dateset 평가 </td>
    			<td> <b> 1차 제출 </b>  </td> 
 			<td colspan="2"> <b> ~2024년 9월 1일 (일) 23:59 </b>  </td> 
    		</tr>	
