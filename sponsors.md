@@ -10,7 +10,7 @@ Coming soon!
 (SAIT)
 
 ### 대회 일정
-
+<!--
 #### 1안      
 <p></p>
 
@@ -26,6 +26,7 @@ Coming soon!
 |수상자 캠프       |2024년 11월 5일 (화) (대회 수상자 대상) |
 
 <br>
+-->
 
 #### 2안
 <p>
@@ -82,6 +83,10 @@ Coming soon!
   		</table>
 
 <P> </P>    
+#### 영문
+<P> </P>    
+
+<!--
 #### 3안
 <p>
   		<table class="table table-sm" width="100%">
@@ -136,6 +141,7 @@ Coming soon!
   		</table>
     
 
+-->
 
 <p></p>
 
