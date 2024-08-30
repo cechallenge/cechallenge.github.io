@@ -29,47 +29,25 @@ Through this Computer Engineering Challenge, we hope that more students will bec
 
 <div class="layerPopup" id="layer_popup" style="visibility: visible;">
     <div class="layerBox">
-        <h5 class="title">Samsung Computer Engineering Challenge 2024 대회 기간 연장 안내</h5>
+        <h5 class="title">1차 평가 의뢰 안내</h5>
         <div class="cont">
 		
-            <p>
-	    안녕하세요<br>      
-	    Samsung Computer Engineering Challenge 사무국입니다.</p>  
-	   
-	    <p>이번 대회에 보내주신 많은 관심과 참여에 깊은 감사의 말씀드립니다.</p>  
-	    <p>본 대회의 주제는 제한된 디바이스 환경에서 LLM의 구조, Weight 및 Activation을 수정하지 않고 메모리와 컴퓨팅 리소스의 한계를 극복하여 추론 속도를 향상시키는 시스템 최적화입니다.         
-               하지만 '모델에 대한 직접적인 최적화가 불가능'하다는 제약사항으로 과제 수행에 어려움이 있으실 것이라 생각됩니다.</p>  
+             <p style="line-height:1;">안녕하세요</p>
+	     <p style="line-height:1;">Samsung Computer Engineering Challenge 사무국입니다.</P>
+     <br>
+      <p style="line-height:1;">사무국에서 선정한 Dataset으로 성능 측정을 의뢰하실 분은 아래 내용 참고하시기 바랍니다.  </p>   
+      <p style="line-height:1;">평가 결과는 리더보드에 공개됩니다. </p>    
+	        <br>&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;기간 : ~2024년 9월 1일 (일) 23:59 
+      		<p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;방법 :  아래의 내용을 E-mail 송부하여 테스트 의뢰  </p>        
+    		<p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>1. 코드 및 동작 환경이 세팅되어 있는 도커 이미지 주소 
+        	<p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. 재현 방법이 상세히 기술되어 있는 문서      </p> </b>     
+         	<p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Private으로 도커 이미지를 올릴 경우, github cechallenge 계정에 접근 권한 부여)  </p>   
+     		<p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;E-mail : cechallenge@samsung.com </p>   
+ 	<br>   
+              삼성전자 Computer Engineering Challenge 사무국 드림.
             
-	    <p>
-               이에 따라, 참가자분들께 문제 해결을 위한 충분한 시간을 드리고자 대회 최종 마감일을 <b>9월 27일(금)로 연장</b>하였습니다.<br>  
-               더불어 코드 PPT 제출 등 주요 일정도 함께 조정되었으니 상세한 일정은 <a target="_blank" href="https://cechallenge.github.io/timeline"> Timeline </a>을 확인해주시기 바랍니다. </p>
-
-		<p>
-  		<table class="table table-sm" style ="text-align: center">
-    	
-  		<tbody>
-		<tr>
-			<td> 대회 종료 </td> 
-			<td> <strike> 9월 13일 (금) 9:59 </strike> </td>
-   			<td rowspan="2" style ="vertical-align: middle"> <b> 9월 27일(금) 23:59 </b> </td> 
- 		</tr>	
-   		<tr>
-   			<td> 코드 및 PPT 제출 </td> 
-			<td> <strike> 9월 24일 (화) 23:59 </strike> </td>
- 		</tr>	
-   		<tr>
-   			<td> 최종 결과 발표 </td> 
-			<td> <strike> 10월 8일 (화) </strike> </td> 
-   			<td> 10월 15일(화) </td> 
- 		</tr>			
-  		</tbody>
-  		</table>
-		<p></p>
-            <p> 다시 한번 Samsung Computer Engineering Challenge 2024에 관심 가져주시고 참여해주셔서 감사드립니다.</p>   
-	    <p>삼성전자 Computer Engineering Challenge 사무국 드림.</p>
-            <p>   </p>
-	    <p>   </p>
-  
+  	<br>  
+        <br>  
                  
          
         <form name="pop_form">
