@@ -31,7 +31,7 @@ Coming soon!
  	<br>   
               삼성전자 Computer Engineering Challenge 사무국 드림.
             
-  
+  	<br>   
                  
          
         <form name="pop_form">
