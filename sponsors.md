@@ -20,8 +20,8 @@ Coming soon!
   font-size: 12px;
   line-height: normal;
 }		
-            <p>안녕하세요</p>     
-	    <P>Samsung Computer Engineering Challenge 사무국입니다.</P>
+             <p style="line-height: 1;">안녕하세요</p>
+	     <p style="line-height: 1;">Samsung Computer Engineering Challenge 사무국입니다.</P>
      <br>
       <p>사무국에서 선정한 Dataset으로 성능 측정을 의뢰하실 분은 아래 내용 참고하시기 바랍니다.  </p>   
       <p>평가 결과는 리더보드에 공개됩니다. </p>    
