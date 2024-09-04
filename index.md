@@ -37,7 +37,7 @@ Through this Computer Engineering Challenge, we hope that more students will bec
      <br>
       <p style="line-height:1;">사무국에서 선정한 Dataset으로 성능 측정을 의뢰하실 분은 아래 내용 참고하시기 바랍니다.  </p>   
       <p style="line-height:1;">평가 결과는 리더보드에 공개됩니다. </p>    
-	        <br>&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;기간 : ~2024년 9월 1일 (일) 23:59 
+	        <br>&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;기간 : ~2024년 9월 8일 (일) 23:59 
       		<p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;방법 :  아래의 내용을 E-mail 송부하여 테스트 의뢰  </p>        
     		<p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>1. 코드 및 동작 환경이 세팅되어 있는 Docker 이미지 주소</b>   
       		<p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Private으로 Docker 이미지를 올릴 경우, github cechallenge 계정에 접근 권한 부여)  </p> 
