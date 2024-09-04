@@ -6,10 +6,6 @@ feature_image: "/assets/logos/banner_last.png"
 excerpt:
 ---
 ### Leaderboard
-   
-   
-   
-### Coming soon! (SAIT)
 
 <!--
 |   rank | 팀이름            | Inference Time(items/sec)            
