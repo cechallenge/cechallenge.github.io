@@ -24,7 +24,7 @@ Samsung SAIT is holding the **Computer Engineering(CE) Challenge** to promote th
 Through this Computer Engineering Challenge, we hope that more students will become interested in system optimization methodologies for large-scale language models. We expect that this increased interest in Computer Engineering will advance the AI Computing era to come in the future and contribute greatly to reducing energy and costs.
 
 
-
+<!--
 <!-- layer popup content -->
 
 <div class="layerPopup" id="layer_popup" style="visibility: visible;">
@@ -57,3 +57,4 @@ Through this Computer Engineering Challenge, we hope that more students will bec
 		
 	</div>  
 
+-->
