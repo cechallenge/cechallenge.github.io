@@ -29,7 +29,7 @@ Through this Computer Engineering Challenge, we hope that more students will bec
 
 <div class="layerPopup" id="layer_popup" style="visibility: visible;">
     <div class="layerBox">
-        <h5 class="title">1차 평가 의뢰 안내</h5>
+        <h5 class="title">2차 평가 의뢰 안내</h5>
         <div class="cont">
 		
              <p style="line-height:1;">안녕하세요</p>
