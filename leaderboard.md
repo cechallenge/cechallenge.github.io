@@ -12,7 +12,7 @@ excerpt:
 ### Coming soon! (SAIT)
 
 <!--
-|   rank | 팀이름            | Inference Time(sec)            
+|   rank | 팀이름            | Inference Time(items/sec)            
 |1|       |           
 |2|       |           
 |3|       |          
@@ -25,6 +25,22 @@ excerpt:
 |10|      |       
 
 -->
+
+<p>
+  		<table class="table table-sm" width="100%">
+		<tr>
+   		<td colspan="3"> rank </td> 
+			<td colspan="3" width="40%"> 팀 이름 </td>
+      <td colspan="3" width="40%"> Inference Time (items/sec) </td> 
+   	</tr>	
+   	<tr>
+   		<td colspan="3"> 1 </td>
+			<td colspan="3"> 때론메모리도필요해 </td>
+      <td colspan="3">   </td>
+   	</tr>
+			</table>
+
+</P>
 
 ###### 주의 사항
 
