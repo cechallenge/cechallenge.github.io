@@ -32,7 +32,7 @@ excerpt:
    	<tr>
    		<td colspan="3"> 1 </td>
 			<td colspan="3"> 때론메모리도필요해 </td>
-      <td colspan="3">   </td>
+      <td colspan="3"> 4.191 </td>
    	</tr>
 			</table>
 
