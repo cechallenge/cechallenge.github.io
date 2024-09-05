@@ -8,7 +8,7 @@ excerpt:
 ### Leaderboard
 
 <!--
-|   rank | 팀이름            | Inference Time(items/sec)            
+|   rank | 팀이름            | Inference Time(sec/item)            
 |1|       |           
 |2|       |           
 |3|       |          
@@ -27,7 +27,7 @@ excerpt:
 		<tr>
    		<td colspan="3"> rank </td> 
 			<td colspan="3" width="40%"> 팀 이름 </td>
-      <td colspan="3" width="40%"> Inference Time (items/sec) </td> 
+      <td colspan="3" width="40%"> Inference Time (sec/item) </td> 
    	</tr>	
    	<tr>
    		<td colspan="3"> 1 </td>
