@@ -11,7 +11,7 @@ Coming soon!
 
 
 <!-- layer popup content -->
-
+<!--
 <div class="layerPopup" id="layer_popup" style="visibility: visible;">
     <div class="layerBox">
         <h5 class="title">1차 평가 의뢰 안내</h5>
@@ -41,3 +41,4 @@ Coming soon!
 		      <div id="close" ><a href="javascript:closePop();">닫기</a>
 		
 	</div>  
+-->
