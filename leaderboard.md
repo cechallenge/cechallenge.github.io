@@ -31,7 +31,7 @@ excerpt:
     </tr>	
     <tr>
       <td colspan="3"> 1 </td>
-      <td colspan="3"> 하지만빨랐죠 </td>
+      <td colspan="3"> 하지만 빨랐죠? </td>
       <td colspan="3"> 2.168 </td>
     </tr>
     <tr>
