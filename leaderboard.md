@@ -36,6 +36,11 @@ excerpt:
     </tr>
     <tr>
       <td colspan="3"> 2 </td>
+      <td colspan="3"> Titan </td>
+      <td colspan="3"> 2.481` </td>
+    </tr>
+    <tr>
+      <td colspan="3"> 3 </td>
       <td colspan="3"> 때론메모리도필요해 </td>
       <td colspan="3"> 4.191 </td>
     </tr>
