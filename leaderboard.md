@@ -37,7 +37,7 @@ excerpt:
     <tr>
       <td colspan="3"> 2 </td>
       <td colspan="3"> Titan </td>
-      <td colspan="3"> 2.481` </td>
+      <td colspan="3"> 2.481 </td>
     </tr>
     <tr>
       <td colspan="3"> 3 </td>
