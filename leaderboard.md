@@ -44,6 +44,31 @@ excerpt:
       <td colspan="3"> 때론메모리도필요해 </td>
       <td colspan="3"> 4.191 </td>
     </tr>
+    <tr>
+      <td colspan="3">  </td>
+      <td colspan="3"> Y-Phi </td>
+      <td colspan="3"> 미동작 </td>
+    </tr>
+    <tr>
+      <td colspan="3">  </td>
+      <td colspan="3"> 준정상 </td>
+      <td colspan="3"> 미동작 </td>
+    </tr>
+    <tr>
+      <td colspan="3">  </td>
+      <td colspan="3"> Delta </td>
+      <td colspan="3">  미동작 </td>
+    </tr>
+    <tr>
+      <td colspan="3">  </td>
+      <td colspan="3"> 2MuchToDo </td>
+      <td colspan="3">  미동작 </td>
+    </tr>
+    <tr>
+      <td colspan="3">  </td>
+      <td colspan="3"> 2MuchToDo </td>
+      <td colspan="3">  미동작 </td>  
+    </tr>
   </table>
 </P>
 
