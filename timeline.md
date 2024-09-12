@@ -30,13 +30,13 @@ excerpt:
 
       		<tr>
 			<td rowspan="3" style ="vertical-align: middle"> Dateset 평가 </td>
-   			<td> <b> 1차 제출 </b>  </td> 
-			<td colspan="2"> <b> ~2024년 9월 1일 (일) 23:59 </b>  </td> 
+   			<td> 1차 제출 </td> 
+			<td colspan="2"> <strike> ~2024년 9월 1일 (일) 23:59  </strike> (마감) </td> 
    		</tr>	
 
        	 	<tr>
-   			<td> <b> 2차 제출 </b>  </td> 
-			<td colspan="2"> <b> ~2024년 9월 8일 (일) 23:59 </b> </td> 
+   			<td> 2차 제출  </td> 
+			<td colspan="2"> <strike> ~2024년 9월 8일 (일) 23:59 </strike> (마감) </td> 
    		</tr>	
 
      	   	<tr>
