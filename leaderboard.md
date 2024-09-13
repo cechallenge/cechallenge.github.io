@@ -74,7 +74,8 @@ excerpt:
       <td colspan="3">  미동작 </td>  
     </tr>
   </table>
-   
+<br>
+
 ###### 주의 사항
 ※ Leaderboard에 표시된 결과는 참고용이며, 최종 순위는 내부 평가 기준을 통해 결정됩니다.
 
