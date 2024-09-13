@@ -76,7 +76,6 @@ excerpt:
       <td colspan="3">  미동작 </td>  
     </tr>
   </table>
-</P>
 
 ###### 주의 사항
 
