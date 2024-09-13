@@ -10,7 +10,7 @@ Coming soon!
 (SAIT)
 
 
-### 공개DATAset 결과 (팀 제출결과)
+### 팀 제출 결과 (공개 Dataset)
 <p>
   <table class="table table-sm" width="100%">
  
@@ -27,7 +27,7 @@ Coming soon!
 
 <p> </P>
 
-### 성능측정 기준
+### 성능측정 결과 (사무국 비공개 Dataset)
 
 <p>
   <table class="table table-sm" width="100%">
