@@ -10,7 +10,8 @@ Coming soon!
 (SAIT)
 
 
-### 팀 제출 결과 (공개 Dataset)
+### 팀 제출 결과 (공개 Dataset)     
+※ 팀에서 평가하여 제공된 DATA를 기준으로 등록하였습니다.     
 <p>
   <table class="table table-sm" width="100%">
  
@@ -24,10 +25,11 @@ Coming soon!
       <td colspan="3"> Hecate </td>
       <td colspan="3"> 19.8 </td>
     </tr>
-
+</P>
 <p> </P>
 
 ### 성능측정 결과 (사무국 비공개 Dataset)
+※ 사무국에 평가한 결과입니다. 
 
 <p>
   <table class="table table-sm" width="100%">
