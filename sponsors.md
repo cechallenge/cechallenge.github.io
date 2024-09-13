@@ -30,7 +30,7 @@ Coming soon!
 <br> 
 
 #### 성능측정 결과 (사무국 비공개 Dataset)       
-※ 사무국에 평가한 결과입니다. 
+※ 사무국에 평가한 결과를 기준으로 등록하였습니다.    
   <table class="table table-sm" width="100%">
  
   <tr>
