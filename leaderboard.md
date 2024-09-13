@@ -7,22 +7,28 @@ excerpt:
 ---
 ### Leaderboard
 
-<!--
-|   rank | 팀이름            | Inference Time(sec/item)            
-|1|       |           
-|2|       |           
-|3|       |          
-|4|       |            
-|5|       |           
-|6|       |            
-|7|       |       
-|8|       |        
-|9|       |           
-|10|      |       
+##### 팀 제출 결과 (공개 Dataset)     
+###### ※ 팀에서 평가하여 제공된 결과입니다. 
 
--->
+  <table class="table table-sm" width="100%">
+ 
+  <tr>
+    <td colspan="3"> rank </td>
+    <td colspan="3" width="40%"> 팀 이름 </td>
+    <td colspan="3" width="40%"> Total Time (sec) </td> 
+  </tr>	
+  <tr>
+    <td colspan="3"> 1 </td>
+    <td colspan="3"> Hecate </td>
+    <td colspan="3"> 19.8 </td>
+  </tr>
+  </table>
 
-<p>
+<br> 
+
+##### 성능측정 결과 (사무국 비공개 Dataset)       
+###### ※ 사무국에 평가한 결과입니다.
+  <table class="table table-sm" width="100%">
   <table class="table table-sm" width="100%">
     <tr>
       <td colspan="3"> rank </td>
