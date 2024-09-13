@@ -18,7 +18,7 @@ Coming soon!
   <tr>
     <td colspan="3"> rank </td>
     <td colspan="3" width="40%"> 팀 이름 </td>
-    <td colspan="3" width="40%"> Total Time (sec/item) </td> 
+    <td colspan="3" width="40%"> Total Time (sec) </td> 
   </tr>	
   <tr>
     <td colspan="3"> 1 </td>
