@@ -9,7 +9,7 @@ excerpt:
 Coming soon!
 (SAIT)
 
-<!--
+
 ### 공개DATAset 결과 (팀 제출결과)
 <p>
   <table class="table table-sm" width="100%">
@@ -80,4 +80,4 @@ Coming soon!
   </table>
 </P>
 
--->
+
