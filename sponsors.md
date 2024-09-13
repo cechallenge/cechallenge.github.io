@@ -10,11 +10,28 @@ Coming soon!
 (SAIT)
 
 <!--
+### 공개DATAset 결과 (팀 제출결과)
+<p>
+  <table class="table table-sm" width="100%">
+ 
+    <tr>
+      <td colspan="3"> rank </td>
+      <td colspan="3" width="40%"> 팀 이름 </td>
+      <td colspan="3" width="40%"> Inference Time (sec/item) </td> 
+    </tr>	
+    <tr>
+      <td colspan="3"> 1 </td>
+      <td colspan="3"> Hecate </td>
+      <td colspan="3"> 19.8 </td>
+    </tr>
+
+<p> </P>
+
+### 성능측정 기준
 
 <p>
   <table class="table table-sm" width="100%">
-
-   
+ 
     <tr>
       <td colspan="3"> rank </td>
       <td colspan="3" width="40%"> 팀 이름 </td>
