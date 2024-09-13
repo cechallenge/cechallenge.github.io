@@ -27,14 +27,16 @@ Through this Computer Engineering Challenge, we hope that more students will bec
 
 <div class="layerPopup" id="layer_popup" style="visibility: visible;">
     <div class="layerBox">
-        <h5 class="title"> 3차 평가 의뢰 안내</h5>
+        <h5 class="title"> 3차 성능측정 의뢰 안내</h5>
         <div class="cont">
 		
              <p style="line-height:1;">안녕하세요</p>
 	     <p style="line-height:1;">Samsung Computer Engineering Challenge 사무국입니다.</P>
      <br>
-      <p style="line-height:1;">사무국에서 선정한 Dataset으로 성능 측정을 의뢰하실 분은 아래 내용 참고하시기 바랍니다.  </p>   
-      <p style="line-height:1;">평가 결과는 리더보드에 공개됩니다. </p>    
+      <p style="line-height:1;">사무국에서 선정한 Dataset으로 성능측정을 의뢰하실 분은 아래 내용 참고하시기 바랍니다.  </p>   
+      <p style="line-height:1;">측정 결과는 리더보드에 공개됩니다. </p>    
+      <p style="line-height:1;">  ※ 성능측정은 현수준 파악이 목적이며, '최종 결과물' 평가는 아니오니 참고하시기 바랍니다. </p>
+      
 	        <br>&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;기간 : ~2024년 9월 22일 (일) 23:59 
       		<p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;방법 :  아래의 내용을 E-mail 송부하여 테스트 의뢰  </p>        
     		<p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>1. 코드 및 동작 환경이 세팅되어 있는 Docker 이미지 주소</b>   
