@@ -27,8 +27,7 @@ Coming soon!
   </tr>
   </table>
 
-<br> </br>
-<br> </br>
+<br> 
 
 #### 성능측정 결과 (사무국 비공개 Dataset)       
 ※ 사무국에 평가한 결과입니다. 
