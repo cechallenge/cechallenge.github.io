@@ -31,7 +31,6 @@ Coming soon!
 
 #### 성능측정 결과 (사무국 비공개 Dataset)       
 ※ 사무국에 평가한 결과입니다. 
-<p>
   <table class="table table-sm" width="100%">
  
   <tr>
@@ -80,6 +79,5 @@ Coming soon!
       <td colspan="3">  미동작 </td>  
     </tr>
   </table>
-</P>
 
 
