@@ -28,7 +28,6 @@ excerpt:
 ##### 성능측정 결과 (사무국 비공개 Dataset)       
 ※ 사무국에 평가한 결과입니다.
   <table class="table table-sm" width="100%">
-  <table class="table table-sm" width="100%">
     <tr>
       <td colspan="3"> rank </td>
       <td colspan="3" width="40%"> 팀 이름 </td>
@@ -75,8 +74,7 @@ excerpt:
       <td colspan="3">  미동작 </td>  
     </tr>
   </table>
-
+   
 ###### 주의 사항
-
 ※ Leaderboard에 표시된 결과는 참고용이며, 최종 순위는 내부 평가 기준을 통해 결정됩니다.
 
