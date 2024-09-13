@@ -7,8 +7,8 @@ excerpt:
 ---
 ### Leaderboard
 
-##### 팀 제출 결과 (공개 Dataset)     
-###### ※ 팀에서 평가하여 제공된 결과입니다. 
+##### 팀 제출 결과 (공개 Dataset)      
+    ※ 팀에서 평가하여 제공된 결과입니다. 
 
   <table class="table table-sm" width="100%">
  
@@ -27,7 +27,7 @@ excerpt:
 <br> 
 
 ##### 성능측정 결과 (사무국 비공개 Dataset)       
-###### ※ 사무국에 평가한 결과입니다.
+      ※ 사무국에 평가한 결과입니다.
   <table class="table table-sm" width="100%">
   <table class="table table-sm" width="100%">
     <tr>
