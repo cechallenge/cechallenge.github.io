@@ -11,7 +11,7 @@ Coming soon!
 
 
 #### 팀 제출 결과 (공개 Dataset)     
-※ 팀에서 평가하여 제공된 DATA를 기준으로 등록하였습니다.     
+※ 팀에서 평가하여 제공된 결과를 기준으로 등록하였습니다.     
 
   <table class="table table-sm" width="100%">
  
