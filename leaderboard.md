@@ -61,17 +61,22 @@ excerpt:
     <tr>
       <td colspan="3">  </td>
       <td colspan="3"> Delta </td>
-      <td colspan="3">  오동작 </td>
+      <td colspan="3"> 오동작 </td>
     </tr>
     <tr>
       <td colspan="3">  </td>
       <td colspan="3"> 2MuchToDo </td>
-      <td colspan="3">  오동작 </td>
+      <td colspan="3"> 오동작 </td>
     </tr>
     <tr>
       <td colspan="3">  </td>
       <td colspan="3"> 강주재 </td>
       <td colspan="3">  오동작 </td>  
+    </tr>
+    <tr>
+      <td colspan="3">  </td>
+      <td colspan="3"> SKKUter </td>
+      <td colspan="3"> 오동작 </td>  
     </tr>
   </table>
 <br>
