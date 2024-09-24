@@ -24,24 +24,25 @@ Samsung SAIT is holding the **Computer Engineering(CE) Challenge** to promote th
 Through this Computer Engineering Challenge, we hope that more students will become interested in system optimization methodologies for large-scale language models. We expect that this increased interest in Computer Engineering will advance the AI Computing era to come in the future and contribute greatly to reducing energy and costs.
 
 <!-- layer popup content -->
-<!--
 <div class="layerPopup" id="layer_popup" style="visibility: visible;">
     <div class="layerBox">
-        <h5 class="title"> 3차 성능측정 의뢰 안내</h5>
+        <h5 class="title"> <b>최종 결과물 제출 안내</b></h5>
         <div class="cont">
 		
              <p style="line-height:1;">안녕하세요</p>
 	     <p style="line-height:1;">Samsung Computer Engineering Challenge 사무국입니다.</P>
      <br>
-      <p style="line-height:1;">사무국에서 선정한 Dataset으로 성능측정을 의뢰하실 분은 아래 내용 참고하시기 바랍니다.  </p>   
-      <p style="line-height:1;">측정 결과는 리더보드에 공개됩니다. </p>    
-      <p style="line-height:1;">  ※ 성능측정은 현수준 파악이 목적이며, '최종 결과물' 평가는 아니오니 참고하시기 바랍니다. </p>
+      <p style="line-height:1;">최종 결과물 제출 안내를 드리니 아래 내용 참고하시기 바랍니다.  </p>   
       
-	        <br>&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;기간 : ~2024년 9월 22일 (일) 23:59 
-      		<p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;방법 :  아래의 내용을 E-mail 송부하여 테스트 의뢰  </p>        
-    		<p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>1. 코드 및 동작 환경이 세팅되어 있는 Docker 이미지 주소</b>   
-      		<p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Private으로 Docker 이미지를 올릴 경우, github cechallenge 계정에 접근 권한 부여)  </p> 
-        	<p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>2. 재현 방법이 상세히 기술되어 있는 문서     </b>     
+	        <br>&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;기간 : ~2024년 9월 27일 (금) 23:59 
+      		<p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;<b>최종 제출물</b>  </p>        
+    		<p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>1. 최적화 결과물이 포함되어 있는 docker image 주소 </b>   
+      		<p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (다운로드 가능해야 하며, Private으로 Docker image를 올릴 경우, github cechallenge 계정에 접근 권한 부여)  </p> 
+        	<p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>2. 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서 (docs/ppt/pdf 등)     </b>     
+	        <p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ※ docker image는 파일이 아닌 주소입니다.  </p>
+	        <p style="line-height:1; color:#be0000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ※ 코드 제출은 개별 파일이 아닌 docker container로만 받으며, test script 등 모든 내용은 container에 포함되어야 합니다.   </p>
+	        <p style="line-height:1; color:#be0000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+   개별 파일로 제출 가능한 것은 실행 방법이 적힌 README 파일뿐입니다.   </p>
          	<p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;E-mail : cechallenge@samsung.com </p>   
  	<br>   
               삼성전자 Computer Engineering Challenge 사무국 드림.
@@ -56,5 +57,3 @@ Through this Computer Engineering Challenge, we hope that more students will bec
 		      <div id="close" ><a href="javascript:closePop();">닫기</a>
 		
 	</div>  
--->
-
