@@ -25,7 +25,7 @@ Through this Computer Engineering Challenge, we hope that more students will bec
 
 <!-- layer popup content -->
 <div class="layerPopup" id="layer_popup" style="visibility: visible;">
-    <div class="layerBox">
+    <div class="layerBox" style="width: 45%;">
         <h5 class="title"> <b>최종 결과물 제출 안내</b></h5>
         <div class="cont">
 		
@@ -39,7 +39,7 @@ Through this Computer Engineering Challenge, we hope that more students will bec
     		<p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>1. 최적화 결과물이 포함되어 있는 docker image 주소 </b>   
       		<p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (다운로드 가능해야 하며, Private으로 Docker image를 올릴 경우, github cechallenge 계정에 접근 권한 부여)  </p> 
         	<p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>2. 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서 (docs/ppt/pdf 등)     </b>     
-	        <p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ※ docker image는 파일이 아닌 주소입니다.  </p>
+	        <p style="line-height:1; color:#be0000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ※ docker image는 파일이 아닌 주소입니다.  </p>
 	        <p style="line-height:1; color:#be0000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ※ 코드 제출은 개별 파일이 아닌 docker container로만 받으며, test script 등 모든 내용은 container에 포함되어야 합니다.   </p>
 	        <p style="line-height:1; color:#be0000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
    개별 파일로 제출 가능한 것은 실행 방법이 적힌 README 파일뿐입니다.   </p>
