@@ -29,7 +29,7 @@ Through this Computer Engineering Challenge, we hope that more students will bec
         <h5 class="title"> <b>최종 결과물 제출 안내</b></h5>
         <div class="cont">
 	    <b style="font-size:20px;">기간 : ~2024년 9월 27일 (금) 23:59</b> 
-      	    <br><p style="line-height:1;"><b>최종 제출물</b>  </p>        
+      	    <br><br><p style="line-height:1;"><b>최종 제출물</b>  </p>        
     	    <p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp; 1. 최적화 결과물이 포함되어 있는 docker image 주소   
       	    <p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (다운로드 가능해야 하며, Private으로 Docker image를 올릴 경우, github cechallenge 계정에 접근 권한 부여)  </p> 
             <p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp; 2. 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서 (docs/ppt/pdf 등)          
