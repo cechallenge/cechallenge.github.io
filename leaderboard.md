@@ -45,13 +45,13 @@ excerpt:
     </tr>
     <tr>
       <td colspan="3"> 3 </td>
-      <td colspan="3"> 때론메모리도필요해 </td>
-      <td colspan="3"> 4.191 </td>
+      <td colspan="3"> Y-Phi </td>
+      <td colspan="3"> 3.810 </td>
     </tr>
     <tr>
-      <td colspan="3">  </td>
-      <td colspan="3"> Y-Phi </td>
-      <td colspan="3"> 오동작 </td>
+      <td colspan="3"> 4 </td>
+      <td colspan="3"> 때론메모리도필요해 </td>
+      <td colspan="3"> 4.191 </td>
     </tr>
     <tr>
       <td colspan="3">  </td>
@@ -65,17 +65,22 @@ excerpt:
     </tr>
     <tr>
       <td colspan="3">  </td>
-      <td colspan="3"> 2MuchToDo </td>
+      <td colspan="3"> 2MuchToDo(3차) </td>
       <td colspan="3"> 오동작 </td>
     </tr>
     <tr>
       <td colspan="3">  </td>
-      <td colspan="3"> 강주재 </td>
+      <td colspan="3"> 강주재(3차) </td>
       <td colspan="3">  오동작 </td>  
     </tr>
     <tr>
       <td colspan="3">  </td>
-      <td colspan="3"> SKKUter </td>
+      <td colspan="3"> SKKUter(3차) </td>
+      <td colspan="3"> 오동작 </td>  
+    </tr>
+    <tr>
+      <td colspan="3">  </td>
+      <td colspan="3"> Hecate(3차) </td>
       <td colspan="3"> 오동작 </td>  
     </tr>
   </table>
