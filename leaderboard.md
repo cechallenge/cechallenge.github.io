@@ -50,13 +50,13 @@ excerpt:
     </tr>
     <tr>
       <td colspan="3"> 4 </td>
-      <td colspan="3"> 때론메모리도필요해 </td>
-      <td colspan="3"> 4.191 </td>
+      <td colspan="3"> Friday </td>
+      <td colspan="3"> 4.122 </td>
     </tr>
     <tr>
       <td colspan="3"> 5 </td>
-      <td colspan="3"> Friday </td>
-      <td colspan="3"> 4.122 </td>
+      <td colspan="3"> 때론메모리도필요해 </td>
+      <td colspan="3"> 4.191 </td>
     </tr>
     <tr>
       <td colspan="3">  </td>
