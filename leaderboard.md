@@ -54,6 +54,11 @@ excerpt:
       <td colspan="3"> 4.191 </td>
     </tr>
     <tr>
+      <td colspan="3"> 5 </td>
+      <td colspan="3"> Friday </td>
+      <td colspan="3"> 4.122 </td>
+    </tr>
+    <tr>
       <td colspan="3">  </td>
       <td colspan="3"> 준정상 </td>
       <td colspan="3"> 오동작 </td>
