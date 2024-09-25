@@ -60,6 +60,11 @@ excerpt:
     </tr>
     <tr>
       <td colspan="3">  </td>
+      <td colspan="3"> AIHA-HYU </td>
+      <td colspan="3"> 오동작 </td>
+    </tr>
+    <tr>
+      <td colspan="3">  </td>
       <td colspan="3"> Delta </td>
       <td colspan="3"> 오동작 </td>
     </tr>
