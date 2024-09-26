@@ -126,8 +126,8 @@ navigation_header:
   url: /prizes/
 - title: Leaderboard
   url: /leaderboard/
-- title: Submission
-  url: /submission/
+- title: Notice
+  url: /Notice/
 - title: Q&A
   url: /qna/
 
