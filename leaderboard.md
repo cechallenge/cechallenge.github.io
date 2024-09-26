@@ -81,7 +81,7 @@ excerpt:
     <tr>
       <td colspan="3">  </td>
       <td colspan="3"> 강주재(3차) </td>
-      <td colspan="3">  오동작 </td>  
+      <td colspan="3">  오동작 </td> 
     </tr>
     <tr>
       <td colspan="3">  </td>
@@ -91,16 +91,19 @@ excerpt:
     <tr>
       <td colspan="3">  </td>
       <td colspan="3"> Hecate(3차) </td>
-      <td colspan="3"> 오동작 </td>  
+      <td colspan="3"> 오동작 </td>
 </tr>
+<tr>
       <td colspan="3">  </td>
       <td colspan="3"> Titan(3차) </td>
       <td colspan="3"> 오동작 </td>  
-    </tr>
+</tr>
+<tr>
       <td colspan="3">  </td>
       <td colspan="3"> sew(3차) </td>
       <td colspan="3"> 오동작 </td>  
     </tr>
+    <tr>
       <td colspan="3">  </td>
       <td colspan="3"> ShallowSpeed(3차) </td>
       <td colspan="3"> 오동작 </td>  
