@@ -116,7 +116,7 @@ excerpt:
   		<tr>
 			<td colspan="2"> Competition End </td>
 			<td> <strike> September 13, 2024 (Friday) at 9:59 AM </strike> </td>
-   			<td rowspan="2" style ="vertical-align: middle"> <strike> September 27 2024 (Friday) at 11:59 PM </strike>    &#129046;    <span style="background-color:#FFFF00; color:#000000;"> <b> September 27 2024 (Friday) at 11:59 PM</b></span> </td> 
+   			<td rowspan="2" style ="vertical-align: middle"> <strike> September 27, 2024 (Friday) at 11:59 PM </strike>    &#129046;    <span style="background-color:#FFFF00; color:#000000;"> <b> October 6, 2024 (Sunday) at 11:59 PM</b></span> </td> 
  		</tr>	
    
    		<tr>
