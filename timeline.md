@@ -41,7 +41,7 @@ excerpt:
 
      	   	<tr>
    			<td> <b> 3차 제출 </b> </td>
-			<td colspan="2"> <b> ~2024년 9월 22일 (일) 23:59 </b> </td>
+			<td colspan="2">  <strike> ~2024년 9월 22일 (일) 23:59  </strike> (마감) </td>
    		</tr>
      
   		<tr>
@@ -110,7 +110,7 @@ excerpt:
 
 	        	<tr>
    			<td> <b> 3rd Submission </b> </td>
-			<td colspan="2"> <b> September 22, 2024 (Sunday) at 11:59 PM </b> </td>
+			<td colspan="2"> <strike> September 22, 2024 (Sunday) at 11:59 PM </strike> </td>
    		</tr>
      
   		<tr>
