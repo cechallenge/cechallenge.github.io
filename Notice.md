@@ -13,7 +13,7 @@ Out of memory로 인한 오동작이 빈번하여 추가 검증용 Dataset 제�
 
  * 추가 Dataset를 반영하여 완성도를 높일수 있도록 대회기간을 연장하게되었습니다.       
  * 대회 종료 (코드 및 PPT 제출)      
-  <strike> 9월 27일(금) 23:59 </strike>    &#129046;    <span style="background-color:#FFFF00; color:#000000;"> <b> 10월 6일(일) 23:59 </b></span>    
+  <strike> 9월 27일(금) 23:59 </strike>  &#129046; <b> 10월 6일(일) 23:59 </b>
 
    ※ 대회 종료일 연장으로 최종 발표일도 연기될 예정입니다.        
 
@@ -31,7 +31,7 @@ Out of memory로 인한 오동작이 빈번하여 추가 검증용 Dataset 제�
  
  * We have decided to extend the competition period.      
  * Competition End (Code and PPT Submission)     
-      <strike> September 27, 2024 (Friday) at 11:59 PM </strike>    &#129046;    <span style="background-color:#FFFF00; color:#000000;"> <b> October 6, 2024 (Sunday) at 11:59 PM</b></span> 
+      <strike> September 27, 2024 (Friday) at 11:59 PM </strike>  &#129046;  <b> October 6, 2024 (Sunday) at 11:59 PM</b>
 
    ※ Final Results Announcement date is also postponed.
 
