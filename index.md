@@ -24,6 +24,32 @@ Samsung SAIT is holding the **Computer Engineering(CE) Challenge** to promote th
 Through this Computer Engineering Challenge, we hope that more students will become interested in system optimization methodologies for large-scale language models. We expect that this increased interest in Computer Engineering will advance the AI Computing era to come in the future and contribute greatly to reducing energy and costs.
 
 <!-- layer popup content -->
+
+<div class="layerPopup" id="layer_popup" style="visibility: visible;">
+    <div class="layerBox" style="width:45%;">
+        <h5 class="title"> <b> [긴급] 추가 Dataset 제공 및 대회기간 연장 안내 </b></h5>
+        <div class="cont">
+	 	<b style="font-size:20px;"> 참가자분들께서 보내주신 1,2,3차 평가결과 Out of Memory로 인한 오작동이 빈번하게 발생하였습니다. 
+                                            긴급하게 내부 논의하여 추가 검증을 위해 평가 데이터 중 가장 긴 sample 데이터를 제공하고 대회기간을 연장하게되었습니다. </b> 
+		<br> 
+		<br> 
+		<b style="font-size:20px;">  대회기간 연장 : <strike> 9월 27일(금) 23:59 </strike>  &#129046; <b>  10월 6일(일) 23:59 </b>
+			<P></P>
+      	       <b style="font-size:20px;"> 추가 Dataset : 평가 데이터 중 가장 긴 sample 데이터를 제공합니다.</b> 
+		<br>
+		<br>
+      		<b style="font-size:20px;">  자세한 내용은 <a target="_blank" href="https://cechallenge.github.io/Notice/" style="color:red"> Notice Link </a>을 참고하세요. </b> 
+  	<br>
+   	<br> 
+        <form name="pop_form">
+            <div id="check" ><input type="checkbox" name="chkbox" value="checkbox" id='chkbox' >
+            <label for="chkbox">오늘 하루동안 보지 않기</label></div>
+		      <div id="close" ><a href="javascript:closePop();">닫기</a>
+		
+	</div> 
+
+
+
 <!-- 
 <div class="layerPopup" id="layer_popup" style="visibility: visible;">
     <div class="layerBox" style="width:45%;">
