@@ -20,11 +20,14 @@ excerpt:
 
 
 #### Target Dataset
- * 최종 심사에 사용할 비공개 데이터셋에는 Huggingface Phi3-medium-4k-instruct repository의 Benchmark set 19개 중 일부가 포함되어있습니다.
- * 자체 점검 및 리더보드 등록을 위해 참가자들에게 OpenBookQA를 가공한 공개 데이터셋이 제공됩니다. (출처: https://huggingface.co/datasets/allenai/openbookqa)
+ * 최종 심사에 사용할 비공개 데이터셋에는 Huggingface Phi3-medium-4k-instruct repository의 Benchmark set 19개 중 일부가 포함되어있습니다.         
+ * 자체 점검 및 리더보드 등록을 위해 참가자들에게 OpenBookQA를 가공한 공개 데이터셋이 제공됩니다. (출처: https://huggingface.co/datasets/allenai/openbookqa)    
    * <a href="/assets/files/test_script.py" download="test_script.py"> test_script.py</a>
    * <a href="/assets/files/test_dataset.jsonl" download="test_dataset.jsonl"> test_dataset.jsonl</a>
-  
+ * Out of memory로 인한 오동작이 빈번하여 추가 검증을 위해 평가 데이터 중 가장 긴 sample 데이터를 제공합니다.           
+   * <a href="/assets/files/sample_longest_data.jsonl" download="sample_longest_data.jsonl"> sample_longest_data.jsonl</a>          
+
+ 
 #### Framework
  * 최적화를 위해 사용 할 딥러닝 프레임워크는 PyTorch 2.x입니다.
  * 적절한 출처를 제공한다면 오픈 소스 코드와 라이브러리 사용은 허용합니다.
@@ -86,6 +89,9 @@ The competition quantitatively evaluates the time taken to minimize LLM inferenc
  * For self-check and leaderboard registration, a test dataset processed from OpenBookQA will be provided to the participants.
    * <a href="/assets/files/test_script.py" download="test_script.py"> test_script.py</a>
    * <a href="/assets/files/test_dataset.jsonl" download="test_dataset.jsonl"> test_dataset.jsonl</a>
+ * Due to frequent malfunctions caused by out of memory errors, we provide the longest sample data from the evaluation dataset for further validation.                       
+   * <a href="/assets/files/sample_longest_data.jsonl" download="sample_longest_data.jsonl"> sample_longest_data.jsonl</a>        
+
   
 #### Framework
  * Allowed framwork is PyTorch 2.x.
