@@ -29,7 +29,7 @@ Coming soon!
       	       <b style="font-size:20px;"> 추가 Dataset : 평가 데이터 중 가장 긴 sample 데이터를 제공합니다.</b> 
 		<br>
 		<br>
-      		<b style="font-size:20px;">  자세한 내용은 <a target="_blank" href="https://cechallenge.github.io/Notice/"> 다음 Notice </a>을 참고하세요. </b> 
+      		<b style="font-size:20px;">  자세한 내용은 <a target="_blank" href="https://cechallenge.github.io/Notice/"> Notice </a>을 참고하세요. </b> 
   	<br>
    	<br> 
         <form name="pop_form">
