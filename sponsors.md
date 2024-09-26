@@ -22,9 +22,10 @@ Coming soon!
         <div class="cont">
 	 	<b style="font-size:20px;"> 참가자분들께서 보내주신 1,2,3차 평가결과 Out of Memory로 인한 오작동이 빈번하게 발생하였습니다. 
                                             긴급하게 내부 논의하여 추가 검증을 위해 평가 데이터 중 가장 긴 sample 데이터를 제공하고 대회기간을 연장하게되었습니다. </b> 
-		<b> </b>
-	    <b style="font-size:20px;"> 대회기간 연장 : <strike> 9월 27일(금) 23:59 </strike> &#129046; <span style="background-color:#FFFF00; color:#000000;"> <b>  10월 6일(일) 23:59 </b></span> </td> </b> 
-      	    <br><br><p style="line-height:1;"><b>추가 Dataset 안내 </b>  </p>        
+		<br> </br>
+		
+	    <b style="font-size:20px;"> 대회기간 연장 : <strike> 9월 27일(금) 23:59 </strike> &#129046; <span style="background-color:#FFFF00; color:#000000;"> <b>  10월 6일(일) 23:59 </b></span></b> 
+      	    <br><br><p style="line-height:1;"> <b style="font-size:20px;"> 추가 Dataset 안내 </b>  </p>        
     	    <p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp; 평가 데이터 중 가장 긴 sample 데이터를 제공하오니, 해당 데이터를 이용하여 Out of Memory가 발생하지 않도록 적절히 batch size를 조정하여 최종 제출에 반영해주시기 바랍니다.     
       	    <p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 자세한 내용은 <a target="_blank" href="https://cechallenge.github.io/Notice/"> 다음 Notice </a>을 참고하세요.
         <br>         
