@@ -40,7 +40,7 @@ excerpt:
     </tr>
     <tr>
       <td colspan="3"> 2 </td>
-      <td colspan="3"> Titan </td>
+      <td colspan="3"> Titan(2차) </td>
       <td colspan="3"> 2.481 </td>
     </tr>
     <tr>
@@ -70,7 +70,7 @@ excerpt:
     </tr>
     <tr>
       <td colspan="3">  </td>
-      <td colspan="3"> Delta </td>
+      <td colspan="3"> Delta(3차) </td>
       <td colspan="3"> 오동작 </td>
     </tr>
     <tr>
@@ -92,7 +92,34 @@ excerpt:
       <td colspan="3">  </td>
       <td colspan="3"> Hecate(3차) </td>
       <td colspan="3"> 오동작 </td>  
+</tr>
+      <td colspan="3">  </td>
+      <td colspan="3"> Titan(3차) </td>
+      <td colspan="3"> 오동작 </td>  
     </tr>
+      <td colspan="3">  </td>
+      <td colspan="3"> sew(3차) </td>
+      <td colspan="3"> 오동작 </td>  
+    </tr>
+      <td colspan="3">  </td>
+      <td colspan="3"> ShallowSpeed(3차) </td>
+      <td colspan="3"> 오동작 </td>  
+    </tr>   
+      <tr>
+      <td colspan="3">  </td>
+      <td colspan="3"> 먹구름(3차) </td>
+      <td colspan="3"> 오동작 </td>
+    </tr>  
+    <tr>
+      <td colspan="3">  </td>
+      <td colspan="3"> Blackwell(3차) </td>
+      <td colspan="3"> 오동작 </td>
+    </tr>
+    <tr>
+      <td colspan="3">  </td>
+      <td colspan="3"> speed(3차) </td>
+      <td colspan="3"> 오동작 </td>
+    </tr> 
   </table>
 <br>
 
