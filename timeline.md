@@ -57,7 +57,7 @@ excerpt:
    		<tr>
    			<td colspan="2">  최종 결과 발표 </td> 
 			<td> <strike> 10월 8일 (화) </strike> </td> 
-   			<td> <span style="background-color:#FFFF00; color:#000000;"><b> TBD </b></span> </td> 
+   			<td> TBD  </td> 
  		</tr>
       		<tr>
    			<td colspan="2">  시상  </td> 
@@ -126,7 +126,7 @@ excerpt:
    		<tr>
    			<td colspan="2"> Final Results Announcement </td> 
 			<td> <strike> October 8, 2024 (Tuesday) </strike> </td> 
-   			<td><span style="background-color:#FFFF00; color:#000000;">  <b> TBD </b> </span></td> 
+   			<td> TBD</td> 
  		</tr>
       		<tr>
    			<td colspan="2"> Awards Ceremony  </td> 
