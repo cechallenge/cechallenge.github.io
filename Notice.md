@@ -6,7 +6,7 @@ feature_image: "/assets/logos/banner_last.png"
 excerpt:
 ---
 
-Out of memory로 인한 오동작이 빈번하여 추가 검증용 Dataset 제공 및 대회기간 연장을 안내드립니다. 
+Out of memory로 인한 오동작이 빈번하여 추가 검증용 Dataset 제공 및 대회기간 연장을 안내드립니다.       
 자세한 내용은 아래 참고하시기 바랍니다. 
 
 #### Timeline
