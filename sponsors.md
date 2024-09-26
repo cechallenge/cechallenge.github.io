@@ -26,7 +26,7 @@ Coming soon!
 		
 	    <b style="font-size:20px;"> 대회기간 연장 : <strike> 9월 27일(금) 23:59 </strike> &#129046; <span style="background-color:#FFFF00; color:#000000;"> <b>  10월 6일(일) 23:59 </b></span></b> 
       	    <br><br><p style="line-height:1;"> <b style="font-size:20px;"> 추가 Dataset 안내 </b>  </p>        
-    	    <p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp; 평가 데이터 중 가장 긴 sample 데이터를 제공하오니, 해당 데이터를 이용하여 Out of Memory가 발생하지 않도록 적절히 batch size를 조정하여 최종 제출에 반영해주시기 바랍니다.     
+    	    <p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp; 평가 데이터 중 가장 긴 sample 데이터를 제공합니다.     
       	    <p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 자세한 내용은 <a target="_blank" href="https://cechallenge.github.io/Notice/"> 다음 Notice </a>을 참고하세요.
         <br>         
         <form name="pop_form">
