@@ -54,7 +54,7 @@ Through this Computer Engineering Challenge, we hope that more students will bec
 </div>
 
 <div class="layerPopup" id="layer_popup1" style="visibility: visible;">
-    <div class="layerBox" style="width:50%;">
+    <div class="layerBox" style="width:40%;">
         <h5 class="title"> <b>&bull;추가 리더보드 제출 안내</b></h5>
         <div class="cont">  
     	    <p style="line-height:1;">내부적으로 논의한 결과, 1,2,3차 평가를 진행하는 동안 Out of memory 문제를 해결한 팀들은 이전 공지에 추가한 'Max sequence length를 일부 제한'하는 규칙에 대해 상대적으로 불이익이 있을 수 있다고 판단하였습니다. </p>
