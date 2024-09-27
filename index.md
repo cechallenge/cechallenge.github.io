@@ -48,27 +48,15 @@ Through this Computer Engineering Challenge, we hope that more students will bec
 		
 	</div> 
 
-
-
-<!-- 
+ 
 <div class="layerPopup" id="layer_popup" style="visibility: visible;">
     <div class="layerBox" style="width:45%;">
-        <h5 class="title"> <b>최종 결과물 제출 안내</b></h5>
-        <div class="cont">
-	    <b style="font-size:20px;">기간 : ~2024년 9월 27일 (금) 23:59</b> 
-      	    <br><br><p style="line-height:1;"><b>최종 제출물</b>  </p>        
-    	    <p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp; 1. 최적화 결과물이 포함되어 있는 docker image 주소   
-      	    <p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (다운로드 가능해야 하며, Private으로 Docker image를 올릴 경우, github cechallenge 계정에 접근 권한 부여)  </p> 
-            <p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp; 2. 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서 (docs/ppt/pdf 등)          
-	    <br><br><p style="line-height:1; color:#be0000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ※ docker image는 파일이 아닌 주소입니다.  </p>
-	    <p style="line-height:1; color:#be0000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ※ 코드 제출은 개별 파일이 아닌 docker container로만 받으며, test script 등 모든 내용은 container에 포함되어야 합니다.   </p>
-	    <p style="line-height:1; color:#be0000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 개별 파일로 제출 가능한 것은 실행 방법이 적힌 README 파일뿐입니다.</p>
-            <br><p style="line-height:1;">&nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;E-mail : cechallenge@samsung.com </p>   
-        <br>         
+        <h5 class="title"> <b>&bull;추가 리더보드 제출 안내</b></h5>
+        <div class="cont">  
+    	    <p style="line-height:1;">내부적으로 논의한 결과, 1,2,3차 평가를 진행하는 동안 Out of memory 문제를 해결한 팀들은 이전 공지에 추가한 'Max sequence length를 일부 제한'하는 규칙에 대해 상대적으로 불이익이 있을 수 있다고 판단하였습니다. 이에 따라 기존에 문제를 해결한 팀에게는 추가적인 리더보드 제출 기회를 제공하고자 합니다.</p>
+      	    <br><p style="line-height:1;">추가적으로 리더보드를 제출할 의사가 있는 팀은 메일로 제출 부탁드립니다.</p>       
         <form name="pop_form">
             <div id="check" ><input type="checkbox" name="chkbox" value="checkbox" id='chkbox' >
             <label for="chkbox">오늘 하루동안 보지 않기</label></div>
 		      <div id="close" ><a href="javascript:closePop();">닫기</a>
-		
 	</div> 
---> 
