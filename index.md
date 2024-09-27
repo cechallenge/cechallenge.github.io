@@ -53,8 +53,8 @@ Through this Computer Engineering Challenge, we hope that more students will bec
     </div>
 </div>
 
-<div class="layerPopup" id="layer_popup1" style="visibility: visible; float:left; margin-left:auto;">
-    <div class="layerBox" style="width:40%;">
+<div class="layerPopup" id="layer_popup1" style="visibility: visible;">
+    <div class="layerBox" style="width:40%; float:left; margin-left:auto">
         <h5 class="title"> <b>추가 리더보드 제출 안내</b></h5>
         <div class="cont">  
     	    <p style="line-height:1;">내부적으로 논의한 결과, 1,2,3차 평가를 진행하는 동안 Out of memory 문제를 해결한 팀들은 </p>
