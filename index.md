@@ -25,6 +25,28 @@ Through this Computer Engineering Challenge, we hope that more students will bec
 
 <!-- layer popup content -->
 
+<div class="layerPopup" id="layer_popup1" style="visibility: visible;">
+    <div class="layerBox" style="width:40%;">
+        <h5 class="title"> <b>추가 리더보드 제출 안내</b></h5>
+        <div class="cont">  
+    	    <p style="line-height:1;">내부적으로 논의한 결과, 1,2,3차 평가를 진행하는 동안 Out of memory 문제를 해결한 팀들은 </p>
+	    <p style="line-height:1;">이전 공지에 추가한 'Max sequence length를 일부 제한'하는 규칙에 대해 </p>
+	    <p style="line-height:1;">상대적으로 불이익이 있을 수 있다고 판단하였습니다. </p>
+	    <br><p style="line-height:1;">이에 따라 기존에 문제를 해결한 팀에게는 추가적인 리더보드 제출 기회를 제공하고자 합니다.</p>
+      	    <br><p style="line-height:1;">추가적으로 리더보드를 제출할 의사가 있는 팀은 메일로 제출 부탁드립니다.</p>       
+            <form name="pop_form0">
+                <div id="check">
+		  <input type="checkbox" name="chkbox" value="checkbox" id='chkbox'>
+            	  <label for="chkbox">오늘 하루동안 보지 않기</label>
+	        </div>
+	        <div id="close">
+		  <a href="javascript:closePop1();">닫기</a>
+	        </div>
+	    </form>
+	</div>
+    </div>
+</div>
+
 <div class="layerPopup" id="layer_popup0" style="visibility: visible;">
     <div class="layerBox" style="width:45%;">
         <h5 class="title"> <b> [긴급] 추가 Dataset 제공 및 대회기간 연장 안내 </b></h5>
@@ -50,27 +72,5 @@ Through this Computer Engineering Challenge, we hope that more students will bec
 		   <a href="javascript:closePop0();">닫기</a>
 	    </div>
 	</form>
-    </div>
-</div>
-
-<div class="layerPopup" id="layer_popup1" style="visibility: visible;">
-    <div class="layerBox" style="width:40%; float:left; margin-left:auto">
-        <h5 class="title"> <b>추가 리더보드 제출 안내</b></h5>
-        <div class="cont">  
-    	    <p style="line-height:1;">내부적으로 논의한 결과, 1,2,3차 평가를 진행하는 동안 Out of memory 문제를 해결한 팀들은 </p>
-	    <p style="line-height:1;">이전 공지에 추가한 'Max sequence length를 일부 제한'하는 규칙에 대해 </p>
-	    <p style="line-height:1;">상대적으로 불이익이 있을 수 있다고 판단하였습니다. </p>
-	    <br><p style="line-height:1;">이에 따라 기존에 문제를 해결한 팀에게는 추가적인 리더보드 제출 기회를 제공하고자 합니다.</p>
-      	    <br><p style="line-height:1;">추가적으로 리더보드를 제출할 의사가 있는 팀은 메일로 제출 부탁드립니다.</p>       
-            <form name="pop_form0">
-                <div id="check">
-		  <input type="checkbox" name="chkbox" value="checkbox" id='chkbox'>
-            	  <label for="chkbox">오늘 하루동안 보지 않기</label>
-	        </div>
-	        <div id="close">
-		  <a href="javascript:closePop1();">닫기</a>
-	        </div>
-	    </form>
-	</div>
     </div>
 </div>
