@@ -60,12 +60,12 @@ excerpt:
     </tr>
     <tr>
       <td colspan="3">  </td>
-      <td colspan="3"> 준정상 </td>
+      <td colspan="3"> 준정상(2,3차) </td>
       <td colspan="3"> 오동작 </td>
     </tr>
     <tr>
       <td colspan="3">  </td>
-      <td colspan="3"> AIHA-HYU </td>
+      <td colspan="3"> AIHA-HYU(3차) </td>
       <td colspan="3"> 오동작 </td>
     </tr>
     <tr>
@@ -123,6 +123,11 @@ excerpt:
       <td colspan="3"> speed(3차) </td>
       <td colspan="3"> 오동작 </td>
     </tr> 
+    <tr>
+      <td colspan="3">  </td>
+      <td colspan="3"> zero2one(3차) </td>
+      <td colspan="3"> 오동작 </td>
+    </tr>     
   </table>
 <br>
 
