@@ -33,28 +33,28 @@ Through this Computer Engineering Challenge, we hope that more students will bec
                 <b style="font-size:20px;"> 긴급하게 내부적으로 논의한 결과 추가 검증을 위해 평가 데이터 중 가장 긴 sample 데이터를 제공하고 대회기간을 연장하게되었습니다. </b> 
 		<br> 
 		<br> 
-		<b style="font-size:20px;">  대회기간 연장 : <strike> 9월 27일(금) 23:59 </strike>  &#129046; <b>  10월 6일(일) 23:59 </b>
+		<b style="font-size:20px;">  대회기간 연장 : <strike> 9월 27일(금) 23:59 </strike>  &#129046; </b>  <b> 10월 6일(일) 23:59 </b>
       	        <b style="font-size:20px;"> 추가 Dataset : 평가 데이터 중 가장 긴 sample 데이터를 제공합니다.</b> 
 		<br>
 		<br>
       		<b style="font-size:20px;">  자세한 내용은 <a target="_blank" href="https://cechallenge.github.io/Notice/" style="color:red"> Notice Link </a>을 참고하세요. </b> 
   	<br>
    	<br> 
-           <form name="pop_form1">
-               <div id="check">
- 		   <input type="checkbox" name="chkbox" value="checkbox" id='chkbox'>
-                   <label for="chkbox">오늘 하루동안 보지 않기</label>
-	       </div>
-	       <div id="close">
-		   <a href="javascript:closePop0();">닫기</a>
-	       </div>
-	   </form>
 	</div>
+        <form name="pop_form1">
+            <div id="check">
+ 	       <input type="checkbox" name="chkbox" value="checkbox" id='chkbox'>
+               <label for="chkbox">오늘 하루동안 보지 않기</label>
+	    </div>
+	    <div id="close">
+		   <a href="javascript:closePop0();">닫기</a>
+	    </div>
+	</form>
     </div>
 </div>
 
 <div class="layerPopup" id="layer_popup1" style="visibility: visible;">
-    <div class="layerBox" style="width:45%;">
+    <div class="layerBox" style="width:50%;">
         <h5 class="title"> <b>&bull;추가 리더보드 제출 안내</b></h5>
         <div class="cont">  
     	    <p style="line-height:1;">내부적으로 논의한 결과, 1,2,3차 평가를 진행하는 동안 Out of memory 문제를 해결한 팀들은 이전 공지에 추가한 'Max sequence length를 일부 제한'하는 규칙에 대해 상대적으로 불이익이 있을 수 있다고 판단하였습니다. </p>
