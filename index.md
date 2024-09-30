@@ -56,7 +56,7 @@ Through this Computer Engineering Challenge, we hope that more students will bec
 		<p style="line-height:1;">  대회기간 연장 : <strike> 9월 27일(금) 23:59 </strike>  &#129046; <b> 10월 6일(일) 23:59 </b></p>
       	        <p style="line-height:1;"> 추가 Dataset : 평가 데이터 중 가장 긴 sample 데이터를 제공합니다.</p> 
 		<br>
-      		<p style="line-height:1;">  자세한 내용은 <a target="_blank" href="https://cechallenge.github.io/Notice/" style="color:red"><u>Notice Link</u></a>을 참고하세요. </p> 
+      		<p style="line-height:1;">  자세한 내용은 <a target="_blank" href="https://cechallenge.github.io/Notice/" style="color:red">Notice Link<</a>을 참고하세요. </p> 
    	<br> 
 	</div>
         <form name="pop_form1">
