@@ -46,7 +46,6 @@ Through this Computer Engineering Challenge, we hope that more students will bec
 	</div>
     </div>
 </div>
-
 <div class="layerPopup" id="layer_popup0" style="visibility: visible;">
     <div class="layerBox" style="width:45%;">
         <h5 class="title"> <b> [긴급] 추가 Dataset 제공 및 대회기간 연장 안내 </b></h5>
@@ -54,12 +53,10 @@ Through this Computer Engineering Challenge, we hope that more students will bec
 	 	<p style="line-height:1;"> 참가자분들께서 보내주신 1,2,3차 평가결과 Out of Memory로 인한 오작동이 빈번하게 발생하였습니다.</p>
                 <p style="line-height:1;"> 긴급하게 내부적으로 논의한 결과 추가 검증을 위해 평가 데이터 중 가장 긴 sample 데이터를 제공하고 대회기간을 연장하게되었습니다. </p> 
 		<br> 
-		<br> 
-		<p style="line-height:1;">  대회기간 연장 : <strike> 9월 27일(금) 23:59 </strike>  &#129046; </b>  <b> 10월 6일(일) 23:59 </p>
+		<p style="line-height:1;">  대회기간 연장 : <strike> 9월 27일(금) 23:59 </strike>  &#129046; </p>  <b> 10월 6일(일) 23:59 </b>
       	        <p style="line-height:1;"> 추가 Dataset : 평가 데이터 중 가장 긴 sample 데이터를 제공합니다.</p> 
 		<br>
-		<br>
-      		<p style="line-height:1;">  자세한 내용은 <a target="_blank" href="https://cechallenge.github.io/Notice/" style="color:red"><u>Notice Link</u>u></a>을 참고하세요. </p> 
+      		<p style="line-height:1;">  자세한 내용은 <a target="_blank" href="https://cechallenge.github.io/Notice/" style="color:red"><u>Notice Link</u></a>을 참고하세요. </p> 
   	<br>
    	<br> 
 	</div>
