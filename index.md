@@ -43,7 +43,7 @@ Through this Computer Engineering Challenge, we hope that more students will bec
             	  <label for="chkbox">오늘 하루동안 보지 않기</label>
 	        </div>
 	        <div id="close">
-		  <a href="javascript:closePop1();">닫기</a>
+		  <a href="javascript:closePop0();">닫기</a>
 	        </div>
 	    </form>
 	</div>
