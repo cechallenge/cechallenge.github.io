@@ -36,7 +36,6 @@ Through this Computer Engineering Challenge, we hope that more students will bec
       	        <p style="line-height:1;"> 추가 Dataset : 평가 데이터 중 가장 긴 sample 데이터를 제공합니다.</p> 
 		<br>
       		<p style="line-height:1;">  자세한 내용은 <a target="_blank" href="https://cechallenge.github.io/Notice/" style="color:red">Notice Link</a>을 참고하세요. </p> 
-   	<br> tyle="line-height:1;">추가적으로 리더보드를 제출할 의사가 있는 팀은 메일로 제출 부탁드립니다.</p>       
 	    <br>
             <form name="pop_form0">
                 <div id="check">
