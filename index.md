@@ -25,7 +25,7 @@ Through this Computer Engineering Challenge, we hope that more students will bec
 
 <!-- layer popup content -->
 
-<div class="layerPopup" id="layer_popup1" style="visibility: visible;">
+<div class="layerPopup" id="layer_popup0" style="visibility: visible;">
     <div class="layerBox" style="width:40%;">
         <h5 class="title"> <b> [긴급] 추가 Dataset 제공 및 대회기간 연장 안내 </b></h5>
         <div class="cont">
