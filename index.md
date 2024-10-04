@@ -24,16 +24,19 @@ Samsung SAIT is holding the **Computer Engineering(CE) Challenge** to promote th
 Through this Computer Engineering Challenge, we hope that more students will become interested in system optimization methodologies for large-scale language models. We expect that this increased interest in Computer Engineering will advance the AI Computing era to come in the future and contribute greatly to reducing energy and costs.
 
 <!-- layer popup content -->
-<!--
+
 <div class="layerPopup" id="layer_popup1" style="visibility: visible;">
     <div class="layerBox" style="width:40%;">
-        <h5 class="title"> <b>추가 리더보드 제출 안내</b></h5>
-        <div class="cont">  
-    	    <p style="line-height:1;">내부적으로 논의한 결과, 1,2,3차 평가를 진행하는 동안 Out of memory 문제를 해결한 팀들은 </p>
-	    <p style="line-height:1;">이전 공지에 추가한 'Max sequence length를 일부 제한'하는 규칙에 대해 </p>
-	    <p style="line-height:1;">상대적으로 불이익이 있을 수 있다고 판단하였습니다. </p>
-	    <br><p style="line-height:1;">이에 따라 기존에 문제를 해결한 팀에게는 추가적인 리더보드 제출 기회를 제공하고자 합니다.</p>
-      	    <br><p style="line-height:1;">추가적으로 리더보드를 제출할 의사가 있는 팀은 메일로 제출 부탁드립니다.</p>       
+        <h5 class="title"> <b> [긴급] 추가 Dataset 제공 및 대회기간 연장 안내 </b></h5>
+        <div class="cont">
+	 	<p style="line-height:1;"> 참가자분들께서 보내주신 1,2,3차 평가결과 Out of Memory로 인한 오작동이 빈번하게 발생하였습니다.</p>
+                <p style="line-height:1;"> 긴급하게 내부적으로 논의한 결과 추가 검증을 위해 평가 데이터 중 가장 긴 sample 데이터를 제공하고 대회기간을 연장하게되었습니다. </p> 
+		<br> 
+		<p style="line-height:1;">  대회기간 연장 : <strike> 9월 27일(금) 23:59 </strike> &nbsp; &#129046; &nbsp; <b> 10월 6일(일) 23:59 </b></p>
+      	        <p style="line-height:1;"> 추가 Dataset : 평가 데이터 중 가장 긴 sample 데이터를 제공합니다.</p> 
+		<br>
+      		<p style="line-height:1;">  자세한 내용은 <a target="_blank" href="https://cechallenge.github.io/Notice/" style="color:red">Notice Link</a>을 참고하세요. </p> 
+   	<br> tyle="line-height:1;">추가적으로 리더보드를 제출할 의사가 있는 팀은 메일로 제출 부탁드립니다.</p>       
 	    <br>
             <form name="pop_form0">
                 <div id="check">
@@ -47,7 +50,9 @@ Through this Computer Engineering Challenge, we hope that more students will bec
 	</div>
     </div>
 </div> 
--->
+
+
+<!--
 <div class="layerPopup" id="layer_popup0" style="visibility: visible;">
     <div class="layerBox" style="width:45%;">
         <h5 class="title"> <b> [긴급] 추가 Dataset 제공 및 대회기간 연장 안내 </b></h5>
@@ -72,3 +77,4 @@ Through this Computer Engineering Challenge, we hope that more students will bec
 	</form>
     </div>
 </div>
+-->
