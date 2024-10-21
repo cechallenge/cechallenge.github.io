@@ -22,12 +22,9 @@ Coming soon!
 		  <p>OOOOO</p>
               <h5> [장려상] </h5>
 		  <p>OOOOO, OOOOO</p>
-              <br/>
               <p>수상을 진심으로 축하드립니다!</p>
-              <br/>
               <p>Computer Engineering Challenge에 마지막까지 최선을 다해 참여해주셔서 진심으로 감사드립니다.</p>
               <p>내년에도 많은 관심과 참여를 부탁드립니다.</p>
-              <br/>
               <p>감사합니다.</p>
 	    <br>
             <form name="pop_form0">
