@@ -19,8 +19,8 @@ Coming soon!
               'Samsung Computer Engineering Challenge 2024' 최종 수상팀을 안내드립니다.
               <br/>
 	    </p>
-              <h5><최우수상> </h5>
-		      <p>OOOOO</p>
+		<h5> <최우수상> </h5>
+			<p>OOOOO</p>
               <h5> <우수상> </h5>
 		      <p>OOOOO</p>
               <h5> <장려상> </h5>
