@@ -14,15 +14,14 @@ Coming soon!
         <h5 class="title"> <b> Samsung Computer Engineering Challenge 2024 결과 발표 </b></h5>
         <div class="cont">
 	     <p>
-              긴 시간 동안 대회에 참가하신 모든 참가자 여러분 고생 많으셨습니다.
-              'Samsung Computer Engineering Challenge 2024' 최종 수상팀을 안내드립니다.
-	      </p>
-		<h5> <최우수상> </h5>
-			<p>OOOOO</p>
-                <h5> <우수상> </h5>
-			<p>OOOOO</p>
-		<h5> <장려상> </h5>
-		      <p>OOOOO, OOOOO</p>
+              긴 시간 동안 대회에 참가하신 모든 참가자 여러분 고생 많으셨습니다.     
+              'Samsung Computer Engineering Challenge 2024' 최종 수상팀을 안내드립니다. </p>
+	      <h5> [최우수상] </h5>
+		 <p>OOOOO</p>
+              <h5> [우수상] </h5>
+		  <p>OOOOO</p>
+              <h5> [장려상] </h5>
+		  <p>OOOOO, OOOOO</p>
               <br/>
               <p>수상을 진심으로 축하드립니다!</p>
               <br/>
