@@ -15,10 +15,8 @@ Coming soon!
         <div class="cont">
 	     <p>
               긴 시간 동안 대회에 참가하신 모든 참가자 여러분 고생 많으셨습니다.
-              <br/>
               'Samsung Computer Engineering Challenge 2024' 최종 수상팀을 안내드립니다.
-              <br/>
-	    </p>
+	      </p>
 		<h5> <최우수상> </h5>
 			<p>OOOOO</p>
                 <h5> <우수상> </h5>
