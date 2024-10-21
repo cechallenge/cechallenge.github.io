@@ -24,69 +24,27 @@ Samsung SAIT is holding the **Computer Engineering(CE) Challenge** to promote th
 Through this Computer Engineering Challenge, we hope that more students will become interested in system optimization methodologies for large-scale language models. We expect that this increased interest in Computer Engineering will advance the AI Computing era to come in the future and contribute greatly to reducing energy and costs.
 
 
-<!-- layer popup content -->
-<!-- 
-<div class="layerPopup" id="layer_popup" style="visibility: visible;">
-    <div class="layerBox">
-        <h4 class="title">Samsung Computer Engineering Challenge 2024 결과 발표</h4>
-        <div class="cont">
-            <p>
-              긴 시간 동안 대회에 참가하신 모든 참가자 여러분 고생 많으셨습니다.
-              <br/>
-              'Samsung Computer Engineering Challenge 2024' 최종 수상팀을 안내드립니다.
-              <br/>
-	    </p>
-              <h3> <1등> </h3>
-              <p>OOOOO</p>
-              <h3> <2등> </h3>
-              <p>OOOOO</p>
-              <h3> <3등> </h3>
-              <p>OOOOO, OOOOO</p>
-              <br/>
-              <p>수상을 진심으로 축하드립니다!</p>
-              <br/>
-              <p>Computer Engineering Challenge에 마지막까지 최선을 다해 참여해주셔서 진심으로 감사드립니다.</p>
-              <p>내년에도 많은 관심과 참여를 부탁드립니다.</p>
-              <br/>
-              <p>감사합니다.</p>
-        </div>
-        <form name="pop_form">
-            <div id="check" ><input type="checkbox" name="chkbox" value="checkbox" id='chkbox' >
-            <label for="chkbox">오늘 하루동안 보지 않기</label></div>
-		      <div id="close" ><a href="javascript:closePop();">닫기</a></div>    
-		    </form>
-	  </div>
-</div>
--->
 
-
-
-
-<!-- layer popup content -->
-<!--
 <div class="layerPopup" id="layer_popup0" style="visibility: visible;">
     <div class="layerBox" style="width:40%;">
         <h5 class="title"> <b> Samsung Computer Engineering Challenge 2024 결과 발표 </b></h5>
         <div class="cont">
 	     <p>
-              긴 시간 동안 대회에 참가하신 모든 참가자 여러분 고생 많으셨습니다.
-              <br/>
-              'Samsung Computer Engineering Challenge 2024' 최종 수상팀을 안내드립니다.
-              <br/>
-	    </p>
-              <h5> <최우수상> </h5>
-	                    <p>OOOOO</p>
-              <h5> <우수상> </h5>
-	                    <p>OOOOO</p>
-              <h5> <장려상> </h5>
-	                    <p>OOOOO, OOOOO</p>
-              <br/>
+              긴 시간 동안 대회에 참가하신 모든 참가자 여러분 고생 많으셨습니다.</p>
+	      <p> 'Samsung Computer Engineering Challenge 2024' 최종 수상팀을 안내드립니다. </p>
+	      <p></p>
+	      <h5> [최우수상] </h5>
+		 <p> ShallowSpeed </p>
+              <h5> [우수상] </h5>
+		  <p> Friday </p>
+              <h5> [장려상] </h5>
+		  <p> Titan, sew </p>
+              <p></p>		
               <p>수상을 진심으로 축하드립니다!</p>
-              <br/>
-              <p>Computer Engineering Challenge에 마지막까지 최선을 다해 참여해주셔서 진심으로 감사드립니다.</p>
+	      <p>Computer Engineering Challenge에 마지막까지 최선을 다해 참여해주셔서 진심으로 감사드립니다.</p>
               <p>내년에도 많은 관심과 참여를 부탁드립니다.</p>
-              <br/>
-              <p>감사합니다.</p>
+	      <p> 
+		<p>감사합니다.</p>
 	    <br>
             <form name="pop_form0">
                 <div id="check">
@@ -95,12 +53,7 @@ Through this Computer Engineering Challenge, we hope that more students will bec
 	        </div>
 	        <div id="close">
 		  <a href="javascript:closePop0();">닫기</a>
-	        </div>
-	    </form>
-	</div>
-    </div>
-</div> 
--->
+
 
 <!--
 <div class="layerPopup" id="layer_popup0" style="visibility: visible;">
