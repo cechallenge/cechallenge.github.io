@@ -66,15 +66,27 @@ Through this Computer Engineering Challenge, we hope that more students will bec
 <!--
 <div class="layerPopup" id="layer_popup0" style="visibility: visible;">
     <div class="layerBox" style="width:40%;">
-        <h5 class="title"> <b> [긴급] 추가 Dataset 제공 및 대회기간 연장 안내 </b></h5>
+        <h5 class="title"> <b> Samsung Computer Engineering Challenge 2024 결과 발표 </b></h5>
         <div class="cont">
-	 	<p style="line-height:1;"> 참가자분들께서 보내주신 1,2,3차 평가결과 Out of Memory로 인한 오작동이 빈번하게 발생하였습니다.</p>
-                <p style="line-height:1;"> 긴급하게 내부적으로 논의한 결과 추가 검증을 위해 평가 데이터 중 가장 긴 sample 데이터를 제공하고 대회기간을 연장하게되었습니다. </p> 
-		<br> 
-		<p style="line-height:1;">  대회기간 연장 : <strike> 9월 27일(금) 23:59 </strike> &nbsp; &#129046; &nbsp; <b> 10월 6일(일) 23:59 </b></p>
-      	        <p style="line-height:1;"> 추가 Dataset : 평가 데이터 중 가장 긴 sample 데이터를 제공합니다.</p> 
-		<br>
-      		<p style="line-height:1;">  자세한 내용은 <a target="_blank" href="https://cechallenge.github.io/Notice/" style="color:red">Notice Link</a>을 참고하세요. </p> 
+	     <p>
+              긴 시간 동안 대회에 참가하신 모든 참가자 여러분 고생 많으셨습니다.
+              <br/>
+              'Samsung Computer Engineering Challenge 2024' 최종 수상팀을 안내드립니다.
+              <br/>
+	    </p>
+              <h5> <최우수상> </h5>
+	                    <p>OOOOO</p>
+              <h5> <우수상> </h5>
+	                    <p>OOOOO</p>
+              <h5> <장려상> </h5>
+	                    <p>OOOOO, OOOOO</p>
+              <br/>
+              <p>수상을 진심으로 축하드립니다!</p>
+              <br/>
+              <p>Computer Engineering Challenge에 마지막까지 최선을 다해 참여해주셔서 진심으로 감사드립니다.</p>
+              <p>내년에도 많은 관심과 참여를 부탁드립니다.</p>
+              <br/>
+              <p>감사합니다.</p>
 	    <br>
             <form name="pop_form0">
                 <div id="check">
