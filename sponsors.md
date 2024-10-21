@@ -7,25 +7,24 @@ excerpt:
 ---
 
 Coming soon!
-(SAIT)
 
-<!-- layer popup content -->
-<div class="layerPopup" id="layer_popup" style="visibility: visible;">
-    <div class="layerBox">
-        <h4 class="title">Samsung Computer Engineering Challenge 2024 결과 발표</h4>
+(SAIT)
+<div class="layerPopup" id="layer_popup0" style="visibility: visible;">
+    <div class="layerBox" style="width:40%;">
+        <h5 class="title"> <b> Samsung Computer Engineering Challenge 2024 결과 발표 </b></h5>
         <div class="cont">
-            <p>
+	     <p>
               긴 시간 동안 대회에 참가하신 모든 참가자 여러분 고생 많으셨습니다.
               <br/>
               'Samsung Computer Engineering Challenge 2024' 최종 수상팀을 안내드립니다.
               <br/>
 	    </p>
-              <h3> <1등> </h3>
-              <p>1</p>
-              <h3> <2등> </h3>
-              <p>2</p>
-              <h3> <3등> </h3>
-              <p>3, 4</p>
+              <h5> <최우수상> </h5>
+              <p>OOOOO</p>
+              <h5> <우수상> </h5>
+              <p>OOOOO</p>
+              <h5> <장려상> </h5>
+              <p>OOOOO, OOOOO</p>
               <br/>
               <p>수상을 진심으로 축하드립니다!</p>
               <br/>
@@ -33,11 +32,11 @@ Coming soon!
               <p>내년에도 많은 관심과 참여를 부탁드립니다.</p>
               <br/>
               <p>감사합니다.</p>
-        </div>
-        <form name="pop_form">
-            <div id="check" ><input type="checkbox" name="chkbox" value="checkbox" id='chkbox' >
-            <label for="chkbox">오늘 하루동안 보지 않기</label></div>
-		      <div id="close" ><a href="javascript:closePop();">닫기</a></div>    
-		    </form>
-	  </div>
-</div>
+	    <br>
+            <form name="pop_form0">
+                <div id="check">
+		  <input type="checkbox" name="chkbox" value="checkbox" id='chkbox'>
+            	  <label for="chkbox">오늘 하루동안 보지 않기</label>
+	        </div>
+	        <div id="close">
+		  <a href="javascript:closePop0();">닫기</a>
