@@ -34,11 +34,11 @@ Through this Computer Engineering Challenge, we hope that more students will bec
 	      <p> 'Samsung Computer Engineering Challenge 2024' 최종 수상팀을 안내드립니다. </p>
 	      <p></p>
 	      <h5> [최우수상] </h5>
-		 <p> ShallowSpeed </p>
+		 <p> <b> ShallowSpeed </b></p>
               <h5> [우수상] </h5>
-		  <p> Friday </p>
+		  <p><b>Friday </b></p>
               <h5> [장려상] </h5>
-		  <p> Titan, sew </p>
+		  <p><b> Titan, sew </b></p>
               <p></p>		
               <p>수상을 진심으로 축하드립니다!</p>
 	      <p>Computer Engineering Challenge에 마지막까지 최선을 다해 참여해주셔서 진심으로 감사드립니다.</p>
