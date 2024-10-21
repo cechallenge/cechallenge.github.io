@@ -80,5 +80,6 @@ Through this Computer Engineering Challenge, we hope that more students will bec
 	</form>
     </div>
 </div>
--->
+
 ](https://github.com/cechallenge/2023/edit/main/index.md)
+-->
