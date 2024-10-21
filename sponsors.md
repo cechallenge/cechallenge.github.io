@@ -9,32 +9,35 @@ excerpt:
 Coming soon!
 (SAIT)
 
-
-<tr>
-			<td colspan="2">  대회 종료 </td>
-			<strike> 9월 27일(금) 23:59 </strike> &#129046; <span style="background-color:#FFFF00; color:#000000;"> <b>  10월 6일(일) 23:59 </b></span> </td> 
-
 <!-- layer popup content -->
-
 <div class="layerPopup" id="layer_popup" style="visibility: visible;">
-    <div class="layerBox" style="width:45%;">
-        <h5 class="title"> <b> [긴급] 추가 Dataset 제공 및 대회기간 연장 안내 </b></h5>
+    <div class="layerBox">
+        <h4 class="title">Samsung Computer Engineering Challenge 2024 결과 발표</h4>
         <div class="cont">
-	 	<b style="font-size:20px;"> 참가자분들께서 보내주신 1,2,3차 평가결과 Out of Memory로 인한 오작동이 빈번하게 발생하였습니다. 
-                                            긴급하게 내부 논의하여 추가 검증을 위해 평가 데이터 중 가장 긴 sample 데이터를 제공하고 대회기간을 연장하게되었습니다. </b> 
-		<br> 
-		<br> 
-		<b style="font-size:20px;">  대회기간 연장 : <strike> 9월 27일(금) 23:59 </strike>  &#129046; <b>  10월 6일(일) 23:59 </b>
-			<P></P>
-      	       <b style="font-size:20px;"> 추가 Dataset : 평가 데이터 중 가장 긴 sample 데이터를 제공합니다.</b> 
-		<br>
-		<br>
-      		<b style="font-size:20px;">  자세한 내용은 <a target="_blank" href="https://cechallenge.github.io/Notice/" style="color:red"> Notice Link </a>을 참고하세요. </b> 
-  	<br>
-   	<br> 
+            <p>
+              긴 시간 동안 대회에 참가하신 모든 참가자 여러분 고생 많으셨습니다.
+              <br/>
+              'Samsung Computer Engineering Challenge 2024' 최종 수상팀을 안내드립니다.
+              <br/>
+	    </p>
+              <h3> <1등> </h3>
+              <p>1</p>
+              <h3> <2등> </h3>
+              <p>2</p>
+              <h3> <3등> </h3>
+              <p>3, 4</p>
+              <br/>
+              <p>수상을 진심으로 축하드립니다!</p>
+              <br/>
+              <p>Computer Engineering Challenge에 마지막까지 최선을 다해 참여해주셔서 진심으로 감사드립니다.</p>
+              <p>내년에도 많은 관심과 참여를 부탁드립니다.</p>
+              <br/>
+              <p>감사합니다.</p>
+        </div>
         <form name="pop_form">
             <div id="check" ><input type="checkbox" name="chkbox" value="checkbox" id='chkbox' >
             <label for="chkbox">오늘 하루동안 보지 않기</label></div>
-		      <div id="close" ><a href="javascript:closePop();">닫기</a>
-		
-	</div> 
+		      <div id="close" ><a href="javascript:closePop();">닫기</a></div>    
+		    </form>
+	  </div>
+</div>
