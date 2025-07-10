@@ -1,7 +1,7 @@
 ---
 title:
 feature_text: |
-  # Samsung Computer Engineering Challenge 2024
+  # Samsung Computer Engineering Challenge 2025
 feature_image: "/assets/logos/banner_last.png"
 ---
 
