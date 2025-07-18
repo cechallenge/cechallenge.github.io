@@ -5,6 +5,8 @@ feature_text: |
 feature_image: "/assets/logos/banner_last.png"
 ---
 
+7/21일 11시에 오픈합니다.
+<!--
 대규모 언어 모델의 대중화로 인해 메모리 대역폭과 같은 시스템 한계들을 보여주고 있고 단일 모델이 아닌 여러 모델들과 기존 SW과 동적으로 결합되는 Compound AI 시스템이 출현하면서 AI를 실행하는 컴퓨팅 시스템의 복잡도는 점점 심화하고 있습니다.
 
 **Computer Engineering(CE) Challenge**는 이러한 Compound AI 시스템과 이를 실제 제품에 구현하기 위한 새로운 HW와 SW 도전들에 대응하기 위해 시작되었습니다.
@@ -26,7 +28,7 @@ The Large-scale language models are continuously increasing in size based on the
 Samsung SAIT is holding the **Computer Engineering(CE) Challenge** to promote the use of on-device language models. The goal of this Computer Engineering Challenge is to maximize the inference speed while maintaining the accuracy of large-scale language models using limited memory and computing resources. Each team participating in the Computer Engineering Challenge will propose and implement methodologies to maximize the inference speed in the given device environment. Awards will be based on the evaluation of their performance.
 
 Through this Computer Engineering Challenge, we hope that more students will become interested in system optimization methodologies for large-scale language models. We expect that this increased interest in Computer Engineering will advance the AI Computing era to come in the future and contribute greatly to reducing energy and costs.
-
+-->
 
 <!--
 <div class="layerPopup" id="layer_popup0" style="visibility: visible;">
