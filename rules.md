@@ -57,7 +57,7 @@ Docker 이미지를 통해 벤치마크가 제공되며, 벤치마크의 소스 
     * gem5에 제공되어 있는 BranchPredictor를 수정해서 사용 할 수 있고, C++로 branch predictor만들어서 사용도 가능합니다.
       * C++로 새로운 branch predictor를 추가할 경우, **/root/gem5/cpu/pred/SConscript**에 해당 파일의 경로를 추가 후 gem5를 새로 build해야 합니다.
     * 수정 또는 추가한 부분에 대해 설명을 제출해야 하며, branch predictor가 branch history를 기억하기 위해 소비하는 하드웨어 크기를 bit 단위로 기술해야 합니다.
-  * 그 외의 모든 모듈은 변경할 수 없습니다.
+  * 그 외의 모든 모듈은 변경 및 수정이 허용되지 않습니다.
 <br>
 
 ###### LLVM
@@ -67,7 +67,7 @@ Docker 이미지를 통해 벤치마크가 제공되며, 벤치마크의 소스 
       * 디렉토리 이름: Analysis, Transforms, Target/RISCV, Passes
     * /root/llvm/llvm/include/llvm
       * 디렉토리 이름: Analysis, Transforms, Passes
-  * 그 외의 모든 부분은 변경할 수 없습니다.
+  * 그 외의 모든 부분은 변경 및 수정이 허용되지 않습니다.
 <br>
 
 
