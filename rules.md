@@ -20,6 +20,7 @@ Gem5 시뮬레이터에서 사무국에서 선정한 벤치마크의 실행 시�
 #### 평가 환경
 Docker 이미지를 통해 동일 환경을 제공하며, 제출한 소스코드는 해당 환경에서 정상적으로 실행 및 종료되어야 합니다. <br>
 **※ Docker 이미지는 7/22일 공개 예정입니다.** <br>
+   ghcr.io/cechallenge/ce_challenge_2025 <br>
 * Gem5 version 25.0.0 (최신 stable version)
   * 1GHz single core
   * fetch_width=8
@@ -114,6 +115,7 @@ The goal of this competition is to minimize the execution time of a specified be
 #### Evaluation Environment
 The same environment is provided through Docker images, and the submitted source code must run and terminate normally in that environment. <br>
 **※ Docker images will be released on July 22.** <br>
+   ghcr.io/cechallenge/ce_challenge_2025 <br>
 * Gem5 version 25.0.0 (The latest stable version)
   * 1GHz single core
   * fetch_width=8
