@@ -79,7 +79,7 @@ Docker 이미지를 통해 벤치마크가 제공되며, 벤치마크의 소스 
     * GAP 벤치마크: vectorize 관련 옵션 삽입 금지 (--vectorize-slp 등)
     * RISC-V vector length에 대한 hint 삽입 금지 (-force-vector-width, -mrvv-vector-bits 등)
   * Makefile의 "OPT_FLAGS"를 제외한 다른 부분은 수정이 허용되지 않습니다.
-<br>이외 테스트를 위한 환경 및 스크립트를 임의 수정이 허용되지 않습니다.<br>
+<br>이외 테스트를 위한 환경 및 스크립트를 임의 수정하는 것은 허용되지 않습니다.<br>
 <br>
 
 
