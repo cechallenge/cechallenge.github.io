@@ -67,7 +67,6 @@ Docker 이미지를 통해 벤치마크가 제공되며, 벤치마크의 소스 
       * 디렉토리 이름: Analysis, Transforms, Target/RISCV, Passes
     * /root/llvm/llvm/include/llvm
       * 디렉토리 이름: Analysis, Transforms, Passes
-  * 수정 또는 추가한 부분에 대해 설명을 제출해야 합니다.
   * 그 외의 모든 부분은 변경할 수 없습니다.
 <br>
 
