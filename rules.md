@@ -36,7 +36,7 @@ Docker 이미지를 통해 동일 환경을 제공하며, 제출한 소스코드
    
 #### 벤치마크
 Docker 이미지를 통해 벤치마크가 제공되며, 벤치마크의 소스 코드를 임의로 수정할 수 없습니다. <br>
-**※ 평가 환경 Docker 이미지에 벤치마크가 포함되어 제공됩니다.** <br>
+**※ CE challenge 에서 제공하는 Github repository 에 벤치마크가 포함되어 있습니다.** <br>
   * GAP (/root/gapbs)
     * GAP은 8개의 벤치마크으로 구성되어 있고, 각 밴치마크 별 수행하는 그래프 데이터의 종류와 크기, 반복 횟수는 각 벤치마크의 특성과 실행시간을 반영해서 각각 다르게 선정하였습니다.
     * bfs, cc, cc_sv, sssp, tc, pr, pr_spmv, bc
@@ -130,7 +130,7 @@ The same environment is provided through Docker images, and the submitted source
    
 #### Benchmark
 The benchmark is provided through a Docker image, and the benchmark source code cannot be modified arbitrarily. <br>
-**※ Benchmarks are included provided Docker image.** <br>
+**※ Benchmarks are included in the CE challenge GitHub repository.** <br>
   * GAP (/root/gapbs)
     * GAP consists of eight benchmarks, and the type and size of the graph data performed for each benchmark, as well as the number of iterations, are selected differently to reflect the characteristics and execution time of each benchmark.
     * bfs, cc, cc_sv, sssp, tc, pr, pr_spmv, bc
