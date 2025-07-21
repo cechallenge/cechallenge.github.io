@@ -7,128 +7,188 @@ excerpt:
 ---
 
 #### 평가 기준
-본 대회는 주어진 Device 환경에서 LLM의 Inference를 최소화한 시간을 정량적으로 평가하며, 공지된 Accuracy 대비 평균 0.5% 이내의 감소로 제한됩니다.
+Gem5 시뮬레이터에서 사무국에서 선정한 벤치마크의 실행 시간을 최소화하는 것을 목표로 하며, baseline 실행 시간 대비 성능 개선도(speedup)를 기하 평균(geometric mean)을 내어 합산한 점수를 평가합니다.
+* 평가 산식 : <br>
+&emsp;&emsp;**GAP_GEOMEAN(ref_time/candidate_time)  + TSVC_GEOMEAN(ref_time/candidate_time)**
+  * Baseline Branch Predictor: TournamentBP
+  * Baseline Compiler: 제공된 Docker 이미지의 Makefile 컴파일 옵션
+    * GAP 컴파일 최적화 baseline: clang -O3 -fno-vectorize  -fno-slp-vectorize
+    * TSVC 컴파일 최적화 baseline: clang -O3
+<br>
+
+
+#### 평가 환경
+Docker 이미지를 통해 동일 환경을 제공하며, 제출한 소스코드는 해당 환경에서 정상적으로 실행 및 종료되어야 합니다. <br>
+**※ Docker 이미지는 7/22일 공개 예정입니다.** <br>
+* Gem5 version 25.0.0 (최신 stable version)
+  * 1GHz single core
+  * fetch_width=8
+  * width=4
+  * rob_size=128
+  * int_regs=128, fp_regs=128
+  * lq_entries=32, sq_entries=32
+  * L1 Cache=8-way 32KB
+  * L2 Cache=8-way 512KB
+  * RVV enabled, VLEN=256 bits, ELEN=64 bits
+* LLVM version 19.1.7 (stable version)
+<br>
+
    
-       
-#### Target Device
- * Device는 NVIDIA Jetson AGX Orin 32GB를 사용합니다.  NVIDIA Jetson AGX Orin의 자세한 사양은 <a target="_blank" href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"> 다음</a>을 참고하세요.  
- * ~~해당 기기를 미보유한 참가팀은 참가 접수시 기기대여가 가능합니다. (단, 수량이 한정되어 있으니 참고 부탁드립니다.)~~
-   
-#### Target Model
- * 대회에서 허용된 모델은 오픈 베이스 모델인 **Phi3-medium-4k-instruct(14B)** 입니다.  
- * 모델의 사용을 위해 <a target="_blank" href="https://ai.azure.com/explore/models/Phi-3-medium-4k-instruct/version/1/registry/azureml"> 다음</a>을 참고하세요.  
+#### 벤치마크
+Docker 이미지를 통해 벤치마크가 제공되며, 벤치마크의 소스 코드를 임의로 수정할 수 없습니다. <br>
+**※ 평가 환경 Docker 이미지에 벤치마크가 포함되어 제공됩니다.** <br>
+  * GAP (/root/gapbs)
+    * GAP은 8개의 벤치마크으로 구성되어 있고, 각 밴치마크 별 수행하는 그래프 데이터의 종류와 크기, 반복 횟수는 각 벤치마크의 특성과 실행시간을 반영해서 각각 다르게 선정하였습니다.
+    * bfs, cc, cc_sv, sssp, tc, pr, pr_spmv, bc
+  * TSVC (/root/tsvc)
+    * 각 카테고리를 대표하는 총 20개의 벤치마크를 선정하였습니다.
+    * s000, s121, s131, s171, s1213, s2244, s251, s1281, s311, s351, s491, s442, s212, s222, s231, s281, s341, s352, s4114, s321
+<br>
 
 
-#### Target Dataset
- * 최종 심사에 사용할 비공개 데이터셋에는 Huggingface Phi3-medium-4k-instruct repository의 Benchmark set 19개 중 일부가 포함되어있습니다.         
- * 자체 점검 및 리더보드 등록을 위해 참가자들에게 OpenBookQA를 가공한 공개 데이터셋이 제공됩니다. (출처: https://huggingface.co/datasets/allenai/openbookqa)    
-   * <a href="/assets/files/test_script.py" download="test_script.py"> test_script.py</a>
-   * <a href="/assets/files/test_dataset.jsonl" download="test_dataset.jsonl"> test_dataset.jsonl</a>
- * Out of memory로 인한 오동작이 빈번하여 추가 검증을 위해 평가 데이터 중 가장 긴 sample 데이터를 제공합니다.           
-   * <a href="/assets/files/sample_longest_data.jsonl" download="sample_longest_data.jsonl"> sample_longest_data.jsonl</a>          
+#### 제약 사항
+###### 제한 사항
+아래의 제한 사항을 위반하면 실격처리 됩니다. <br>
 
- 
-#### Framework
- * 최적화를 위해 사용 할 딥러닝 프레임워크는 PyTorch 2.x입니다.
- * 적절한 출처를 제공한다면 오픈 소스 코드와 라이브러리 사용은 허용합니다.
+###### Gem5
+  * /root/gem5/cpu/pred 디렉토리 하위의 branch predictor는 수정 또는 추가가 가능합니다.
+    * **/root/ce_challenge_2025/components/processors_ce_challenge.py** 의 **MyCeChallengeBP** class에 제출할 branch predictor를 연결해서 평가 환경에서 정상 동작해야 합니다.
+    * Branch predictor의 총 크기는 128KB로 제한합니다.
+    * 기존 RiscvO3CPU 모델의 branchPred parameter만 제출 받은 branch predictor로 변경하여 평가하며, BranchPredictor class에 주어진 인터페이스만 사용합니다.
+    * gem5에 제공되어 있는 BranchPredictor를 수정해서 사용 할 수 있고, C++로 branch predictor만들어서 사용도 가능합니다.
+      * C++로 새로운 branch predictor를 추가할 경우, **/root/gem5/cpu/pred/SConscript**에 해당 파일의 경로를 추가 후 gem5를 새로 build해야 합니다.
+    * 수정 또는 추가한 부분에 대해 설명을 제출해야 하며, branch predictor가 branch history를 기억하기 위해 소비하는 하드웨어 크기를 bit 단위로 기술해야 합니다.
+  * 그 외의 모든 모듈은 변경할 수 없습니다.
+<br>
 
-#### JetPack Version
- * 대회에서 허용되는 버전은 6.0입니다.
+###### LLVM
+  * LVM 빌드 스크립트는 /root/llvm 디렉토리 안에 llvm_build.sh로 제공됩니다. 해당 빌드 스크립트는 수정이 허용되지 않습니다.
+  * 아래에 명시된 하위 디렉토리의 파일을 수정 및 추가하여 패스를 구현할 수 있습니다. 단, 수정 또는 추가한 부분에 대해 설명을 제출해야 합니다.
+    * /root/llvm/llvm/lib
+      * 디렉토리 이름: Analysis, Transforms, Target/RISCV, Passes
+    * /root/llvm/llvm/include/llvm
+      * 디렉토리 이름: Analysis, Transforms, Passes
+  * 수정 또는 추가한 부분에 대해 설명을 제출해야 합니다.
+  * 그 외의 모든 부분은 변경할 수 없습니다.
+<br>
 
-#### 평가 방식
- * PyTorch 2.x 프레임워크 최적화를 통해 Latency 성능 개선을 평가합니다. 성능 측정에 포함되는 부분은 **데이터 로드**와 **inference time** 입니다.  
- * inference 이후 **accuracy 측정을 위한 데이터 처리는 포함되지 않습니다.**  
-   * 예를 들어, 제공된 test_script.py내에 **Section 3** 부분만 Latency 측정에 포함됩니다.  
- * 제공된 script처럼 Transformer의 pipeline을 사용할 필요는 없습니다. 다만, **pipe() 실행 output의 form과 동일한 결과**만 허용됩니다.  
-   * 다른 최적화된 패키지를 사용하는 경우에는 최종 결과물에 test_script.py와 유사한 형태의 python script를 제공해야 합니다.  
- * script에서 사용한 text-generation은 한 예시로, dataset의 특성에 따라 바뀔 수 있습니다. (dataset 별 output form이 pipe와 동일해야함)  
- * 최종 평가에서 accuracy 측정은 주최측에서 진행할 예정입니다. (리더보드에서는 편의를 위해 간단한 accuracy 측정이 포함되어 있습니다.)
 
-#### 제약사항 
+###### 벤치마크
+  * 각 벤치마크 디렉토리에서 make 커맨드를 통해 컴파일하고, /root/ce_challenge_2025 의 ./RUN_SELF_TEST 를 실행하여 테스트해볼 수 있습니다.
+    * <ins>제공된 SELF_TEST 스크립트는 평가에 활용되는 모든 벤치마크를 각 1회 실행합니다. 실제 평가에서는 반복 횟수 및 파라미터가 달라지며 평가 설정은 공개하지 않습니다. 따라서 SELF_TEST의 산출 점수는 Leaderboard 점수와 다를 수 있습니다.</ins>
+    * <ins>평가 환경에서 오류 발생 시 오류가 발생한 벤치마크와 에러 메시지를 이메일로 알려드립니다.</ins>
+  * 아래의 제한 사항을 제외하고, 각 벤치마크의 Makefile의 “OPT_FLAGS”에 구현한 패스에 대한 컴파일 옵션을 추가할 수 있습니다. Makefile의 “OPT_FLAGS”를 제외한 다른 부분은 수정이 허용되지 않습니다. 이외 테스트를 위한 환경 및 스크립트를 임의 수정이 허용되지 않습니다.
+    * GAP 벤치마크: vectorize 관련 옵션 삽입 금지 (--vectorize-slp 등)
+    * RISC-V vector length에 대한 hint 삽입 금지 (-force-vector-width, -mrvv-vector-bits 등)
+  * Makefile의 "OPT_FLAGS"를 제외한 다른 부분은 수정할 수 없습니다.
+<br>이외 테스트를 위한 환경 및 스크립트를 임의 수정할 수 없습니다.<br>
+<br>
 
-* 모델의 정확도를 현저하게 떨어트리는 조정 및 미세 조정(re-training)은 금지합니다.  
-  ※ 모델의 구조를 수정하는 어떤 기법도 허용되지 않으며, 또한 Weight 및 Activation을 수정하는 것 역시 허용하지 않습니다.
-     (모델의 weight 및 activation을 직접적으로 수정하는 quantization, pruning 등 불가) 
-*  최적화 및 알고리즘 적용으로 인해 생기는 약간의 Accuracy drop은 0.5% 이내로 허용합니다.  
-*  제시한 Dataset 이외에 다른 데이터 사용은 금지합니다.  
-*  적절한 출처를 제공한다면 오픈 소스 코드와 라이브러리 사용은 허용합니다.  
- 
-   
+
 #### 대회 규칙
+* 이번 대회에서는 공정한 평가 및 재현 가능한 결과를 보장하는 것을 목표로 합니다. 이를 위해 다음 사항을 준수해야 합니다.
+1. 제출물은 테스트 환경에서 재현할 수 있어야 하며, 소스 코드는 부정 행위 및 결과 재현을 위해 사용됩니다.
+2. 참가팀은 평가를 위해 요청된 자료를 제출해야 합니다.
+3. 대회 기간 동안 참가팀들이 작성하는 소스 코드는 비공개한 상태로 운영합니다.
+4. 제출물은 저작권이 있거나 독점적인 데이터 또는 특허 또는 상표, 코드 또는 비공개 소스 콘텐츠를 사용해서는 안 됩니다. 서비스 계약이나 다른 기업의 영업 비밀을 위반하는 데이터나 콘텐츠의 사용은 허용되지 않습니다.
+5. 제출물에 제3자의 지식재산권을 침해하는 행위 등이 포함될 경우, 당사는 이에 대한 책임을 지지 않습니다.
+6. 당사는 참가팀들 간 공유나 카피 방지 검증용으로만 제출물을 사용할 예정이며 대회 종료 후에는 어떠한 경우에도 상업적 목적으로 해당 결과물을 사용하거나 보관하지 않으며, 만약 제출물로 인해 제3자 지식재산권 침해가 발생하는 경우 해당 침해로 인한 손해는 모두 참가팀에게 책임이 있습니다.
+7. 출처 없이 외부 구현을 사용하거나, 다른 참가팀의 구현을 Copy 하여 사용하는 경우에는 실격 처리됩니다.
+8. 한 참가팀은 3명 이하로 구성할 수 있으며, 참가팀에서는 팀원이 이 대회의 다른 팀에 중복 참가하지 않음을 스스로 입증해야 합니다.
+9. 대회와 관련된 주최자 및 관련자는 참가할 수 없습니다.
+10. 상기 규칙을 위배하지 않더라도 신뢰에 반하거나 부당 행위를 하는 경우 실격 처리될 수 있습니다. 
 
-* 이번 대회에서는 공정한 평가 및 재현 가능한 결과를 보장하는 것을 목표로 합니다. 이를 위해 다음 사항을 준수해야 합니다  
- 1. 제출물은 테스트 환경에서 재현할 수 있어야 하며, 소스 코드는 부정 행위 및 결과 재현을 위해 사용됩니다.
- 2. 대회에서 규정한 Latency는 “제시한 Dataset을 모두 처리하는데 걸리는 시간” 입니다.  
- 3. Jetson AGX Orin kit에 외장 메모리를 추가하여 사용 가능합니다. (Micro SD 한정)  
- 4. 참가팀은 평가를 위해 요청된 자료를 제출해야 합니다.    
- 5. 각 참가팀은 대회 기간 동안 모델 추론 결과를 제출할 수 있으며, 가장 우수한 성능을 보이는 참가팀의 순위를 매기고 매일 결과를 갱신합니다. (단, 휴일과 주말제외)    
- 6. 대회 기간 동안 참가팀들이 작성하는 소스 코드는 비공개한 상태로 운영합니다.
- 7. 제출물은 저작권이 있거나 독점적인 데이터 또는 특허 또는 상표, 코드 또는 비공개 소스 콘텐츠를 사용해서는 안 됩니다. 서비스 계약이나 다른 기업의 영업 비밀을 위반하는 데이터나 콘텐츠의 사용은 허용되지 않습니다.    
- 8. 제출물에 제3자의 지식재산권을 침해하는 행위 등이 포함될 경우, 당사는 이에 대한 책임을 지지 않습니다.  
- 9. 당사는 참가팀들 간 공유나 카피 방지 검증용으로만 제출물을 사용할 예정이며 대회 종료 후에는 어떠한 경우에도 상업적 목적으로 해당 결과물을 사용하거나 보관하지 않으며, 만약 제출물로 인해 제3자 지식재산권 침해가 발생하는 경우 해당 침해로 인한 손해는 모두 참가팀에게 책임이 있습니다.    
- 10. 출처 없이 외부 구현을 사용하거나, 다른 참가팀의 구현을 Copy 하여 사용하는 경우에는 실격 처리됩니다.   
- 11. 한 참가팀은 3명 이하로 구성할 수 있으며, 참가팀에서는 팀원이 이 대회의 다른 팀에 중복 참가하지 않음을 스스로 입증해야 합니다.    
- 12. 대회와 관련된 주최자 및 관련자는 참가할 수 없습니다.  
- 13. 상기 규칙을 위배하지 않더라도 신뢰에 반하거나 부당 행위를 하는 경우 실격 처리될 수 있습니다.  
 
 <hr />
 
+
 #### Evaluation Criteria
-The competition quantitatively evaluates the time taken to minimize LLM inference on a given device, limited to a 0.5% accuracy drop from the announced accuracy.
+The goal of this competition is to minimize the execution time of a specified benchmark on the given Gem5 simulator, and the score is evaluated by averaging the performance improvement (speedup) compared to the baseline execution time using the geometric mean.
+* Evaluation formula: <br>
+&emsp;&emsp;**GAP_GEOMEAN(ref_time/candidate_time)  + TSVC_GEOMEAN(ref_time/candidate_time)**
+  * Baseline Branch Predictor: TournamentBP
+  * Baseline Compiler: Compilation options in the Makefile of the provided Docker image
+    * GAP Compilation Optimization Baseline: clang -O3 -fno-vectorize  -fno-slp-vectorize
+    * TSVC Compilation Optimization Baseline: clang -O3
+<br>
 
-#### Target Device
- * NVIDIA Jetson AGX Orin 32GB. Please refer to the following for detailed specifications of NVIDIA Jetson AGX Orin.  
- * Device rental is available for teams without the device.  (However, please note that the quantity is limited. )
 
-#### Target Model
- * Allowed model: **Phi3-medium-4k-instruct (14B)**
- * Please refer to the following for using the model.
+#### Evaluation Environment
+The same environment is provided through Docker images, and the submitted source code must run and terminate normally in that environment. <br>
+**※ Docker images will be released on July 22.** <br>
+* Gem5 version 25.0.0 (The latest stable version)
+  * 1GHz single core
+  * fetch_width=8
+  * width=4
+  * rob_size=128
+  * int_regs=128, fp_regs=128
+  * lq_entries=32, sq_entries=32
+  * L1 Cache=8-way 32KB
+  * L2 Cache=8-way 512KB
+  * RVV enabled, VLEN=256 bits, ELEN=64 bits
+* LLVM version 19.1.7 (stable version)
+<br>
 
-#### Target Dataset
- * The private dataset used for the final evaluation includes some of the 19 Benchmark sets from Phi3-medium-4k-instruct repository in Huggingface.
- * For self-check and leaderboard registration, a test dataset processed from OpenBookQA will be provided to the participants.
-   * <a href="/assets/files/test_script.py" download="test_script.py"> test_script.py</a>
-   * <a href="/assets/files/test_dataset.jsonl" download="test_dataset.jsonl"> test_dataset.jsonl</a>
- * Due to frequent malfunctions caused by out of memory errors, we provide the longest sample data from the evaluation dataset for further validation.                       
-   * <a href="/assets/files/sample_longest_data.jsonl" download="sample_longest_data.jsonl"> sample_longest_data.jsonl</a>        
+   
+#### Benchmark
+The benchmark is provided through a Docker image, and the benchmark source code cannot be modified arbitrarily. <br>
+**※ Benchmarks are included provided Docker image.** <br>
+  * GAP (/root/gapbs)
+    * GAP consists of eight benchmarks, and the type and size of the graph data performed for each benchmark, as well as the number of iterations, are selected differently to reflect the characteristics and execution time of each benchmark.
+    * bfs, cc, cc_sv, sssp, tc, pr, pr_spmv, bc
+  * TSVC (/root/tsvc)
+    * A total of 20 benchmarks representing each category have been selected.
+    * s000, s121, s131, s171, s1213, s2244, s251, s1281, s311, s351, s491, s442, s212, s222, s231, s281, s341, s352, s4114, s321
+<br>
 
-  
-#### Framework
- * Allowed framwork is PyTorch 2.x.
- * Use of open source code and libraries is permitted, provided that appropriate sources are cited.
 
-#### JetPack Version
- * The version 6.0 is allowed.
+#### Restrictions
+###### Gem5
+  * You can modify or add branch predictors under the /root/gem5/cpu/pred directory.
+    * The branch predictor to be submitted to the MyCeChallengeBP class in /root/ce_challenge_2025/components/processors_ce_challenge.py must be connected and function normally in the evaluation environment.
+    * The total size of the branch predictor is limited to 128KB.
+    * The branchPred parameter of the existing RiscvO3CPU model will be changed to the submitted branch predictor for evaluation, and only the interface provided in the BranchPredictor class will be used.  
+    * You can modify the BranchPredictor provided in gem5 or create a branch predictor in C++.
+      * If you add a new branch predictor in C++, you must add the path to the file to /root/gem5/cpu/pred/SConscript and then rebuild gem5.
+    * You must submit an explanation of the modifications or additions, and describe the hardware size consumed by the branch predictor to remember the branch history in bits.
+  * All other modules cannot be modified.
+<br>
 
-#### Evaluation Method
- * We evaluate the improvement in Latency performance through optimization of the PyTorch 2.x framework. The performance measurement includes **data loading** and **inference time**.  
- * Data processing for accuracy measurement after **inference is not included**.  
-   * For example, **only Section 3** within the provided test_script.py is included in the Latency measurement.  
- * There is no need to use the Transformer's pipeline like the provided script. However, **only the result with the same form as the output of the pipe() execution** is allowed.  
-   * In case of using other optimized package, you must provide a python script similar to test_script.py in the final product.  
- * The text-generation used in the script is an example and can change depending on  the dataset. (The output form for each dataset must be the same as the pipe)  
- * In the final evaluation, accuracy measurement will be carried out by the host. (For convenience, a simple accuracy measurement is included in the leaderboard.)
+###### LLVM
+  * The LLVM build script is provided as llvm_build.sh in the /root/llvm directory. This build script cannot be modified.
+  * You can implement the pass by modifying and adding files in the following subdirectories.
+    * /root/llvm/llvm/lib
+      * Directory: Analysis, Transforms, Target/RISCV, Passes
+    * /root/llvm/llvm/include/llvm
+      * Directory: Analysis, Transforms, Passes
+  * You must submit a description of any modifications or additions you make.
+  * All other modules cannot be modified.
+<br>
 
-#### Constraints
- * No significant accuracy drop adjustments or retraining.
-   * No structural modifications or direct weight/activation modifications allowed (Quantization, pruning, etc. that directly modify the weight and activation of the model are not possible.)
- * Accuracy drop from optimization must be within 0.5%.
- * Only the provided dataset can be used.
- * Open-source code and libraries are allowed with proper attribution.
+
+###### Benchmarks
+  * You can compile using the make command in each benchmark directory and run ./RUN_SELF_TEST in /root/ce_challenge_2025 to test it.
+    * <ins>The provided SELF_TEST script runs each benchmark once for evaluation purposes. In actual evaluations, the number of repetitions and parameters may vary, and evaluation settings are not disclosed. Therefore, the scores generated by SELF_TEST may differ from those on the Leaderboard.</ins>
+    * <ins>If an error occurs in the evaluation environment, we will notify you via email of the benchmark where the error occurred and the error message.</ins>
+  * Except for the following restrictions, you can add compilation options for the implemented path to the “OPT_FLAGS” in each benchmark's Makefile.
+    * GAP benchmark: Do not insert vectorization-related options (e.g., --vectorize-slp).
+    * Do not insert hints related to RISC-V vector length (e.g., -force-vector-width, -mrvv-vector-bits).
+  * No other parts of the Makefile except for “OPT_FLAGS” can be modified.
+<br>You cannot arbitrarily modify the environment and scripts for other tests.<br>
+<br>
+**Violation of the above restrictions will result in disqualification.**
+<br>
+
 
 #### Competition Rules
-* The competition aims to ensure fair evaluation and reproducible results. To do this, you must adhere to the following.    
- 1. Submissions must be reproducible in a test environment, and the source code will be used to detect cheating and reproduce results.    
- 2. Latency is defined as "the time it takes to process all of the presented dataset".    
- 3. External memory can be added to the Jetson AGX Orin kit (Micro SD only).    
- 4. Teams must submit the requested materials for evaluation.    
- 5. Each team can submit model inference results during the competition period, and the best performing teams will be ranked and the results will be updated daily 
-(excluding holidays and weekends).    
- 6. The source code created by teams should be remained private during the competition.    
- 7. Submissions must not use copyrighted or proprietary data or patents or trademarks, code, or closed source content. Use of data or content that violates a service agreement or another company's trade secrets is not permitted.    
- 8. We are not responsible if your Submission contains conduct that infringes any third party's intellectual property rights.    
- 9. We will only use the submissions to verify cheating and sharing among participating teams. We will not use or retain the results for commercial purposes under any circumstances after the Competition ends. If your submission results in any infringement of third-party intellectual property rights, you will be responsible for any damages resulting from such infringement.    
- 10. Using an external implementation without citation, or copying another team's implementation, will be eliminated.    
- 11. A participating team should consist of no more than 3 people, and the participating team must certify that no team member is a duplicate participant in any other team.    
- 12. Organizers and associated with the competition are not eligible to participate.    
- 13. Even if you do not violate any of the above rules, you may be eliminated if you act is untrustworthy or unfair.    
+* The goal of this competition is to ensure fair evaluation and reproducible results. To this end, the following rules must be observed.
+1. Submissions must be reproducible in the test environment, and source code will be used to verify the absence of cheating and to reproduce results.
+2. Participating teams must submit the requested materials for evaluation.
+3. Source code written by participating teams during the competition period will be kept confidential.
+4. Submissions must not use copyrighted or proprietary data, patents, trademarks, code, or confidential source content. The use of data or content that violates service agreements or other companies' trade secrets is not permitted.
+5. We are not responsible for any infringement of third-party intellectual property rights contained in submissions.
+6. We will use submissions solely for the purpose of verifying sharing and copying prevention among participating teams. After the competition ends, we will not use or store the results for commercial purposes under any circumstances. If a third party's intellectual property rights are infringed upon due to a submission, the participating team will be held responsible for all damages resulting from such infringement.
+7. Using external implementations without attribution or copying another participating team's implementation will result in disqualification.
+8. Each participating team may consist of up to three members, and participating teams must verify that their members are not participating in other teams in this competition.  
+9. Organizers and related parties involved in the competition are not eligible to participate.  
+10. Even if the above rules are not violated, disqualification may occur if there is a breach of trust or unfair conduct. 
