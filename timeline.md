@@ -19,7 +19,7 @@ excerpt:
     </tr>
     <tr>
         <td colspan="1"> 최종 결과 제출 </td>
-        <td colspan="1"> 2025년 09월 19일(금) 14:00 ~ 2025년 09월 24일(수) 13:59 <br>
+        <td colspan="1"> ~ 2025년 09월 22일(월) 23:59 <br>
 		                 ※ 리더보드 상위 10개 팀 </td>
     </tr>
     <tr>
@@ -51,7 +51,7 @@ excerpt:
     </tr>
     <tr>
         <td colspan="1"> Final Results Submission </td>
-        <td colspan="1"> September 19, 2025 (Fri) 2:00 PM to September 24, 2025 (Wen) 1:59 PM <br>
+        <td colspan="1"> September 22, 2025 (Mon) 11:59 PM <br>
 		                 ※ Top 10 teams on the leaderboard </td>
     </tr>
     <tr>
