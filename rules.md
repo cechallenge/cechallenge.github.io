@@ -78,8 +78,8 @@ Docker 이미지를 통해 벤치마크가 제공되며, 벤치마크의 소스 
   * 아래의 제한 사항을 제외하고, 각 벤치마크의 Makefile의 “OPT_FLAGS”에 구현한 패스에 대한 컴파일 옵션을 추가할 수 있습니다. Makefile의 “OPT_FLAGS”를 제외한 다른 부분은 수정이 허용되지 않습니다. 이외 테스트를 위한 환경 및 스크립트를 임의 수정이 허용되지 않습니다.
     * GAP 벤치마크: vectorize 관련 옵션 삽입 금지 (--vectorize-slp 등)
     * RISC-V vector length에 대한 hint 삽입 금지 (-force-vector-width, -mrvv-vector-bits 등)
-  * Makefile의 "OPT_FLAGS"를 제외한 다른 부분은 수정할 수 없습니다.
-<br>이외 테스트를 위한 환경 및 스크립트를 임의 수정할 수 없습니다.<br>
+  * Makefile의 "OPT_FLAGS"를 제외한 다른 부분은 수정이 허용되지 않습니다.
+<br>이외 테스트를 위한 환경 및 스크립트를 임의 수정이 허용되지 않습니다.<br>
 <br>
 
 
