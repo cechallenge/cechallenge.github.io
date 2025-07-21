@@ -19,12 +19,12 @@ excerpt:
     </tr>
     <tr>
         <td colspan="1"> 최종 결과 제출 </td>
-        <td colspan="1"> 2025년 09월 19일(금) 14:00 ~ 2025년 09월 25일(목) 13:59 <br>
+        <td colspan="1"> 2025년 09월 19일(금) 14:00 ~ 2025년 09월 24일(수) 13:59 <br>
 		                 ※ 리더보드 상위 10개 팀 </td>
     </tr>
     <tr>
         <td colspan="1"> 최종 결과 발표 </td>
-        <td colspan="1"> 2025년 10월 14일(화) </td>
+        <td colspan="1"> TBD </td>
     </tr>
     <tr>
         <td colspan="1"> 시상식 및 수상자캠프</td>
@@ -51,12 +51,12 @@ excerpt:
     </tr>
     <tr>
         <td colspan="1"> Final Results Submission </td>
-        <td colspan="1"> September 19, 2025 (Fri) 2:00 PM to September 25, 2025 (Thu) 1:59 PM <br>
+        <td colspan="1"> September 19, 2025 (Fri) 2:00 PM to September 24, 2025 (Wen) 1:59 PM <br>
 		                 ※ Top 10 teams on the leaderboard </td>
     </tr>
     <tr>
         <td colspan="1"> Final Results Announcement </td>
-        <td colspan="1"> October 14, 2025 (Tue) </td>
+        <td colspan="1"> TBD </td>
     </tr>
     <tr>
         <td colspan="1"> Award Ceremony and Winners' Camp</td>
