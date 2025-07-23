@@ -24,11 +24,11 @@ excerpt:
     </tr>
     <tr>
         <td colspan="1"> 최종 결과 발표 </td>
-        <td colspan="1"> TBD </td>
+        <td colspan="1"> 2025년 9월 26일(금) </td>
     </tr>
     <tr>
         <td colspan="1"> 시상식 및 수상자캠프</td>
-        <td colspan="1"> TBD </td>
+        <td colspan="1"> 2025년 10월 1일(수) </td>
     </tr>
     </table>
 </P>
@@ -56,11 +56,11 @@ excerpt:
     </tr>
     <tr>
         <td colspan="1"> Final Results Announcement </td>
-        <td colspan="1"> TBD </td>
+        <td colspan="1"> September 26, 2025 (Fri) </td>
     </tr>
     <tr>
         <td colspan="1"> Award Ceremony and Winners' Camp</td>
-        <td colspan="1"> TBD </td>
+        <td colspan="1"> Octuber 1, 2025 (Wed) </td>
     </tr>
     </table>
 </P>
