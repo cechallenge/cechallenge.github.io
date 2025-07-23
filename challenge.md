@@ -16,7 +16,7 @@ Computer Engineering(CE) Challenge 참가하시려면, Submssion 페이지에서
 
 
 #### 참가 자격
-1.&nbsp;'25년 7월 21일 현재 재학 중인 대학생 및 대학원생 <br>
+1.&nbsp;'25년 7월 21일 현재 국내 대학에 재학 중인 대학생 및 대학원생 <br>
 &ensp;※ 수상은 아래 조건을 충족해야 합니다. (‘25년 7월 21일 기준) <br>
 &emsp;&ensp;학적 상태가 재학 상태이어야 하고, 졸업유예생은 참여불가 <br>
 &emsp;&ensp;산업체, 연구소 등에 재직 중인 사람은 수상 불가 (학술 연수중인 사람, 산업정부출연연구소 소속 학생연구원 포함) <br>
@@ -69,7 +69,7 @@ Once your submission is complete, you will receive a confirmation email, and you
 
 
 #### Eligibility
-1.&nbsp;Currently enrolled in college or graduate school as of July 21, 2025 <br>
+1.&nbsp;Students currently enrolled in Korean universities and graduate schools as of July 21, 2025.5 <br>
 &ensp;※ To be eligible for an award, the following conditions must be met <br>
 &emsp;&ensp;Must be currently enrolled; students on graduation deferment are not eligible to participate <br>
 &emsp;&ensp;Those currently employed by an industry or research institute are not eligible for awards (including those on academic training and student researchers affiliated with industry-government-funded research institutes) <br>
