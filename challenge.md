@@ -31,7 +31,7 @@ Computer Engineering(CE) Challenge 참가하시려면, Submssion 페이지에서
 최종 평가는 각 팀에서 제출하는 LLVM 컴파일러 및 Gem5 시뮬레이터 소스코드로  <br>
 사무국에서 선정한 벤치마크의 실행 시간을 최소화하는 것을 목표로 하며, <br>
 baseline 실행 시간 대비 성능 개선도(speedup)를 기하 평균(geometric mean)을 내어 합산한 점수를 평가합니다. <br>
-각 팀에서 제출한 소스코드를 바탕으로 Leader Board가 운영될 예정이며 주기적으로 업데이트 됩니다. (7/28일~) <br>
+각 팀에서 제출한 소스코드를 바탕으로 Leader Board가 운영될 예정이며 주기적으로 업데이트 됩니다. (8/1일~) <br>
 만약 소스코드를 여러 번 송부하신 경우에는 가장 마지막에 제출된 결과(실행 시간 평가 점수)를 기준으로 등록될 예정입니다. <br>
 &ensp;**※ 1일 최대 제출 횟수: 3회** <br>
 <br>
@@ -41,12 +41,12 @@ baseline 실행 시간 대비 성능 개선도(speedup)를 기하 평균(geometr
 &emsp;&emsp;**GAP_GEOMEAN(ref_time/candidate_time)  + TSVC_GEOMEAN(ref_time/candidate_time)** <br>
 2.&nbsp;평가 방식 <br>
 &emsp;&ensp;리더보드 Score 상위 10팀 소스코드 및 문제풀이 설명 문서 제출 후 소스코드 검증 및 <ins>실측평가</ins> <br>
-&emsp;&ensp;최종 제출한 소스코드와 문제풀이 설명 문서를 바탕으로 정성 평가 결과가 반영됩니다. <br>
+&emsp;&ensp;제출한 소스코드와 문제풀이 설명 문서를 바탕으로 정성 평가 결과 반영 <br>
 <br>
 
 
 #### Leaderboard 제출물
-**※ 리더보드 제출 세부 사항은 7/28일 안내 예정입니다.** <br>
+**※ 리더보드 제출 세부 사항은 8/1일 안내 예정입니다.** <br>
 <br>
 
 
@@ -69,7 +69,7 @@ Once your submission is complete, you will receive a confirmation email, and you
 
 
 #### Eligibility
-1.&nbsp;Students currently enrolled in Korean universities and graduate schools as of July 21, 2025.5 <br>
+1.&nbsp;Students currently enrolled in Korean universities and graduate schools as of July 21, 2025. <br>
 &ensp;※ To be eligible for an award, the following conditions must be met <br>
 &emsp;&ensp;Must be currently enrolled; students on graduation deferment are not eligible to participate <br>
 &emsp;&ensp;Those currently employed by an industry or research institute are not eligible for awards (including those on academic training and student researchers affiliated with industry-government-funded research institutes) <br>
@@ -82,7 +82,7 @@ Once your submission is complete, you will receive a confirmation email, and you
 
 #### Competition Operation
 The final evaluation will be based on the LLVM compiler and Gem5 simulator source code submitted by each team, with the goal of minimizing the execution time of the benchmarks selected by the secretariat. The performance improvement (speedup) compared to the baseline execution time will be calculated using the geometric mean and the total score will be evaluated. <br>
-A leaderboard will be maintained based on the source code submitted by each team and will be updated periodically (starting July 28). <br>
+A leaderboard will be maintained based on the source code submitted by each team and will be updated periodically (starting August 1). <br>
 If you submit your source code multiple times, the last submission (execution time evaluation score) will be used for registration. <br>
 &ensp;**※ Maximum number of submissions per day: 3** <br>
 <br>
@@ -92,12 +92,12 @@ If you submit your source code multiple times, the last submission (execution ti
 &emsp;&emsp;**GAP_GEOMEAN(ref_time/candidate_time)  + TSVC_GEOMEAN(ref_time/candidate_time)** <br>
 2.&nbsp;Evaluation method <br>
 &emsp;&ensp;The top 10 teams on the leaderboard will submit their source code and problem-solving explanation documents, which will then be verified and evaluated based on actual measurements. <br>
-&emsp;&ensp;The qualitative evaluation results will be reflected based on the submitted source code and problem-solving explanation documents (10%). <br>
+&emsp;&ensp;The qualitative evaluation results will be reflected based on the submitted source code and problem-solving explanation documents <br>
 <br>
 
 
 #### Leaderboard Submission Guide
-Details on leaderboard submissions will be announced on July 28. <br>
+Details on leaderboard submissions will be announced on August 1. <br>
 <br>
 
 

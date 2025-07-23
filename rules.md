@@ -19,8 +19,7 @@ Gem5 시뮬레이터에서 사무국에서 선정한 벤치마크의 실행 시�
 
 #### 평가 환경
 Docker 이미지를 통해 동일 환경을 제공하며, 제출한 소스코드는 해당 환경에서 정상적으로 실행 및 종료되어야 합니다. <br>
-**※ Docker 이미지는 7/22일 공개 예정입니다.** <br>
-   ghcr.io/cechallenge/ce_challenge_2025 <br>
+**※ Docker 이미지 : [ghcr.io/cechallenge/ce_challenge_2025](https://ghcr.io/cechallenge/ce_challenge_2025)** <br>
 * Gem5 version 25.0.0 (최신 stable version)
   * 1GHz single core
   * fetch_width=8
@@ -37,11 +36,11 @@ Docker 이미지를 통해 동일 환경을 제공하며, 제출한 소스코드
    
 #### 벤치마크
 Docker 이미지를 통해 벤치마크가 제공되며, 벤치마크의 소스 코드를 임의로 수정할 수 없습니다. <br>
-**※ CE challenge 에서 제공하는 Github repository 에 벤치마크가 포함되어 있습니다.** <br>
-  * GAP (/root/gapbs)
-    * GAP은 8개의 벤치마크으로 구성되어 있고, 각 밴치마크 별 수행하는 그래프 데이터의 종류와 크기, 반복 횟수는 각 벤치마크의 특성과 실행시간을 반영해서 각각 다르게 선정하였습니다.
+**※ CE challenge 에서 제공하는 [Github repository](https://github.com/cechallenge/2025) 에 벤치마크가 포함되어 있습니다.** <br>
+  * GAP (\<repo directory\>/gapbs)
+    * GAP은 8개의 벤치마크으로 구성되어 있고, 각 밴치마크 별 수행하는 그래프 데이터의 종류와 크기, 반복 횟수는 각 벤치마크의 특성과 실행시간을 반영해서 각각 다르게 선정됩니다.
     * bfs, cc, cc_sv, sssp, tc, pr, pr_spmv, bc
-  * TSVC (/root/tsvc)
+  * TSVC (\<repo directory\>/tsvc)
     * 각 카테고리를 대표하는 총 20개의 벤치마크를 선정하였습니다.
     * s000, s121, s131, s171, s1213, s2244, s251, s1281, s311, s351, s491, s442, s212, s222, s231, s281, s341, s352, s4114, s321
 <br>
@@ -51,35 +50,35 @@ Docker 이미지를 통해 벤치마크가 제공되며, 벤치마크의 소스 
 아래의 제한 사항을 위반하면 실격처리 됩니다. <br>
 
 ###### Gem5
-  * /root/gem5/cpu/pred 디렉토리 하위의 branch predictor는 수정 또는 추가가 가능합니다.
-    * **/root/ce_challenge_2025/components/processors_ce_challenge.py** 의 **MyCeChallengeBP** class에 제출할 branch predictor를 연결해서 평가 환경에서 정상 동작해야 합니다.
+  * \<repo directory\>/gem5/cpu/pred 디렉토리 하위의 branch predictor 들을 수정 또는 추가가 가능합니다
+    * **\<repo directory\>/ce_challenge_2025/components/processors_ce_challenge.py** 의 **MyCeChallengeBP** class에 제출할 branch predictor를 연결해서 평가 환경에서 정상 동작해야 합니다.
     * Branch predictor의 총 크기는 128KB로 제한합니다.
     * 기존 RiscvO3CPU 모델의 branchPred parameter만 제출 받은 branch predictor로 변경하여 평가하며, BranchPredictor class에 주어진 인터페이스만 사용합니다.
     * gem5에 제공되어 있는 BranchPredictor를 수정해서 사용 할 수 있고, C++로 branch predictor만들어서 사용도 가능합니다.
-      * C++로 새로운 branch predictor를 추가할 경우, **/root/gem5/cpu/pred/SConscript**에 해당 파일의 경로를 추가 후 gem5를 새로 build해야 합니다.
+      * C++로 새로운 branch predictor를 추가할 경우, **\<repo directory\>/gem5/cpu/pred/SConscript**에 해당 파일의 경로를 추가 후 gem5를 새로 build해야 합니다.
     * 수정 또는 추가한 부분에 대해 설명을 제출해야 하며, branch predictor가 branch history를 기억하기 위해 소비하는 하드웨어 크기를 bit 단위로 기술해야 합니다.
   * 그 외의 모든 모듈은 변경 및 수정이 허용되지 않습니다.
 <br>
 
 ###### LLVM
-  * LVM 빌드 스크립트는 /root/llvm 디렉토리 안에 llvm_build.sh로 제공됩니다. 해당 빌드 스크립트는 수정이 허용되지 않습니다.
-  * 아래에 명시된 하위 디렉토리의 파일을 수정 및 추가하여 패스를 구현할 수 있습니다. 단, 수정 또는 추가한 부분에 대해 설명을 제출해야 합니다.
-    * /root/llvm/llvm/lib
+  * LLVM 빌드 스크립트는 \<repo directory\>/llvm 디렉토리 안에 llvm_build.sh로 제공됩니다.해당 빌드 스크립트는 수정이 허용되지 않습니다.
+  * 해당 하위 디렉토리에 파일 수정 및 추가를 통해 패스를 구현할 수 있습니다. 단, 수정 또는 추가한 부분에 대해 설명을 제출해야 합니다.
+    * \<repo directory\>/llvm/llvm/lib
       * 디렉토리 이름: Analysis, Transforms, Target/RISCV, Passes
-    * /root/llvm/llvm/include/llvm
+    * \<repo directory\>/llvm/llvm/include/llvm
       * 디렉토리 이름: Analysis, Transforms, Passes
   * 그 외의 모든 부분은 변경 및 수정이 허용되지 않습니다.
 <br>
 
 
 ###### 벤치마크
-  * 각 벤치마크 디렉토리에서 make 커맨드를 통해 컴파일하고, /root/ce_challenge_2025 의 ./RUN_SELF_TEST 를 실행하여 테스트해볼 수 있습니다.
+  * 각 벤치마크 디렉토리에서 make 커맨드를 통해 컴파일하고, <repo directory>/ce_challenge_2025 의 ./RUN_SELF_TEST 를 실행하여 테스트해볼 수 있습니다.
     * <ins>제공된 SELF_TEST 스크립트는 평가에 활용되는 모든 벤치마크를 각 1회 실행합니다. 실제 평가에서는 반복 횟수 및 파라미터가 달라지며 평가 설정은 공개하지 않습니다. 따라서 SELF_TEST의 산출 점수는 Leaderboard 점수와 다를 수 있습니다.</ins>
     * <ins>평가 환경에서 오류 발생 시 오류가 발생한 벤치마크와 에러 메시지를 이메일로 알려드립니다.</ins>
-  * 아래의 제한 사항을 제외하고, 각 벤치마크의 Makefile의 “OPT_FLAGS”에 구현한 패스에 대한 컴파일 옵션을 추가할 수 있습니다. Makefile의 “OPT_FLAGS”를 제외한 다른 부분은 수정이 허용되지 않습니다. 이외 테스트를 위한 환경 및 스크립트를 임의 수정이 허용되지 않습니다.
+  * 다음 제한 사항을 제외하고, 각 벤치마크의 Makefile의 "OPT_FLAGS"에 구현한 패스에 대한 컴파일 옵션을 추가할 수 있습니다.
     * GAP 벤치마크: vectorize 관련 옵션 삽입 금지 (--vectorize-slp 등)
     * RISC-V vector length에 대한 hint 삽입 금지 (-force-vector-width, -mrvv-vector-bits 등)
-  * Makefile의 "OPT_FLAGS"를 제외한 다른 부분은 수정이 허용되지 않습니다.
+  * Makefile의 “OPT_FLAGS”를 제외한 다른 부분은 수정이 허용되지 않습니다.
 <br>이외 테스트를 위한 환경 및 스크립트를 임의 수정하는 것은 허용되지 않습니다.<br>
 <br>
 
@@ -114,8 +113,7 @@ The goal of this competition is to minimize the execution time of a specified be
 
 #### Evaluation Environment
 The same environment is provided through Docker images, and the submitted source code must run and terminate normally in that environment. <br>
-**※ Docker images will be released on July 22.** <br>
-   ghcr.io/cechallenge/ce_challenge_2025 <br>
+**※ Docker images : [ghcr.io/cechallenge/ce_challenge_2025](https://ghcr.io/cechallenge/ce_challenge_2025)** <br>
 * Gem5 version 25.0.0 (The latest stable version)
   * 1GHz single core
   * fetch_width=8
@@ -132,11 +130,11 @@ The same environment is provided through Docker images, and the submitted source
    
 #### Benchmark
 The benchmark is provided through a Docker image, and the benchmark source code cannot be modified arbitrarily. <br>
-**※ Benchmarks are included in the CE challenge GitHub repository.** <br>
-  * GAP (/root/gapbs)
-    * GAP consists of eight benchmarks, and the type and size of the graph data performed for each benchmark, as well as the number of iterations, are selected differently to reflect the characteristics and execution time of each benchmark.
+**※ Benchmarks are included in the CE challenge [Github repository](https://github.com/cechallenge/2025).** <br>
+  * GAP (\<repo directory\>/gapbs)
+    * GAP consists of 8 benchmarks, and the type and size of the graph data performed for each benchmark, as well as the number of iterations, are selected differently to reflect the characteristics and execution time of each benchmark.
     * bfs, cc, cc_sv, sssp, tc, pr, pr_spmv, bc
-  * TSVC (/root/tsvc)
+  * TSVC (\<repo directory\>/tsvc)
     * A total of 20 benchmarks representing each category have been selected.
     * s000, s121, s131, s171, s1213, s2244, s251, s1281, s311, s351, s491, s442, s212, s222, s231, s281, s341, s352, s4114, s321
 <br>
@@ -144,22 +142,22 @@ The benchmark is provided through a Docker image, and the benchmark source code 
 
 #### Restrictions
 ###### Gem5
-  * You can modify or add branch predictors under the /root/gem5/cpu/pred directory.
-    * The branch predictor to be submitted to the MyCeChallengeBP class in /root/ce_challenge_2025/components/processors_ce_challenge.py must be connected and function normally in the evaluation environment.
+  * You can modify or add branch predictors under the \<repo directory\>/gem5/cpu/pred directory.
+    * The branch predictor to be submitted to the MyCeChallengeBP class in \<repo directory\>/ce_challenge_2025/components/processors_ce_challenge.py must be connected and function normally in the evaluation environment.
     * The total size of the branch predictor is limited to 128KB.
-    * The branchPred parameter of the existing RiscvO3CPU model will be changed to the submitted branch predictor for evaluation, and only the interface provided in the BranchPredictor class will be used.  
+    * The branchPred parameter of the existing RiscvO3CPU model will be changed to the submitted branch predictor for evaluation, and only the interface provided in the BranchPredictor class will be used.   
     * You can modify the BranchPredictor provided in gem5 or create a branch predictor in C++.
-      * If you add a new branch predictor in C++, you must add the path to the file to /root/gem5/cpu/pred/SConscript and then rebuild gem5.
+      * If you add a new branch predictor in C++, you must add the path to the file to \<repo directory\>/gem5/cpu/pred/SConscript and then rebuild gem5.
     * You must submit an explanation of the modifications or additions, and describe the hardware size consumed by the branch predictor to remember the branch history in bits.
   * All other modules cannot be modified.
 <br>
 
 ###### LLVM
-  * The LLVM build script is provided as llvm_build.sh in the /root/llvm directory. This build script cannot be modified.
+  * The LLVM build script is provided as llvm_build.sh in the \<repo directory\>/llvm directory. This build script cannot be modified.
   * You can implement the pass by modifying and adding files in the following subdirectories.
-    * /root/llvm/llvm/lib
+    * \<repo directory\>/llvm/llvm/lib
       * Directory: Analysis, Transforms, Target/RISCV, Passes
-    * /root/llvm/llvm/include/llvm
+    * \<repo directory\>/llvm/llvm/include/llvm
       * Directory: Analysis, Transforms, Passes
   * You must submit a description of any modifications or additions you make.
   * All other modules cannot be modified.
@@ -167,7 +165,7 @@ The benchmark is provided through a Docker image, and the benchmark source code 
 
 
 ###### Benchmarks
-  * You can compile using the make command in each benchmark directory and run ./RUN_SELF_TEST in /root/ce_challenge_2025 to test it.
+  * You can compile using the make command in each benchmark directory and run ./RUN_SELF_TEST in \<repo directory\>/ce_challenge_2025 to test it.
     * <ins>The provided SELF_TEST script runs each benchmark once for evaluation purposes. In actual evaluations, the number of repetitions and parameters may vary, and evaluation settings are not disclosed. Therefore, the scores generated by SELF_TEST may differ from those on the Leaderboard.</ins>
     * <ins>If an error occurs in the evaluation environment, we will notify you via email of the benchmark where the error occurred and the error message.</ins>
   * Except for the following restrictions, you can add compilation options for the implemented path to the “OPT_FLAGS” in each benchmark's Makefile.
@@ -189,6 +187,6 @@ The benchmark is provided through a Docker image, and the benchmark source code 
 5. We are not responsible for any infringement of third-party intellectual property rights contained in submissions.
 6. We will use submissions solely for the purpose of verifying sharing and copying prevention among participating teams. After the competition ends, we will not use or store the results for commercial purposes under any circumstances. If a third party's intellectual property rights are infringed upon due to a submission, the participating team will be held responsible for all damages resulting from such infringement.
 7. Using external implementations without attribution or copying another participating team's implementation will result in disqualification.
-8. Each participating team may consist of up to three members, and participating teams must verify that their members are not participating in other teams in this competition.  
-9. Organizers and related parties involved in the competition are not eligible to participate.  
+8. Each participating team may consist of up to three members, and participating teams must verify that their members are not participating in other teams in this competition.
+9. Organizers and related parties involved in the competition are not eligible to participate.
 10. Even if the above rules are not violated, disqualification may occur if there is a breach of trust or unfair conduct. 
