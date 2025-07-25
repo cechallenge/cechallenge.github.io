@@ -282,7 +282,7 @@ excerpt:
             leaderboard.innerHTML = data.map((item, index) => {
                 const rank = index === 0 ? '🥇' : 
                                   index === 1 ? '🥈' : 
-                                  index === 2 ? '🥉' : 
+                                  index <= 3 ? '🥉' : 
                                   index + 1;
                 let medalHtml = '';
                 let rankClass = '';
