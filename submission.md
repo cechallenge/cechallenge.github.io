@@ -11,7 +11,7 @@ Computer Engineering(CE) Challenge 참가하시려면, 참가 신청서를 작�
 [https://naver.me/G8hZKrnE](https://naver.me/G8hZKrnE)
 
 신청 접수가 완료되면 확인 메일이 발송되며, 해당 메일을 수신하신 이후부터 리더보드 제출이 가능합니다. <br>
-※ 참가 신청 접수는 평일 오전 9시~오후 5시까지 순처적으로 진행됩니다.
+※ 참가 신청 접수는 평일 오전 9시~오후 5시까지 순차적으로 진행됩니다.
 
 
 <hr />
