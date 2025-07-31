@@ -207,9 +207,10 @@ excerpt:
                 clearInterval(countdownInterval);
                 return;
             }
+            //console.log(difference.format('yyyy-MM-dd HH:mm:ss'))
             
             // 시간 계산
-            const days = Math.floor(difference / (1000 * 60 * 60 * 24)) + 1;
+            const days = Math.floor(difference / (1000 * 60 * 60 * 24));
             const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
             const seconds = Math.floor((difference % (1000 * 60)) / 1000);
@@ -220,7 +221,7 @@ excerpt:
             
             // 시:분:초.밀리초 형식으로 표시
             const timeString = `${totalHours.toString().padStart(3, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}.${milliseconds.toString().padStart(3, '0')}`;
-            const ddayString = `D-${days}`;
+            const ddayString = `D-${days + 1}`;
             
             document.getElementById('time-display').textContent = timeString;
             document.getElementById('dday-display').textContent = ddayString;
@@ -282,7 +283,7 @@ excerpt:
             leaderboard.innerHTML = data.map((item, index) => {
                 const rank = index === 0 ? '🥇' : 
                                   index === 1 ? '🥈' : 
-                                  index <= 3 ? '🥉' : 
+                                  index === 2 ? '🥉' : 
                                   index + 1;
                 let medalHtml = '';
                 let rankClass = '';
