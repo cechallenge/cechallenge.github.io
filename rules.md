@@ -37,8 +37,9 @@ Docker 이미지를 통해 동일 환경을 제공하며, 제출한 소스코드
 #### 벤치마크
 Docker 이미지를 통해 벤치마크가 제공되며, 벤치마크의 소스 코드를 임의로 수정할 수 없습니다. <br>
 **※ CE challenge 에서 제공하는 [Github repository](https://github.com/cechallenge/2025) 에 벤치마크가 포함되어 있습니다.** <br>
+**※ 제공되는 벤치마크와 실제 평가시 사용되는 벤치마크는 동일하지 않습니다.** <br>
   * GAP (\<repo directory\>/gapbs)
-    * GAP은 8개의 벤치마크으로 구성되어 있고, 각 밴치마크 별 수행하는 그래프 데이터의 종류와 크기, 반복 횟수는 각 벤치마크의 특성과 실행시간을 반영해서 각각 다르게 선정됩니다.
+    * GAP은 8개의 벤치마크로 구성되어 있고, 각 밴치마크 별 수행하는 그래프 데이터의 종류와 크기, 반복 횟수는 각 벤치마크의 특성과 실행시간을 반영해서 각각 다르게 선정됩니다.
     * bfs, cc, cc_sv, sssp, tc, pr, pr_spmv, bc
   * TSVC (\<repo directory\>/tsvc)
     * 각 카테고리를 대표하는 총 20개의 벤치마크를 선정하였습니다.
@@ -54,7 +55,7 @@ Docker 이미지를 통해 벤치마크가 제공되며, 벤치마크의 소스 
     * **\<repo directory\>/ce_challenge_2025/components/processors_ce_challenge.py** 의 **MyCeChallengeBP** class에 제출할 branch predictor를 연결해서 평가 환경에서 정상 동작해야 합니다.
     * Branch predictor의 총 크기는 128KB로 제한합니다.
     * 기존 RiscvO3CPU 모델의 branchPred parameter만 제출 받은 branch predictor로 변경하여 평가하며, BranchPredictor class에 주어진 인터페이스만 사용합니다.
-    * gem5에 제공되어 있는 BranchPredictor를 수정해서 사용 할 수 있고, C++로 branch predictor만들어서 사용도 가능합니다.
+    * gem5에 제공되어 있는 BranchPredictor를 수정해서 사용할 수 있고, C++로 branch predictor만들어서 사용도 가능합니다.
       * C++로 새로운 branch predictor를 추가할 경우, **\<repo directory\>/gem5/cpu/pred/SConscript**에 해당 파일의 경로를 추가 후 gem5를 새로 build해야 합니다.
     * 수정 또는 추가한 부분에 대해 설명을 제출해야 하며, branch predictor가 branch history를 기억하기 위해 소비하는 하드웨어 크기를 bit 단위로 기술해야 합니다.
   * 그 외의 모든 모듈은 변경 및 수정이 허용되지 않습니다.
@@ -91,7 +92,7 @@ Docker 이미지를 통해 벤치마크가 제공되며, 벤치마크의 소스 
 4. 제출물은 저작권이 있거나 독점적인 데이터 또는 특허 또는 상표, 코드 또는 비공개 소스 콘텐츠를 사용해서는 안 됩니다. 서비스 계약이나 다른 기업의 영업 비밀을 위반하는 데이터나 콘텐츠의 사용은 허용되지 않습니다.
 5. 제출물에 제3자의 지식재산권을 침해하는 행위 등이 포함될 경우, 당사는 이에 대한 책임을 지지 않습니다.
 6. 당사는 참가팀들 간 공유나 카피 방지 검증용으로만 제출물을 사용할 예정이며 대회 종료 후에는 어떠한 경우에도 상업적 목적으로 해당 결과물을 사용하거나 보관하지 않으며, 만약 제출물로 인해 제3자 지식재산권 침해가 발생하는 경우 해당 침해로 인한 손해는 모두 참가팀에게 책임이 있습니다.
-7. 출처 없이 외부 구현을 사용하거나, 다른 참가팀의 구현을 Copy 하여 사용하는 경우에는 실격 처리됩니다.
+7. 출처 없이 외부 구현을 사용하거나, 다른 참가팀의 구현을 복사하여 사용하는 경우에는 실격 처리됩니다.
 8. 한 참가팀은 3명 이하로 구성할 수 있으며, 참가팀에서는 팀원이 이 대회의 다른 팀에 중복 참가하지 않음을 스스로 입증해야 합니다.
 9. 대회와 관련된 주최자 및 관련자는 참가할 수 없습니다.
 10. 상기 규칙을 위배하지 않더라도 신뢰에 반하거나 부당 행위를 하는 경우 실격 처리될 수 있습니다. 
@@ -131,6 +132,7 @@ The same environment is provided through Docker images, and the submitted source
 #### Benchmark
 The benchmark is provided through a Docker image, and the benchmark source code cannot be modified arbitrarily. <br>
 **※ Benchmarks are included in the CE challenge [Github repository](https://github.com/cechallenge/2025).** <br>
+**※ Provided benchmarks and those actually used during the evaluation are not identical.** <br>
   * GAP (\<repo directory\>/gapbs)
     * GAP consists of 8 benchmarks, and the type and size of the graph data performed for each benchmark, as well as the number of iterations, are selected differently to reflect the characteristics and execution time of each benchmark.
     * bfs, cc, cc_sv, sssp, tc, pr, pr_spmv, bc

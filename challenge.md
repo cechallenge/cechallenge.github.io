@@ -46,7 +46,12 @@ baseline 실행 시간 대비 성능 개선도(speedup)를 기하 평균(geometr
 
 
 #### Leaderboard 제출물
-**※ 리더보드 제출 세부 사항은 8/1일 안내 예정입니다.** <br>
+1.&nbsp;모든 참가팀은 [Submission Page](https://cechallenge.github.io/submission/) 설명에 따라 [참가 등록](https://naver.me/G8hZKrnE)을 해야 합니다. (최초 1회) <br>
+2.&nbsp;모든 참가팀은 private repository를 생성한 후, [CE Challenge Github Repository](https://github.com/cechallenge/2025)를 clone하여 생성한 private repository에 연결하여야 합니다. 그리고 Github 계정(cechallenge)을 private repository의 collaborator로 등록해야 합니다. <br>
+3.&nbsp;Private repository의 main branch에 push된 latest commit을 기준으로 Leaderboard에 주기적으로 채점 결과가 반영됩니다. <br>
+4.&nbsp;Leaderboard 제출은 1일 3회까지 한정됩니다. 3회를 초과하는 경우 채점이 진행되지 않으며 에러 발생도 채점 횟수에 포함됩니다. Main branch에 commit을 push 하면 자동으로 제출로 간주됩니다. <br>
+5.&nbsp;Leaderboard의 제출 횟수는 0시(KST)를 기준으로 초기화 됩니다. <br>
+6.&nbsp;최종 평가는 대회 종료 일시인 2025년 09월 19일(금) 13:59 이전 main branch의 가장 최신 commit을 기준으로 진행됩니다. <br>
 <br>
 
 
@@ -97,7 +102,12 @@ If you submit your source code multiple times, the last submission (execution ti
 
 
 #### Leaderboard Submission Guide
-Details on leaderboard submissions will be announced on August 1. <br>
+1.&nbsp;All participating teams must [register](https://naver.me/G8hZKrnE) according to the instructions on the [Submission Page](https://cechallenge.github.io/submission/). (Once only) <br>
+2.&nbsp;All participating teams must create a private repository, clone the [CE Challenge GitHub Repository](https://github.com/cechallenge/2025), and connect it to the private repository you created. All teams must also register the CE challenge GitHub account (cechallenge) as a collaborator of your private repository. <br>
+3.&nbsp;Scoring results will be periodically reflected on the Leaderboard based on the latest commit pushed to the main branch of the private repository. <br>
+4.&nbsp;Leaderboard submissions are limited to 3 times per day. Submissions exceeding 3 times will not be scored, and errors will also be counted toward the submission limit. Pushing a commit to the main branch is automatically considered a submission. <br>
+5.&nbsp;The number of submissions to the Leaderboard is reset at 00:00 (KST). <br>
+6.&nbsp;The final evaluation will be based on the latest commit to the main branch before the end of the competition on Friday, September 19, 2025, at 11:59 PM. <br>
 <br>
 
 
