@@ -161,7 +161,7 @@ excerpt:
                     </div>
                 </div>
 
-                <div class="table-header mb-2">
+                <div id="leaderboard-header" class="table-header mb-2 d-none">
                     <div class="row text-muted small">
                         <div class="col-2 text-center"><strong>Rank</strong></div>
                         <div class="col-6"><strong>Team</strong></div>
@@ -187,7 +187,7 @@ excerpt:
 
     <script>
         // 웹훅 URL 설정 (실제 URL로 변경하세요)
-        const WEBHOOK_URL = 'YOUR_WEBHOOK_URL_HERE';
+        const WEBHOOK_URL = 'https://cechallenge.app.n8n.cloud/webhook/leaderboard';
         
         // 오픈 시간 설정 (2025년 8월 1일 00:00:00 KST)
         const OPEN_TIME = new Date('2025-08-01T00:00:00+09:00');
@@ -205,9 +205,11 @@ excerpt:
                 document.getElementById('time-display').textContent = '00:00:00.000';
                 document.getElementById('dday-display').textContent = 'D-Day';
                 clearInterval(countdownInterval);
+                
+                // 오픈 시간이 되면 리더보드 가져오기
+                fetchLeaderboard();
                 return;
             }
-            //console.log(difference.format('yyyy-MM-dd HH:mm:ss'))
             
             // 시간 계산
             const days = Math.floor(difference / (1000 * 60 * 60 * 24));
@@ -229,12 +231,6 @@ excerpt:
 
         // 리더보드 데이터 가져오기
         async function fetchLeaderboard() {
-            // 웹훅 URL이 기본값인 경우 준비중 상태 표시
-            if (WEBHOOK_URL === 'YOUR_WEBHOOK_URL_HERE') {
-                showPreparing();
-                return;
-            }
-            
             try {
                 const response = await fetch(WEBHOOK_URL);
                 if (!response.ok) {
@@ -254,21 +250,43 @@ excerpt:
             }
         }
 
-        // 준비중 상태 표시
-        function showPreparing() {
+        // 시간 체크 및 적절한 화면 표시
+        function checkTimeAndDisplay() {
+            const now = new Date();
+            
+            if (now.getTime() >= OPEN_TIME.getTime()) {
+                // 오픈 시간이 지난 경우 리더보드 표시
+                fetchLeaderboard();
+                
+                // 리더보드 자동 갱신 설정
+                if (!refreshInterval) {
+                    refreshInterval = setInterval(fetchLeaderboard, 30000);
+                }
+            } else {
+                // 오픈 시간 전이면 카운트다운 표시
+                showCountdown();
+            }
+        }
+
+        // 카운트다운 표시
+        function showCountdown() {
             document.getElementById('loading').classList.add('d-none');
             document.getElementById('preparing').classList.remove('d-none');
             document.getElementById('leaderboard').classList.add('d-none');
+            document.getElementById('leaderboard-header').classList.add('d-none');
             document.getElementById('error').classList.add('d-none');
             
             // 카운트다운 시작
             updateCountdown(); // 즉시 한번 실행
-            countdownInterval = setInterval(updateCountdown, 100); // 100ms마다 업데이트
+            if (!countdownInterval) {
+                countdownInterval = setInterval(updateCountdown, 100); // 100ms마다 업데이트
+            }
         }
 
         // 리더보드 렌더링
         function renderLeaderboard(data) {
             const leaderboard = document.getElementById('leaderboard');
+            const leaderboard_header = document.getElementById('leaderboard-header');
             const loading = document.getElementById('loading');
             const preparing = document.getElementById('preparing');
 
@@ -277,27 +295,27 @@ excerpt:
             preparing.classList.add('d-none');
             
             // 리더보드 보이기
+            leaderboard_header.classList.remove('d-none');
             leaderboard.classList.remove('d-none');
 
             // 리더보드 내용 생성
             leaderboard.innerHTML = data.map((item, index) => {
-                const rank = index === 0 ? '🥇' : 
-                                  index === 1 ? '🥈' : 
-                                  index === 2 ? '🥉' : 
-                                  index + 1;
                 let medalHtml = '';
                 let rankClass = '';
                 
-                if (rank === 1) {
+                if (index === 0) {
                     medalHtml = '<span class="medal">🥇</span>';
                     rankClass = 'gold';
-                } else if (rank === 2) {
+                } else if (index === 1) {
                     medalHtml = '<span class="medal">🥈</span>';
                     rankClass = 'silver';
-                } else if (rank === 3) {
+                } else if (index === 2) {
                     medalHtml = '<span class="medal">🥉</span>';
                     rankClass = 'bronze';
-                }               
+                }
+                
+                const rank = index + 1;
+                
                 return `
                     <div class="leaderboard-card">
                         <div class="d-flex align-items-center justify-content-between">
@@ -322,12 +340,11 @@ excerpt:
 
         // 페이지 로드 시 실행
         document.addEventListener('DOMContentLoaded', function() {
-            fetchLeaderboard();
+            // 시간 체크 및 적절한 화면 표시
+            checkTimeAndDisplay();
             
-            // 준비중 상태가 아닐 때만 자동 새로고침
-            if (WEBHOOK_URL !== 'YOUR_WEBHOOK_URL_HERE') {
-                refreshInterval = setInterval(fetchLeaderboard, 30000);
-            }
+            // 1초마다 시간 체크 (카운트다운에서 리더보드로 전환을 위해)
+            // setInterval(checkTimeAndDisplay, 1000);
         });
 
         // 페이지를 벗어날 때 인터벌 정리
