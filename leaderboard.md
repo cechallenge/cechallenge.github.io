@@ -259,9 +259,9 @@ excerpt:
                 fetchLeaderboard();
                 
                 // 리더보드 자동 갱신 설정
-                if (!refreshInterval) {
-                    refreshInterval = setInterval(fetchLeaderboard, 30000);
-                }
+                //if (!refreshInterval) {
+                //    refreshInterval = setInterval(fetchLeaderboard, 30000);
+                //}
             } else {
                 // 오픈 시간 전이면 카운트다운 표시
                 showCountdown();
