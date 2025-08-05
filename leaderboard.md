@@ -187,7 +187,7 @@ excerpt:
 
     <script>
         // 웹훅 URL 설정 (실제 URL로 변경하세요)
-        const WEBHOOK_URL = 'https://cechallenge.app.n8n.cloud/webhook/leaderboard';
+        const WEBHOOK_URL = 'https://raw.githubusercontent.com/cechallenge/2025_cechallenge_data/refs/heads/main/rank.csv';
         
         // 오픈 시간 설정 (2025년 8월 1일 00:00:00 KST)
         const OPEN_TIME = new Date('2025-08-01T00:00:00+09:00');
@@ -239,11 +239,11 @@ excerpt:
                 
                 const data = await response.json();
                 
-                if (!data.rank || !Array.isArray(data.rank)) {
+                if (!data || !Array.isArray(data)) {
                     throw new Error('Invalid data format');
                 }
                 
-                renderLeaderboard(data.rank);
+                renderLeaderboard(data);
             } catch (error) {
                 console.error('Error fetching leaderboard:', error);
                 showError();
