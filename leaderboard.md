@@ -312,7 +312,7 @@ excerpt:
                 } else if (index === 1) {
                     medalHtml = '<span class="medal">🥈</span>';
                     rankClass = 'silver';
-                } else if (index === 2) {
+                } else if (index === 2 || index === 3) {
                     medalHtml = '<span class="medal">🥉</span>';
                     rankClass = 'bronze';
                 }
