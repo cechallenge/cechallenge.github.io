@@ -233,11 +233,8 @@ excerpt:
         async function fetchLeaderboard() {
             try {
                 //const response = await fetch(WEBHOOK_URL);
-                const response = await fetch(`${WEBHOOK_URL}?t=${Date.now()}`, {
-                  cache: 'no-store',
-                  headers: {
-                    'Cache-Control': 'no-cache'
-                  }
+                const response = await fetch(`${WEBHOOK_URL}?v=${Date.now()}`, {
+                  cache: 'no-store'
                 });
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
