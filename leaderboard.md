@@ -232,7 +232,13 @@ excerpt:
         // 리더보드 데이터 가져오기
         async function fetchLeaderboard() {
             try {
-                const response = await fetch(WEBHOOK_URL);
+                //const response = await fetch(WEBHOOK_URL);
+                const response = await fetch(`${WEBHOOK_URL}?t=${Date.now()}`, {
+                  cache: 'no-store',
+                  headers: {
+                    'Cache-Control': 'no-cache'
+                  }
+                });
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
@@ -259,9 +265,9 @@ excerpt:
                 fetchLeaderboard();
                 
                 // 리더보드 자동 갱신 설정
-                if (!refreshInterval) {
-                    refreshInterval = setInterval(fetchLeaderboard, 30000);
-                }
+                //if (!refreshInterval) {
+                //    refreshInterval = setInterval(fetchLeaderboard, 30000);
+                //}
             } else {
                 // 오픈 시간 전이면 카운트다운 표시
                 showCountdown();
