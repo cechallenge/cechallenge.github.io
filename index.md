@@ -24,3 +24,30 @@ SAIT focuses on the challenges of developing new hardware and software to implem
 The main objectives of **Computer Engineering (CE) Challenge** are to analyze and improve the branch prediction mechanism of the RISC-V architecture and to strengthen the vectorization capabilities of the LLVM compiler. The goal is to improve the performance of loop-based applications and enhance the hardware efficiency of AI models. Additionally, we anticipate that participants will gain experience in improving application performance from a system-level perspective rather than focusing on individual technological components through hardware and software co-optimization. 
 
 Furthermore, Computer Engineering (CE) Challenge will provide an opportunity to achieve innovative results based on a deep understanding of hardware and software. We hope that participants will use this Challenge to enhance their understanding of CPU architecture and compilers, and further develop their problem-solving capabilities. We encourage those interested in researching CPU architecture and compilers to participate actively.
+
+
+<div class="layerPopup" id="layer_popup0" style="visibility: visible;">
+    <div class="layerBox" style="width:45%;">
+        <h5 class="title"> <b> 긴급 공지 </b></h5>
+        <div class="cont">
+        <p>
+	      안녕하세요 <br>
+	      이번 CE Challenge에 참여해주신 모든 참가자분들께 감사드립니다. <br>
+        <br>
+	      대회 규정과 관련하여 꼭 확인하실 사항이 있어 공지드립니다. <br>
+        <b>BranchPredictor의 크기는 내부의 모든 children 요소들(BTB, RAS 등)을 포함하여 총 합이 128kB 이하여야 합니다.</b> <br>
+        규정을 준수하지 않을 경우 심사에서 불이익이 있을 수 있으니, 꼭 확인해 주시기 바랍니다. <br>
+        <br>
+        남은 대회 기간 동안 열심히 준비하셔서 좋은 성과를 얻으시길 바랍니다. <br>
+        여러분의 도전을 응원합니다. <br>
+        <br>
+        감사합니다. <br>
+        SAMSUNG CE Challenge 사무국 드림. <br>
+        </p>
+        <form name="pop_form0">
+          <div id="check">
+		        <input type="checkbox" name="chkbox" value="checkbox" id='chkbox'>
+            <label for="chkbox">오늘 하루동안 보지 않기</label>
+	        </div>
+	        <div id="close">
+		      <a href="javascript:closePop0();">닫기</a>
