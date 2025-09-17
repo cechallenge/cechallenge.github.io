@@ -15,7 +15,7 @@ excerpt:
     <tr>
         <td colspan="1"> 대회 종료 </td>
         <td colspan="1"> 2025년 09월 19일(금) 13:59 <br>
-                         (main branch의 가장 최신 commit을 기준) </td>
+                         (main branch의 가장 최신 commit 기준) </td>
     </tr>
     <tr>
         <td colspan="1"> 최종 결과 제출 </td>
