@@ -27,7 +27,7 @@ Furthermore, Computer Engineering (CE) Challenge will provide an opportunity to 
 
 
 <div class="layerPopup" id="layer_popup0" style="visibility: visible;">
-    <div class="layerBox" style="width:30%;">
+    <div class="layerBox" style="width:40%;">
         <h5 class="title"> <b> 공지 </b></h5>
         <div class="cont">
         <p>
