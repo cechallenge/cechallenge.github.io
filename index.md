@@ -28,17 +28,26 @@ Furthermore, Computer Engineering (CE) Challenge will provide an opportunity to 
 
 <div class="layerPopup" id="layer_popup0" style="visibility: visible;">
     <div class="layerBox" style="width:45%;">
-        <h5 class="title"> <b> 긴급 공지 </b></h5>
+        <h5 class="title"> <b> 공지 </b></h5>
         <div class="cont">
         <p>
 	      안녕하세요 <br>
-	      이번 CE Challenge에 참여해주신 모든 참가자분들께 감사드립니다. <br>
+	      이번 CE Challenge에 열정적으로 참여해주셔서 감사합니다. <br>
         <br>
-	      대회 규정과 관련하여 꼭 확인하실 사항이 있어 공지드립니다. <br>
-        <b>BranchPredictor의 크기는 내부의 모든 children 요소들(BTB, RAS 등)을 포함하여 총 합이 128kB 이하여야 합니다.</b> <br>
-        규정을 준수하지 않을 경우 심사에서 불이익이 있을 수 있으니, 꼭 확인해 주시기 바랍니다. <br>
+        <b>대회 마감은 9월 19일(금) 13시59분 입니다.</b> <br>
+	      기한 내 commit한 결과까지 리더보드에 반영될 예정입니다. <br>
         <br>
-        남은 대회 기간 동안 열심히 준비하셔서 좋은 성과를 얻으시길 바랍니다. <br>
+        대회 종료 후 리더보드 10위까지 팀은 최종 결과물을 송부해주시기 바랍니다. <br>
+        <b>&lt;최종 결과물&gt;</b> <br>
+         - 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서 (docs/ppt/pdf 등) <br>
+         - 팀원 전체의 재학증명서 또는 대체인증서류 <br>
+        <b>&lt;제출 기한&gt;</b> <br>
+         - 9월 22일(월) 23시 59분<br>
+        <b>&lt;제출 방법&gt;</b> <br>
+         - <a href="mailto:cechallenge@samsung.com">cechallenge@samsung.com</a>로 메일 송부 <br>
+        ※ 기한 내 미제출 시 심사 및 최종 평가에 불이익이 있을 수 있으니 유의해주시기 바랍니다. <br>
+        <br>
+        남은 대회 기간 동안에도 열심히 준비하셔서 좋은 성과를 얻으시길 바랍니다. <br>
         여러분의 도전을 응원합니다. <br>
         <br>
         감사합니다. <br>
