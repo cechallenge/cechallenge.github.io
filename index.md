@@ -28,30 +28,29 @@ Furthermore, Computer Engineering (CE) Challenge will provide an opportunity to 
 
 <div class="layerPopup" id="layer_popup0" style="visibility: visible;">
     <div class="layerBox" style="width:40%;">
-        <h5 class="title"> <b> 공지 </b></h5>
+        <h5 class="title"> <b> &lt;Samsung Computer Engineering Challenge 2025 결과 발표&gt; </b></h5>
         <div class="cont">
         <p>
 	      안녕하세요 <br>
-	      이번 CE Challenge에 열정적으로 참여해주셔서 감사합니다. <br>
+	      긴 시간 동안 대회에 참가하신 모든 참가자 여러분 고생 많으셨습니다. <br>
+        'Samsung Computer Engineering Challenge 2025' 최종 수상팀을 안내드립니다. <br>
         <br>
-        <b>대회 마감은 9월 19일(금) 13시59분 입니다.</b> <br>
-	      기한 내 commit한 결과까지 리더보드에 반영될 예정입니다. <br>
+        <b>&lt;최우수상&gt;</b> <br>
+	      codelab <br>
         <br>
-        대회 종료 후 리더보드 10위까지 팀은 최종 결과물을 송부해주시기 바랍니다. <br>
-        <b>&lt;최종 결과물&gt;</b> <br>
-         - 문제 해결을 위해 사용한 최적화 방법과 알고리즘을 설명하는 문서 (docs/ppt/pdf 등) <br>
-         - 팀원 전체의 재학증명서 또는 대체인증서류 <br>
-        <b>&lt;제출 기한&gt;</b> <br>
-         - 9월 22일(월) 23시 59분<br>
-        <b>&lt;제출 방법&gt;</b> <br>
-         - <a href="mailto:cechallenge@samsung.com">cechallenge@samsung.com</a>로 메일 송부 <br>
-        ※ 기한 내 미제출 시 심사 및 최종 평가에 불이익이 있을 수 있으니 유의해주시기 바랍니다. <br>
+        <b>&lt;우수상&gt;</b> <br>
+        JHL <br>
         <br>
-        남은 대회 기간 동안에도 열심히 준비하셔서 좋은 성과를 얻으시길 바랍니다. <br>
-        여러분의 도전을 응원합니다. <br>
+        <b>&lt;장려상&gt;</b> <br>
+        심컴조 <br>
+        <br>
+        수상을 진심으로 축하드립니다! <br>
+        <br>
+        Computer Engineering Challenge에 참여해 주신 모든 분들께 깊은 감사의 말씀을 전하며, <br>
+        이번 챌린지가 뜻깊은 경험이 되셨기를 바랍니다. <br>
+        내년에도 많은 관심과 참여를 부탁드립니다. <br>
         <br>
         감사합니다. <br>
-        SAMSUNG CE Challenge 사무국 드림. <br>
         </p>
         <form name="pop_form0">
           <div id="check">
